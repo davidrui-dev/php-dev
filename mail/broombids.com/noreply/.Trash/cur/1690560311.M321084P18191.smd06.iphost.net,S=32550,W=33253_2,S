@@ -1,0 +1,703 @@
+Return-Path: <>
+Delivered-To: noreply@broombids.com
+Received: from smd06.iphost.net
+	by smd06.iphost.net with LMTP
+	id 8EVnEjfnw2QPRwAAT4N6Cg
+	(envelope-from <>)
+	for <noreply@broombids.com>; Fri, 28 Jul 2023 19:05:11 +0300
+Return-path: <>
+Envelope-to: noreply@broombids.com
+Delivery-date: Fri, 28 Jul 2023 19:05:11 +0300
+Received: from mail-dbaeur03olkn2028.outbound.protection.outlook.com ([40.92.58.28]:59233 helo=EUR03-DBA-obe.outbound.protection.outlook.com)
+	by smd06.iphost.net with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	id 1qPPxm-0005Pb-2Z
+	for noreply@broombids.com;
+	Fri, 28 Jul 2023 19:05:11 +0300
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=JDMCP9nQzvB8o2riVEMBc/ivpbak2eXlQ70Xmjt1qx4LbQ1xV5HibdY25N32lSe3RdYG67pNlb9cKzahSW0N9+V7USO5qpcw/JMji+dK32z9mCH1KcJF/13PQjgK1K5l6dA21vRKrz8TtBpc3FNz4mEF1bREvdpy1piSU7TWIs8WNP39ibmNxYGqhJ1bwycUU5j4C/lha6Oq9j6RYd5DhfqquZ4EQkfeiT3Pz9iEaTwpXut5K1EA9avsDeq+QmRIYUIJKrrxIjmJmaUesPFz6gSlYwzKlVSzB6bGAZ1hRAbe4dpVd1p0ROdFY9Lj4fbkyKY3LVbUPgcKX+EUUpDDGg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=NbHIv6RX93vwHmonThLXQX7OSnJEEgM3GJo4mQVT0OM=;
+ b=UjbRfF1RXgfv2ccrSaMKiJ7oJsize5deXgRHcD0cPJTL3M+mI/hQTG9Om+k6rymWwXPgvEndRLEjoSJhLJ89po3OhIQkcRzX2J4ZOJOKAL0hKtXQfWsWd3mULnsJiX4Ku0Qv+YQbLxm+OegFTjwerU+vat5J2/lnkvAUu2UiiyRXMc/XijiwFE69tnkFHiXOIrWxxLZZJveDoV1aXuZITx9dmJCJoWQBxSbUi5MqQUS30NMuPqkdyBLIqIYy5MaQKpb6m/GBrAHcW/WLITDP1jLxpGmB6C4rt/OIIx30ovgA4KeuUEL3H5Goj17YNe+cgL/3QTdaDWijMmoiuvlXYQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+MIME-Version: 1.0
+From: <postmaster@outlook.com>
+To: <noreply@broombids.com>
+Date: Fri, 28 Jul 2023 16:04:26 +0000
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="63fc6a9c-8ce3-4f7c-a898-82e7966557af"
+X-MS-Exchange-Message-Is-Ndr:
+Content-Language: en-US
+Message-ID:
+ <843e5d12-d761-4cd6-8bd3-cb1f70043eb4@AS8PR06MB7464.eurprd06.prod.outlook.com>
+In-Reply-To: <cc6b60ce691b125e7c7a689b4ebc370f@localhost>
+References: <cc6b60ce691b125e7c7a689b4ebc370f@localhost>
+Subject: Undeliverable: Broombids - Offer Selected
+Auto-Submitted: auto-replied
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: AS8PR06MB7464:EE_
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	gIaYQtUOAH7y7pCPGnQ2RwjoN3XhxNdsGgRuOFPR5O4n1GlFniWx5N9pC6IWbNgsTkYy3Id3//tZdT4oVCC8+9QaLjFMFhr11nIPP+3sm/agQNsVPW2ri7BY38/RP7gJG0XYucJaQFQBsIsSLatvS2LXKQ/UWmJtmXbrmXi3dcRM3QPdyJYVhl/22h6BGd6rcjB10eeo9SAKxVybdMAte/aWUjLa/T9gum1e7Za2sf85b/sXXUa0+7ILCpfMWvOXmRM+BWX0sJEzk0HSbcRgcBrXgYJfr6lqkQfq+OIZQw1BhdSL8F4W5vf8L9QE6rx/5X6c7b7E08Eb3rzsI0rZTN1lETHFrrUriqlorny2m1hEB5Eqio+PzvB2vepmLght+L8UE9Nc99zNxppnW6waQRafd/4yv0n8eWA504ptHQ3vm/qfWCOg41PLukTqL+uOnP5XzyghyXtz0spWXRzK6M95jfBp0CQYdXyeFuLIsdRZ2vqjx8l2c4k1aILKXpusXhNuQBZI+lWRY+oKTRBWdU/HzGVdAqdgE0FC8BdBnJe+K7XN9mKNxJBV8jwlaUVPGEy1mGYJ5uVuGYkJPECR2vxUW03vqG0IucPXjLaEEMr11rcooxtQgCffsFr88+V0yvMEEQ5kDrYDvQKe19VMkfxKifqp260mTDdAh6Cv7bYttHuKLBz0T43MeBM0zV7P6i3V1gHi6bavenUONQyzPg==
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+	Qz0tqTY0DirJkR7ddKtOXUac32oNcPahU8FzQmUU+bk7w53f9AcusDI3ycKRhdaVvrI4J7+J4Ik5uxs2i6Xr1F4FR3ti0Tv6+1l03vKGGA5ILmsjLiaCPhgcRgiCkrZGeJFtSk1VyKVmq6Ba6T10OGauKYjCgruRj4KfvsZO2ZYTXCi5fl4exrF9QGkz56PB
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 28 Jul 2023 16:04:26.4719
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-AuthSource: AS8PR06MB7464.eurprd06.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+	7357a742-c353-43df-4695-08db8f845143
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AS8PR06MB7464
+X-Spam-Status: No, score=0.3
+X-Spam-Score: 3
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "smd06.iphost.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Delivery has failed to these recipients or groups: georgenikolau@hotmail.com<mailto:georgenikolau@hotmail.com>
+    A communication failure occurred during the delivery of this message. Please
+    try to resend the message later. If the problem continues, cont [...] 
+ Content analysis details:   (0.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: office365.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.2 KAM_DMARC_NONE         DKIM has Failed or SPF has failed on the message
+                             and the domain has no DMARC policy
+  0.0 KAM_DMARC_STATUS       Test Rule for DKIM or SPF Failure with Strict
+                             Alignment
+X-Spam-Flag: NO
+
+--63fc6a9c-8ce3-4f7c-a898-82e7966557af
+Content-Type: multipart/alternative; differences=Content-Type;
+	boundary="dca78adf-0ce5-4fa5-9e1d-3bb0b48e54d8"
+
+--dca78adf-0ce5-4fa5-9e1d-3bb0b48e54d8
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Delivery has failed to these recipients or groups:
+
+georgenikolau@hotmail.com<mailto:georgenikolau@hotmail.com>
+A communication failure occurred during the delivery of this message. Pleas=
+e try to resend the message later. If the problem continues, contact your e=
+mail admin.
+
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: AS8PR06MB7464.eurprd06.prod.outlook.com
+
+georgenikolau@hotmail.com
+Remote server returned '550 5.5.0 Requested action not taken: mailbox unava=
+ilable.'
+
+Original message headers:
+
+Received: from AS9PR06CA0366.eurprd06.prod.outlook.com (2603:10a6:20b:460::=
+6)
+ by AS8PR06MB7464.eurprd06.prod.outlook.com (2603:10a6:20b:33e::5) with
+ Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6631.29; Fri, 28 =
+Jul
+ 2023 16:04:26 +0000
+Received: from AM6EUR05FT028.eop-eur05.prod.protection.outlook.com
+ (2603:10a6:20b:460:cafe::fc) by AS9PR06CA0366.outlook.office365.com
+ (2603:10a6:20b:460::6) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6631.29 via Front=
+end
+ Transport; Fri, 28 Jul 2023 16:04:26 +0000
+Authentication-Results: spf=3Dpass (sender IP is 93.174.123.76)
+ smtp.mailfrom=3Dbroombids.com; dkim=3Dpass (signature was verified)
+ header.d=3Dbroombids.com;dmarc=3Dbestguesspass action=3Dnone
+ header.from=3Dbroombids.com;
+Received-SPF: Pass (protection.outlook.com: domain of broombids.com designa=
+tes
+ 93.174.123.76 as permitted sender) receiver=3Dprotection.outlook.com;
+ client-ip=3D93.174.123.76; helo=3Dsmd06.iphost.net; pr=3DC
+Received: from smd06.iphost.net (93.174.123.76) by
+ AM6EUR05FT028.mail.protection.outlook.com (10.233.240.253) with Microsoft
+ SMTP Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA=
+384) id
+ 15.20.6631.29 via Frontend Transport; Fri, 28 Jul 2023 16:04:25 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:4941377E884A8841E29692DB428E208=
+FD20E53032B4671164C91CA1BA2016BE8;UpperCasedChecksum:9C39414D6C3D535B091D65=
+EECE0BE5AF88434FD31FFA0C0949E03AA23D7DE997;SizeAsReceived:2090;Count:22
+DKIM-Signature: v=3D1; a=3Drsa-sha256; q=3Ddns/txt; c=3Drelaxed/relaxed;
+        d=3Dbroombids.com; s=3Ddefault; h=3DContent-Type:MIME-Version:Messa=
+ge-ID:Subject:
+        Reply-to:From:To:Date:Sender:Cc:Content-Transfer-Encoding:Content-I=
+D:
+        Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To=
+:Resent-Cc
+        :Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Un=
+subscribe:
+        List-Subscribe:List-Post:List-Owner:List-Archive;
+        bh=3D2DSIGTqSwx/Zh1Nw5HqaJzHTbNw/3juChrMBU8K1Y/U=3D; b=3DjJEUy62rt4=
+KDfxf5D5rslYzApO
+        aVwQg27dR7eGyEx11xcwH/uPuys62Kaft1M5a2F3jFpOMlv8rG7l2pzFqq0nnUYLrMj=
+WSe2Hm5sfe
+        JEqyiwEHpEM3Z/DHMnqHH4IenQhXHVfBJ3tNOSyZ6s/B2c7V7Lxe2th6EpK3whpS91o=
+iJahyMDDBd
+        1UmaQJOQME73we51DcAcJ23j+M+p0xroeVUM8/SALthawV9aCXrS6IaxxXPMfixqg6Y=
+/zwr9cOBeR
+        VIh6bzOS+JcSxaOrmzE6XD4LvT5YUzmw1RRPVOHNXozgHjupTSYMOoCHBWGU+gfcSud=
+P3Z7Smz3uw
+        dbsxZXpw=3D=3D;
+Received: from [185.195.237.130] (port=3D12420 helo=3Dlocalhost)
+        by smd06.iphost.net with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_A=
+ES_128_GCM_SHA256
+        (Exim 4.96)
+        (envelope-from <noreply@broombids.com>)
+        id 1qPPx5-0005H3-0x
+        for georgenikolau@hotmail.com;
+        Fri, 28 Jul 2023 19:04:25 +0300
+Date: Fri, 28 Jul 2023 21:34:18 +0530
+To: georgenikolau@hotmail.com
+From: Broombids - Offer Selected <noreply@broombids.com>
+Reply-To: Broombids - Offer Selected <noreply@broombids.com>
+Subject: Broombids - Offer Selected
+Message-ID: <cc6b60ce691b125e7c7a689b4ebc370f@localhost>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+        boundary=3D"b1_cc6b60ce691b125e7c7a689b4ebc370f"
+X-AntiAbuse: This header was added to track abuse, please include it with a=
+ny abuse report
+X-AntiAbuse: Primary Hostname - smd06.iphost.net
+X-AntiAbuse: Original Domain - hotmail.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - broombids.com
+X-Get-Message-Sender-Via: smd06.iphost.net: authenticated_id: noreply@broom=
+bids.com
+X-Authenticated-Sender: smd06.iphost.net: noreply@broombids.com
+X-Source:
+X-Source-Args:
+X-Source-Dir:
+X-IncomingHeaderCount: 22
+Return-Path: noreply@broombids.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: AM6EUR05FT028:EE_|AS8PR06MB7464:EE_
+X-MS-Office365-Filtering-Correlation-Id: 3df5f010-eb80-4cfb-5e21-08db8f8450=
+e8
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 93.174.123.76
+X-SID-PRA: NOREPLY@BROOMBIDS.COM
+X-SID-Result: PASS
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+        =3D?us-ascii?Q?pl5Pst4jfGvAhWLor4o3vmhurepHfiCia6RZmpk7iv4u725SF+SD=
+Mi1DsBjm?=3D
+ =3D?us-ascii?Q?Le5QSx69PEEXIP7KoZL5MiGFrYK/5rt7RLG3gD8mV2sBOu/oefgr6vpBOEn=
+L?=3D
+ =3D?us-ascii?Q?Hs0VwnQgB8Uqj9leb+bSxsliJrRa5aUg0B3r5TxTGFUMQiK5XqWH7KHf3yw=
+i?=3D
+ =3D?us-ascii?Q?ObnWn+945o0FIlISRDIpOIguurq7Jw1oYha43knWVkc5Atx7LdnU41Yin0y=
+m?=3D
+ =3D?us-ascii?Q?Tqi9vxFrthCO2tj3SYJXiBYQzC+ygV1e+aWX4C6NOSBte0VScZuOjPW7I7z=
+O?=3D
+ =3D?us-ascii?Q?oHFyDUR5f6ex+yy9ilHVrosJxrmwL+oH7GdgE8R5ILP+jr+LcekC8zgoSaf=
+t?=3D
+ =3D?us-ascii?Q?WP19FzVoNggNKbRnRfmJ0ejjIB1ErZOVW4UFC5MaPa03rLIizV8YnInjDjC=
+j?=3D
+ =3D?us-ascii?Q?dZNT0us9I9ApfR2c7Rmvsyz4/6rdJiTlPhhJTCKwFVuey+2K2SIwknHpMcE=
+C?=3D
+ =3D?us-ascii?Q?6/zxFN6rKoP1Wv9CS8Gk8vqPXgUT4UuUlpiy2eHdNgrl3QRQAqxZyiAgrNI=
+n?=3D
+ =3D?us-ascii?Q?ig83nfWR/UH9nJ4xXDdY/z0JBKl8oE+pdTcYAzSBBXu0vscEVkcTaIdCEgz=
+e?=3D
+ =3D?us-ascii?Q?a0uMxBrGO45Ss+MBNnPUmn27YlAmBzbmKpb/y2og5WpoeXzheEqXYx3UVvu=
+y?=3D
+ =3D?us-ascii?Q?lytF9Ew5smHCfUxupkm412blC8a4CiFCH+OYxLPlDRfpbXWOHGEKuxASHja=
+o?=3D
+ =3D?us-ascii?Q?t0h7wswvi6KFfG3Zaw+CnDvl5FZ4RuJ5l8rfBGwH8v/9h/JU2HAdzm5rOw6=
+E?=3D
+ =3D?us-ascii?Q?EUE03S7c6xLUn7/PBYL8F/jZUY/Ud3bk5rsNayR+h8TakBTH7S++0A0nyqK=
+a?=3D
+ =3D?us-ascii?Q?A4GC1aw1V0b2zBEHgxCMHe9N/fSX6ZZt5+CHdVDErGVIGV3Z37/3u4EMXer=
+F?=3D
+ =3D?us-ascii?Q?Kfufa2TV819WcvNI5Y24pQZaGkGv8kvzlvnh6CePJQnI3kCC92BV1uloWwU=
+A?=3D
+ =3D?us-ascii?Q?AOi8YXHX2xHkMBSwfKulXWpObzXHpf9e7APSFzQ+Fbsc2p40EnFholWEyx/=
+e?=3D
+ =3D?us-ascii?Q?2NA9HKylY3ciTjAtw2RQ0aYstuPnniLErJcShhFDym7fjb9rbYTVyC+yx8K=
+M?=3D
+ =3D?us-ascii?Q?H95OReC62/WlMOwPRAYpsqzjjiSeaXW9VXsTeKxAEoMvtkvn1wUpycdnnDw=
+u?=3D
+ =3D?us-ascii?Q?jm3lGPEXduW58/ABxTbxqDlCU0IwinWeAg=3D3D=3D3D?=3D
+
+
+--dca78adf-0ce5-4fa5-9e1d-3bb0b48e54d8
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font color=3D"#000066" size=3D"3" face=3D"Arial">Delivery has failed=
+ to these recipients or groups:</font></b></p>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><p><a href=3D"mailto:geo=
+rgenikolau@hotmail.com">georgenikolau@hotmail.com</a><br>
+</font>
+<font color=3D"#000000" size=3D"3" face=3D"Arial">A communication failure o=
+ccurred during the delivery of this message. Please try to resend the messa=
+ge later. If the problem continues, contact your email admin.<br>
+</font>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><br>
+</p>
+</font>
+<br><br><br><br><br><br>
+<font color=3D"#808080" size=3D"2" face=3D"Tahoma"><p><b>Diagnostic informa=
+tion for administrators:</b></p>
+<p>Generating server: AS8PR06MB7464.eurprd06.prod.outlook.com<br>
+</p>
+<p>georgenikolau@hotmail.com<br>
+Remote server  returned '550 5.5.0 Requested action not taken: mailbox unav=
+ailable.'<br>
+</p>
+<p>Original message headers:</p>
+<pre>Received: from AS9PR06CA0366.eurprd06.prod.outlook.com (2603:10a6:20b:=
+460::6)
+ by AS8PR06MB7464.eurprd06.prod.outlook.com (2603:10a6:20b:33e::5) with
+ Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6631.29; Fri, 28 =
+Jul
+ 2023 16:04:26 +0000
+Received: from AM6EUR05FT028.eop-eur05.prod.protection.outlook.com
+ (2603:10a6:20b:460:cafe::fc) by AS9PR06CA0366.outlook.office365.com
+ (2603:10a6:20b:460::6) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6631.29 via Front=
+end
+ Transport; Fri, 28 Jul 2023 16:04:26 +0000
+Authentication-Results: spf=3Dpass (sender IP is 93.174.123.76)
+ smtp.mailfrom=3Dbroombids.com; dkim=3Dpass (signature was verified)
+ header.d=3Dbroombids.com;dmarc=3Dbestguesspass action=3Dnone
+ header.from=3Dbroombids.com;
+Received-SPF: Pass (protection.outlook.com: domain of broombids.com designa=
+tes
+ 93.174.123.76 as permitted sender) receiver=3Dprotection.outlook.com;
+ client-ip=3D93.174.123.76; helo=3Dsmd06.iphost.net; pr=3DC
+Received: from smd06.iphost.net (93.174.123.76) by
+ AM6EUR05FT028.mail.protection.outlook.com (10.233.240.253) with Microsoft
+ SMTP Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA=
+384) id
+ 15.20.6631.29 via Frontend Transport; Fri, 28 Jul 2023 16:04:25 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:4941377E884A8841E29692DB428E208=
+FD20E53032B4671164C91CA1BA2016BE8;UpperCasedChecksum:9C39414D6C3D535B091D65=
+EECE0BE5AF88434FD31FFA0C0949E03AA23D7DE997;SizeAsReceived:2090;Count:22
+DKIM-Signature: v=3D1; a=3Drsa-sha256; q=3Ddns/txt; c=3Drelaxed/relaxed;
+	d=3Dbroombids.com; s=3Ddefault; h=3DContent-Type:MIME-Version:Message-ID:S=
+ubject:
+	Reply-to:From:To:Date:Sender:Cc:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent=
+-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscri=
+be:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=3D2DSIGTqSwx/Zh1Nw5HqaJzHTbNw/3juChrMBU8K1Y/U=3D; b=3DjJEUy62rt4KDfxf5D=
+5rslYzApO
+	aVwQg27dR7eGyEx11xcwH/uPuys62Kaft1M5a2F3jFpOMlv8rG7l2pzFqq0nnUYLrMjWSe2Hm5=
+sfe
+	JEqyiwEHpEM3Z/DHMnqHH4IenQhXHVfBJ3tNOSyZ6s/B2c7V7Lxe2th6EpK3whpS91oiJahyMD=
+DBd
+	1UmaQJOQME73we51DcAcJ23j+M+p0xroeVUM8/SALthawV9aCXrS6IaxxXPMfixqg6Y/zwr9cO=
+BeR
+	VIh6bzOS+JcSxaOrmzE6XD4LvT5YUzmw1RRPVOHNXozgHjupTSYMOoCHBWGU+gfcSudP3Z7Smz=
+3uw
+	dbsxZXpw=3D=3D;
+Received: from [185.195.237.130] (port=3D12420 helo=3Dlocalhost)
+	by smd06.iphost.net with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_=
+GCM_SHA256
+	(Exim 4.96)
+	(envelope-from &lt;noreply@broombids.com&gt;)
+	id 1qPPx5-0005H3-0x
+	for georgenikolau@hotmail.com;
+	Fri, 28 Jul 2023 19:04:25 +0300
+Date: Fri, 28 Jul 2023 21:34:18 +0530
+To: georgenikolau@hotmail.com
+From: Broombids - Offer Selected &lt;noreply@broombids.com&gt;
+Reply-To: Broombids - Offer Selected &lt;noreply@broombids.com&gt;
+Subject: Broombids - Offer Selected
+Message-ID: &lt;cc6b60ce691b125e7c7a689b4ebc370f@localhost&gt;
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary=3D&quot;b1_cc6b60ce691b125e7c7a689b4ebc370f&quot;
+X-AntiAbuse: This header was added to track abuse, please include it with a=
+ny abuse report
+X-AntiAbuse: Primary Hostname - smd06.iphost.net
+X-AntiAbuse: Original Domain - hotmail.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - broombids.com
+X-Get-Message-Sender-Via: smd06.iphost.net: authenticated_id: noreply@broom=
+bids.com
+X-Authenticated-Sender: smd06.iphost.net: noreply@broombids.com
+X-Source:
+X-Source-Args:
+X-Source-Dir:
+X-IncomingHeaderCount: 22
+Return-Path: noreply@broombids.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: AM6EUR05FT028:EE_|AS8PR06MB7464:EE_
+X-MS-Office365-Filtering-Correlation-Id: 3df5f010-eb80-4cfb-5e21-08db8f8450=
+e8
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 93.174.123.76
+X-SID-PRA: NOREPLY@BROOMBIDS.COM
+X-SID-Result: PASS
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	=3D?us-ascii?Q?pl5Pst4jfGvAhWLor4o3vmhurepHfiCia6RZmpk7iv4u725SF+SDMi1DsBj=
+m?=3D
+ =3D?us-ascii?Q?Le5QSx69PEEXIP7KoZL5MiGFrYK/5rt7RLG3gD8mV2sBOu/oefgr6vpBOEn=
+L?=3D
+ =3D?us-ascii?Q?Hs0VwnQgB8Uqj9leb+bSxsliJrRa5aUg0B3r5TxTGFUMQiK5XqWH7KHf3yw=
+i?=3D
+ =3D?us-ascii?Q?ObnWn+945o0FIlISRDIpOIguurq7Jw1oYha43knWVkc5Atx7LdnU41Yin0y=
+m?=3D
+ =3D?us-ascii?Q?Tqi9vxFrthCO2tj3SYJXiBYQzC+ygV1e+aWX4C6NOSBte0VScZuOjPW7I7z=
+O?=3D
+ =3D?us-ascii?Q?oHFyDUR5f6ex+yy9ilHVrosJxrmwL+oH7GdgE8R5ILP+jr+LcekC8zgoSaf=
+t?=3D
+ =3D?us-ascii?Q?WP19FzVoNggNKbRnRfmJ0ejjIB1ErZOVW4UFC5MaPa03rLIizV8YnInjDjC=
+j?=3D
+ =3D?us-ascii?Q?dZNT0us9I9ApfR2c7Rmvsyz4/6rdJiTlPhhJTCKwFVuey+2K2SIwknHpMcE=
+C?=3D
+ =3D?us-ascii?Q?6/zxFN6rKoP1Wv9CS8Gk8vqPXgUT4UuUlpiy2eHdNgrl3QRQAqxZyiAgrNI=
+n?=3D
+ =3D?us-ascii?Q?ig83nfWR/UH9nJ4xXDdY/z0JBKl8oE+pdTcYAzSBBXu0vscEVkcTaIdCEgz=
+e?=3D
+ =3D?us-ascii?Q?a0uMxBrGO45Ss+MBNnPUmn27YlAmBzbmKpb/y2og5WpoeXzheEqXYx3UVvu=
+y?=3D
+ =3D?us-ascii?Q?lytF9Ew5smHCfUxupkm412blC8a4CiFCH+OYxLPlDRfpbXWOHGEKuxASHja=
+o?=3D
+ =3D?us-ascii?Q?t0h7wswvi6KFfG3Zaw+CnDvl5FZ4RuJ5l8rfBGwH8v/9h/JU2HAdzm5rOw6=
+E?=3D
+ =3D?us-ascii?Q?EUE03S7c6xLUn7/PBYL8F/jZUY/Ud3bk5rsNayR+h8TakBTH7S++0A0nyqK=
+a?=3D
+ =3D?us-ascii?Q?A4GC1aw1V0b2zBEHgxCMHe9N/fSX6ZZt5+CHdVDErGVIGV3Z37/3u4EMXer=
+F?=3D
+ =3D?us-ascii?Q?Kfufa2TV819WcvNI5Y24pQZaGkGv8kvzlvnh6CePJQnI3kCC92BV1uloWwU=
+A?=3D
+ =3D?us-ascii?Q?AOi8YXHX2xHkMBSwfKulXWpObzXHpf9e7APSFzQ+Fbsc2p40EnFholWEyx/=
+e?=3D
+ =3D?us-ascii?Q?2NA9HKylY3ciTjAtw2RQ0aYstuPnniLErJcShhFDym7fjb9rbYTVyC+yx8K=
+M?=3D
+ =3D?us-ascii?Q?H95OReC62/WlMOwPRAYpsqzjjiSeaXW9VXsTeKxAEoMvtkvn1wUpycdnnDw=
+u?=3D
+ =3D?us-ascii?Q?jm3lGPEXduW58/ABxTbxqDlCU0IwinWeAg=3D3D=3D3D?=3D
+</pre>
+</font>
+</body>
+</html>=
+
+--dca78adf-0ce5-4fa5-9e1d-3bb0b48e54d8--
+
+--63fc6a9c-8ce3-4f7c-a898-82e7966557af
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;AS8PR06MB7464.eurprd06.prod.outlook.com
+Received-From-MTA: dns;smd06.iphost.net
+Arrival-Date: Fri, 28 Jul 2023 16:04:26 +0000
+
+Final-Recipient: rfc822;georgenikolau@hotmail.com
+Action: failed
+Status: 5.5.0
+Diagnostic-Code: smtp;550 5.5.0 Requested action not taken: mailbox unavailable.
+
+
+--63fc6a9c-8ce3-4f7c-a898-82e7966557af
+Content-Type: message/rfc822
+
+Received: from AS9PR06CA0366.eurprd06.prod.outlook.com (2603:10a6:20b:460::6)
+ by AS8PR06MB7464.eurprd06.prod.outlook.com (2603:10a6:20b:33e::5) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6631.29; Fri, 28 Jul
+ 2023 16:04:26 +0000
+Received: from AM6EUR05FT028.eop-eur05.prod.protection.outlook.com
+ (2603:10a6:20b:460:cafe::fc) by AS9PR06CA0366.outlook.office365.com
+ (2603:10a6:20b:460::6) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6631.29 via Frontend
+ Transport; Fri, 28 Jul 2023 16:04:26 +0000
+Authentication-Results: spf=pass (sender IP is 93.174.123.76)
+ smtp.mailfrom=broombids.com; dkim=pass (signature was verified)
+ header.d=broombids.com;dmarc=bestguesspass action=none
+ header.from=broombids.com;
+Received-SPF: Pass (protection.outlook.com: domain of broombids.com designates
+ 93.174.123.76 as permitted sender) receiver=protection.outlook.com;
+ client-ip=93.174.123.76; helo=smd06.iphost.net; pr=C
+Received: from smd06.iphost.net (93.174.123.76) by
+ AM6EUR05FT028.mail.protection.outlook.com (10.233.240.253) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6631.29 via Frontend Transport; Fri, 28 Jul 2023 16:04:25 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:4941377E884A8841E29692DB428E208FD20E53032B4671164C91CA1BA2016BE8;UpperCasedChecksum:9C39414D6C3D535B091D65EECE0BE5AF88434FD31FFA0C0949E03AA23D7DE997;SizeAsReceived:2090;Count:22
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=broombids.com; s=default; h=Content-Type:MIME-Version:Message-ID:Subject:
+	Reply-to:From:To:Date:Sender:Cc:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=2DSIGTqSwx/Zh1Nw5HqaJzHTbNw/3juChrMBU8K1Y/U=; b=jJEUy62rt4KDfxf5D5rslYzApO
+	aVwQg27dR7eGyEx11xcwH/uPuys62Kaft1M5a2F3jFpOMlv8rG7l2pzFqq0nnUYLrMjWSe2Hm5sfe
+	JEqyiwEHpEM3Z/DHMnqHH4IenQhXHVfBJ3tNOSyZ6s/B2c7V7Lxe2th6EpK3whpS91oiJahyMDDBd
+	1UmaQJOQME73we51DcAcJ23j+M+p0xroeVUM8/SALthawV9aCXrS6IaxxXPMfixqg6Y/zwr9cOBeR
+	VIh6bzOS+JcSxaOrmzE6XD4LvT5YUzmw1RRPVOHNXozgHjupTSYMOoCHBWGU+gfcSudP3Z7Smz3uw
+	dbsxZXpw==;
+Received: from [185.195.237.130] (port=12420 helo=localhost)
+	by smd06.iphost.net with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <noreply@broombids.com>)
+	id 1qPPx5-0005H3-0x
+	for georgenikolau@hotmail.com;
+	Fri, 28 Jul 2023 19:04:25 +0300
+Date: Fri, 28 Jul 2023 21:34:18 +0530
+To: georgenikolau@hotmail.com
+From: Broombids - Offer Selected <noreply@broombids.com>
+Reply-To: Broombids - Offer Selected <noreply@broombids.com>
+Subject: Broombids - Offer Selected
+Message-ID: <cc6b60ce691b125e7c7a689b4ebc370f@localhost>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_cc6b60ce691b125e7c7a689b4ebc370f"
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - smd06.iphost.net
+X-AntiAbuse: Original Domain - hotmail.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - broombids.com
+X-Get-Message-Sender-Via: smd06.iphost.net: authenticated_id: noreply@broombids.com
+X-Authenticated-Sender: smd06.iphost.net: noreply@broombids.com
+X-Source:
+X-Source-Args:
+X-Source-Dir:
+X-IncomingHeaderCount: 22
+Return-Path: noreply@broombids.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: AM6EUR05FT028:EE_|AS8PR06MB7464:EE_
+X-MS-Office365-Filtering-Correlation-Id: 3df5f010-eb80-4cfb-5e21-08db8f8450e8
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 93.174.123.76
+X-SID-PRA: NOREPLY@BROOMBIDS.COM
+X-SID-Result: PASS
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+ =?us-ascii?Q?pl5Pst4jfGvAhWLor4o3vmhurepHfiCia6RZmpk7iv4u725SF+SDMi1DsBjm?=
+ =?us-ascii?Q?Le5QSx69PEEXIP7KoZL5MiGFrYK/5rt7RLG3gD8mV2sBOu/oefgr6vpBOEnL?=
+ =?us-ascii?Q?Hs0VwnQgB8Uqj9leb+bSxsliJrRa5aUg0B3r5TxTGFUMQiK5XqWH7KHf3ywi?=
+ =?us-ascii?Q?ObnWn+945o0FIlISRDIpOIguurq7Jw1oYha43knWVkc5Atx7LdnU41Yin0ym?=
+ =?us-ascii?Q?Tqi9vxFrthCO2tj3SYJXiBYQzC+ygV1e+aWX4C6NOSBte0VScZuOjPW7I7zO?=
+ =?us-ascii?Q?oHFyDUR5f6ex+yy9ilHVrosJxrmwL+oH7GdgE8R5ILP+jr+LcekC8zgoSaft?=
+ =?us-ascii?Q?WP19FzVoNggNKbRnRfmJ0ejjIB1ErZOVW4UFC5MaPa03rLIizV8YnInjDjCj?=
+ =?us-ascii?Q?dZNT0us9I9ApfR2c7Rmvsyz4/6rdJiTlPhhJTCKwFVuey+2K2SIwknHpMcEC?=
+ =?us-ascii?Q?6/zxFN6rKoP1Wv9CS8Gk8vqPXgUT4UuUlpiy2eHdNgrl3QRQAqxZyiAgrNIn?=
+ =?us-ascii?Q?ig83nfWR/UH9nJ4xXDdY/z0JBKl8oE+pdTcYAzSBBXu0vscEVkcTaIdCEgze?=
+ =?us-ascii?Q?a0uMxBrGO45Ss+MBNnPUmn27YlAmBzbmKpb/y2og5WpoeXzheEqXYx3UVvuy?=
+ =?us-ascii?Q?lytF9Ew5smHCfUxupkm412blC8a4CiFCH+OYxLPlDRfpbXWOHGEKuxASHjao?=
+ =?us-ascii?Q?t0h7wswvi6KFfG3Zaw+CnDvl5FZ4RuJ5l8rfBGwH8v/9h/JU2HAdzm5rOw6E?=
+ =?us-ascii?Q?EUE03S7c6xLUn7/PBYL8F/jZUY/Ud3bk5rsNayR+h8TakBTH7S++0A0nyqKa?=
+ =?us-ascii?Q?A4GC1aw1V0b2zBEHgxCMHe9N/fSX6ZZt5+CHdVDErGVIGV3Z37/3u4EMXerF?=
+ =?us-ascii?Q?Kfufa2TV819WcvNI5Y24pQZaGkGv8kvzlvnh6CePJQnI3kCC92BV1uloWwUA?=
+ =?us-ascii?Q?AOi8YXHX2xHkMBSwfKulXWpObzXHpf9e7APSFzQ+Fbsc2p40EnFholWEyx/e?=
+ =?us-ascii?Q?2NA9HKylY3ciTjAtw2RQ0aYstuPnniLErJcShhFDym7fjb9rbYTVyC+yx8KM?=
+ =?us-ascii?Q?H95OReC62/WlMOwPRAYpsqzjjiSeaXW9VXsTeKxAEoMvtkvn1wUpycdnnDwu?=
+ =?us-ascii?Q?jm3lGPEXduW58/ABxTbxqDlCU0IwinWeAg=3D=3D?=
+
+--b1_cc6b60ce691b125e7c7a689b4ebc370f
+Content-Type: text/plain; charset = "UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Broombids.com
+			           =20
+			         =20
+			         =20
+			             =20
+			                 =20
+			             =20
+			                   =20
+			         =20
+			         =20
+			                  =20
+			                          =20
+			                  Your Offer Has Been Selected
+
+			                  We are pleased to inform you that the number 84 your o=
+ffer
+was accepted by the customer
+
+			                  Please login your account at www.broombids.com to comp=
+lete
+the process.
+			                  We also inform that the customer communication room ha=
+s
+been activated.
+			                 =20
+			                 =20
+			                   Broombids.com     =20
+			                  The partner support team           =20
+			             =20
+			                           =20
+			        =20
+
+			        =20
+			            by clicking this button, you accept to our Terms-Conditions =
+and
+Priacy-Policy.
+			           =20
+			         =20
+			         =20
+			           =20
+			              Contact us: customer@broombids.com
+			           =20
+			         =20
+			         =20
+			            By Broombids
+
+
+--b1_cc6b60ce691b125e7c7a689b4ebc370f
+Content-Type: text/html; charset = "UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+			  <html>
+			<head>
+			      <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3D=
+utf-8">
+			      <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-s=
+cale=3D1.0">
+			      <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">   =20
+			  </head>
+			=20
+			  <body style=3D"text-align: center;background-color: #f5f5f5;">
+			      <table cellpadding=3D"0" cellspacing=3D"0" style=3D"margin: 30px a=
+uto; height: auto;background-color: #ffffff;text-align: center; width: 600p=
+x;">
+			        <tr>
+			            <td colspan=3D"3" style=3D"background: #FAFAFA;">
+			              <a href=3D"https://Broombids.com/" class=3D"view" target=
+=3D"_blank" style=3D"-webkit-text-size-adjust:none;-ms-text-size-adjust:non=
+e;mso-line-height-rule:exactly;font-family:helvetica, helvetica neue, arial=
+, verdana, sans-serif;font-size:12px;text-decoration:none;color:#CCCCCC">Br=
+oombids.com</a>
+			            </td>
+			          </tr>
+			          <tr>
+			              <td colspan=3D"3" style=3D"text-align: center;margin: 0; p=
+adding-top: 20px; padding-bottom: 20px; padding-left: 20px; padding-right: =
+20px; background-color: #ECF0F1;">
+			                  <center><img src=3D"https://broombids.com/images/maill=
+ogo.png" alt=3D"Broombids Logo" class=3D"logo" width=3D"183" height=3D"59">=
+</center>
+			              </td>
+			          </tr>         =20
+			         =20
+			          <tr>
+			              <td colspan=3D"3">    =20
+			              <br>            =20
+			                  <p style=3D"margin-top:30px; margin:0;-webkit-text-siz=
+e-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-s=
+ize:20px;line-height:24px;color:#404040;font-family: helvetica, helvetica n=
+eue, arial, verdana, sans-serif; font-weight: bold;">Your Offer Has Been Se=
+lected</p><br>
+
+			                  <p style=3D"padding:5px 20px; margin:0;-webkit-text-si=
+ze-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-=
+size:16px;font-family:helvetica, helvetica neue, arial, verdana, sans-serif=
+;line-height:24px;color:#404040;text-align:left">We are pleased to inform y=
+ou that the number <b>84</b> your offer was accepted by the customer</p>
+
+			                  <p style=3D"padding:5px 20px; margin:0;-webkit-text-si=
+ze-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-=
+size:16px;font-family:helvetica, helvetica neue, arial, verdana, sans-serif=
+;line-height:24px;color:#404040;text-align:left">Please login your account =
+at <a href=3D"https://broombids.com" style=3D"color: #3ec7da;">www.broombid=
+s.com</a> to complete the process.</p>
+			                  <p style=3D"padding:5px 20px; margin:0;-webkit-text-si=
+ze-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-=
+size:16px;font-family:helvetica, helvetica neue, arial, verdana, sans-serif=
+;line-height:24px;color:#404040;text-align:left">We also inform that the cu=
+stomer communication room has been activated.</p>
+			                 =20
+			                  <br><br>
+			                  <p style=3D"padding:5px 20px; text-align: justify-all;=
+ margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-=
+height-rule:exactly;font-size:16px;font-family:helvetica, helvetica neue, a=
+rial, verdana, sans-serif;line-height:24px;color:#404040;text-align:left"> =
+<b><a style=3D"color:#2cc1d6; " href=3D"https://broombids.com/">Broombids.c=
+om</a></b> </p>    =20
+			                  <p style=3D"padding:5px 20px; text-align: justify-all;=
+ margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-=
+height-rule:exactly;font-size:16px;font-family:helvetica, helvetica neue, a=
+rial, verdana, sans-serif;line-height:24px;color:#404040;text-align:left">T=
+he partner support team</p><br><br>           =20
+			              </td>
+			          </tr>                 =20
+			        =20
+
+			         <tr>
+			            <td colspan=3D"3" style=3D"background: #FAFAFA;"><p style=3D=
+"margin:20px 50px;font-size:12px;font-family:helvetica,helvetica neue,arial=
+,verdana,sans-serif;line-height:18px;color:#404040">by clicking this button=
+, you accept to our <a href=3D"https://broombids.com/TermsAndConditions" st=
+yle=3D"color:#3ec7da;font-weight:normal;text-decoration:underline" target=
+=3D"_blank">Terms-Conditions</a> and <a href=3D"https://broombids.com/Priva=
+cyPolicy" style=3D"color:#3ec7da;font-weight:normal;text-decoration:underli=
+ne" target=3D"_blank" >Priacy-Policy</a>.</p></td>
+			            </tr>
+			         =20
+			          <tr>
+			            <td colspan=3D"3" style=3D"text-align: center; margin:0; pad=
+ding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 20=
+px; background-color: #ECF0F1;">
+			              <p style=3D"margin:0;-webkit-text-size-adjust:none;-ms-tex=
+t-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:=
+helvetica, helvetica neue, arial, verdana, sans-serif;line-height:21px;colo=
+r:#404040">Contact us: <a target=3D"_blank" style=3D"-webkit-text-size-adju=
+st:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:=
+helvetica, helvetica neue, arial, verdana, sans-serif;font-size:14px;text-d=
+ecoration:none;color:#404040" href=3D"mailto:customer@broombids.com">custom=
+er@broombids.com</a></p>
+			            </td>
+			          </tr>
+			          <tr>
+			            <td colspan=3D"3" style=3D"background: #FAFAFA;"><p style=3D=
+"margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-=
+height-rule:exactly;font-size:12px;font-family:helvetica, helvetica neue, a=
+rial, verdana, sans-serif;margin-top:10px;line-height:18px;color:#404040">B=
+y Broombids</p></td>
+			          </tr>
+			      </table>
+			  </body>
+			</html>
+
+
+
+--b1_cc6b60ce691b125e7c7a689b4ebc370f--
+
+--63fc6a9c-8ce3-4f7c-a898-82e7966557af--

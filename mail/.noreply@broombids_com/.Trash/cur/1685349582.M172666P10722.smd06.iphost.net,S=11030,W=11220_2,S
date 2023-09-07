@@ -1,0 +1,190 @@
+Return-Path: <>
+Delivered-To: noreply@broombids.com
+Received: from smd06.iphost.net
+	by smd06.iphost.net with LMTP
+	id KLOsCc5kdGTiKQAAT4N6Cg
+	(envelope-from <>)
+	for <noreply@broombids.com>; Mon, 29 May 2023 11:39:42 +0300
+Return-path: <>
+Envelope-to: noreply@broombids.com
+Delivery-date: Mon, 29 May 2023 11:39:42 +0300
+Received: from mailnull by smd06.iphost.net with local (Exim 4.96)
+	id 1q3YPm-0003i8-0A
+	for noreply@broombids.com;
+	Mon, 29 May 2023 11:39:42 +0300
+X-Failed-Recipients: cadelineweb3@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@smd06.iphost.net>
+To: noreply@broombids.com
+References: <035595f4f1b0803ae366d3af60a07799@broombids.com>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1685349582-eximdsn-825608546
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1q3YPm-0003i8-0A@smd06.iphost.net>
+Date: Mon, 29 May 2023 11:39:42 +0300
+
+--1685349582-eximdsn-825608546
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  cadelineweb3@gmail.com
+    host gmail-smtp-in.l.google.com [142.250.145.26]
+    SMTP error from remote mail server after RCPT TO:<cadelineweb3@gmail.com>:
+    550-5.1.1 The email account that you tried to reach does not exist. Please try
+    550-5.1.1 double-checking the recipient's email address for typos or
+    550-5.1.1 unnecessary spaces. Learn more at
+    550 5.1.1  https://support.google.com/mail/?p=NoSuchUser n15-20020a05640206cf00b0050bffc46e19si4560307edy.76 - gsmtp
+
+--1685349582-eximdsn-825608546
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; smd06.iphost.net
+
+Action: failed
+Final-Recipient: rfc822;cadelineweb3@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does not exist. Please try
+ 550-5.1.1 double-checking the recipient's email address for typos or
+ 550-5.1.1 unnecessary spaces. Learn more at
+ 550 5.1.1  https://support.google.com/mail/?p=NoSuchUser n15-20020a05640206cf00b0050bffc46e19si4560307edy.76 - gsmtp
+
+--1685349582-eximdsn-825608546
+Content-type: message/rfc822
+
+Return-path: <noreply@broombids.com>
+Received: from [93.174.123.76] (port=41628 helo=broombids.com)
+	by smd06.iphost.net with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <noreply@broombids.com>)
+	id 1q3YPm-0003ht-1C
+	for cadelineweb3@gmail.com;
+	Mon, 29 May 2023 11:39:41 +0300
+Date: Mon, 29 May 2023 14:09:41 +0530
+To: cadelineweb3@gmail.com
+From: Welcome To Broombids <noreply@broombids.com>
+Reply-to: Welcome To Broombids <noreply@broombids.com>
+Subject: Welcome To Broombids
+Message-ID: <035595f4f1b0803ae366d3af60a07799@broombids.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_035595f4f1b0803ae366d3af60a07799"
+
+
+--b1_035595f4f1b0803ae366d3af60a07799
+Content-Type: text/plain; charset = "iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+Broombids.com
+				            
+				          
+				          
+				              
+				                  
+				              
+				          
+				          
+				                   
+				                           
+				                  Welcome To Our Platform
+
+				                  Dear dfsdfsd sdfsdfsd
+
+				                  Thank you for your trust in broombids.com
+
+				                  Here you will have the opportunity to post your own
+competition and achieve very low prices and good conditions in renting the car
+you want for your vacation.
+				                  Do not forget to read the Frequently Asked Questions (FAQ)
+and Terms of Use (TOU).Our platform is ABSOLUTELY FREE to use, and all we ask is
+that you promote us to your friends on social networks.
+
+				                  We are at your disposal for any question or problem at
+customer@broombids.com 
+
+				                   For broombids.com      
+				                   The support team            
+				              
+				           
+				         
+				            by clicking this button, you accept to our Terms-Conditions and
+Priacy-Policy.
+				                      
+				          
+				            
+				              Contact us: customer@broombids.com
+				            
+				          
+				          
+				            By Broombids
+
+
+--b1_035595f4f1b0803ae366d3af60a07799
+Content-Type: text/html; charset = "iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+<!doctype html>
+				  <html>
+				<head>
+				      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+				      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+				      <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+				  </head> 
+				  <body style="text-align: center;background-color: #f5f5f5;">
+				      <table cellpadding="0" cellspacing="0" style="margin: 30px auto; height: auto;background-color: #ffffff;text-align: center; width: 600px;">
+				        <tr>
+				            <td colspan="3" style="background: #FAFAFA;">
+				              <a href="https://Broombids.com/" class="view" target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, helvetica neue, arial, verdana, sans-serif;font-size:12px;text-decoration:none;color:#CCCCCC">Broombids.com</a>
+				            </td>
+				          </tr>
+				          <tr>
+				              <td colspan="3" style="text-align: center;margin: 0; padding-top: 20px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; background-color: #ECF0F1;">
+				                  <center><img src="https://broombids.com/images/maillogo.png" alt="Broombids Logo" class="logo" width="183" height="59"></center>
+				              </td>
+				          </tr>
+				          <tr>
+				              <td colspan="3">     
+				              <br>             
+				                  <p style="margin-top:30px; margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:20px;line-height:24px;color:#404040;font-family: helvetica, helvetica neue, arial, verdana, sans-serif; font-weight: bold;">Welcome To Our Platform</p><br>
+
+				                  <p style="padding:5px 20px; margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:16px;font-family:helvetica, helvetica neue, arial, verdana, sans-serif;line-height:24px;color:#404040;text-align:left">Dear dfsdfsd sdfsdfsd</p>
+
+				                  <p style="padding:5px 20px; margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:16px;font-family:helvetica, helvetica neue, arial, verdana, sans-serif;line-height:24px;color:#404040;text-align:left">Thank you for your trust in <a href="https://broombids.com/" style="color: #3ec7da;">broombids.com</a></p>
+
+				                  <p style="padding:5px 20px; margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:16px;font-family:helvetica, helvetica neue, arial, verdana, sans-serif;line-height:24px;color:#404040;text-align:left">Here you will have the opportunity to post your own competition and achieve very low prices and good conditions in renting the car you want for your vacation.</p>
+				                  <p style="padding:5px 20px; margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:16px;font-family:helvetica, helvetica neue, arial, verdana, sans-serif;line-height:24px;color:#404040;text-align:left">Do not forget to read the Frequently Asked Questions <b>(FAQ)</b> and Terms of Use <b>(TOU)</b>.Our platform is <b>ABSOLUTELY FREE</b> to use, and all we ask is that you promote us to your friends on social networks.</p>
+
+				                  <p style="padding:5px 20px; text-align: justify-all; margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:16px;font-family:helvetica, helvetica neue, arial, verdana, sans-serif;line-height:24px;color:#404040;text-align:left">We are at your disposal for any question or problem at <a style="color: #3ec7da;" href="mailto:customer@broombids.com">customer@broombids.com</a> </p><br><br>
+
+				                  <p style="padding:5px 20px; text-align: justify-all; margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:16px;font-family:helvetica, helvetica neue, arial, verdana, sans-serif;line-height:24px;color:#404040;text-align:left"> <b>For broombids.com</b> </p>     
+				                  <p style="padding:5px 20px; text-align: justify-all; margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:16px;font-family:helvetica, helvetica neue, arial, verdana, sans-serif;line-height:24px;color:#404040;text-align:left"> The support team</p><br><br>            
+				              </td>
+				          </tr> 
+				         <tr>
+				            <td colspan="3" style="background: #FAFAFA;"><p style="margin:20px 50px;font-size:12px;font-family:helvetica,helvetica neue,arial,verdana,sans-serif;line-height:18px;color:#404040">by clicking this button, you accept to our <a href="https://broombids.com/TermsAndConditions" style="color:#3ec7da;font-weight:normal;text-decoration:underline" target="_blank">Terms-Conditions</a> and <a href="https://broombids.com/PrivacyPolicy" style="color:#3ec7da;font-weight:normal;text-decoration:underline" target="_blank" >Priacy-Policy</a>.</p></td>
+				            </tr>          
+				          <tr>
+				            <td colspan="3" style="text-align: center; margin:0; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 20px; background-color: #ECF0F1;">
+				              <p style="margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:helvetica, helvetica neue, arial, verdana, sans-serif;line-height:21px;color:#404040">Contact us: <a target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, helvetica neue, arial, verdana, sans-serif;font-size:14px;text-decoration:none;color:#404040" href="mailto:customer@broombids.com">customer@broombids.com</a></p>
+				            </td>
+				          </tr>
+				          <tr>
+				            <td colspan="3" style="background: #FAFAFA;"><p style="margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:12px;font-family:helvetica, helvetica neue, arial, verdana, sans-serif;margin-top:10px;line-height:18px;color:#404040">By Broombids</p></td>
+				          </tr>
+				      </table>
+				  </body>
+				</html>
+
+
+
+--b1_035595f4f1b0803ae366d3af60a07799--
+
+
+
+--1685349582-eximdsn-825608546--

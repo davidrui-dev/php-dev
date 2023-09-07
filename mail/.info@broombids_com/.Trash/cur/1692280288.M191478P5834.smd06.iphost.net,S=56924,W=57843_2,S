@@ -1,0 +1,919 @@
+Return-Path: <bounce-mc.us7_148529318.15139576-87a6c2fa6d@mail89.atl51.rsgsv.net>
+Delivered-To: info@broombids.com
+Received: from smd06.iphost.net
+	by smd06.iphost.net with LMTP
+	id 8FW+CuAl3mTKFgAAT4N6Cg
+	(envelope-from <bounce-mc.us7_148529318.15139576-87a6c2fa6d@mail89.atl51.rsgsv.net>)
+	for <info@broombids.com>; Thu, 17 Aug 2023 16:51:28 +0300
+Return-path: <bounce-mc.us7_148529318.15139576-87a6c2fa6d@mail89.atl51.rsgsv.net>
+Envelope-to: info@broombids.com
+Delivery-date: Thu, 17 Aug 2023 16:51:28 +0300
+Received: from mail89.atl51.rsgsv.net ([205.201.135.89]:44033)
+	by smd06.iphost.net with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <bounce-mc.us7_148529318.15139576-87a6c2fa6d@mail89.atl51.rsgsv.net>)
+	id 1qWdPK-0007jq-0y
+	for info@broombids.com;
+	Thu, 17 Aug 2023 16:51:28 +0300
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mailchimpapp.net;
+	s=k2; t=1692280241; x=1692540741;
+	i=ana=3Dfuturetravel.com@mailchimpapp.net;
+	bh=6MlTBnwAQK6Ul3qK1VZoo1ANYpVfXimk3Lf4uTusnw0=;
+	h=Subject:From:Reply-To:To:Date:Message-ID:X-MC-User:Feedback-ID:
+	 List-ID:List-Unsubscribe:List-Unsubscribe-Post:Content-Type:
+	 MIME-Version:CC:Date:Subject:From;
+	b=QDMDO2YTygPGwYq2waAtAsgVZuyMBcjgEVZSA5v3OjGTJbJpyjcw3jxdTy7draa1N
+	 xAptLyeVjdUlaX47ecr2qVrJQs70TJEaYg6JFf+Bpq+PcIVWfGOIf4gBSnkCy+lScT
+	 05mWZMikq+DOTPeqtdaDemEzGqkeeg2ISUIY1w7o6ASGivy/U5HicOSeXnWSvwEM3L
+	 M7MwNUEQx3L5IvrHNXAeOxzkvYFlmak5l7+qw1cLW5hAbCGNV+CADuxDcSB4c9++yR
+	 mMyU046WmDarJvRmKorhsbUfGWucqTGyVofjcB5A+HCT4IcTnqT35qUXn2Y4HqQQhR
+	 TkKh9CHs54ELw==
+Received: from localhost (localhost [127.0.0.1])
+	by mail89.atl51.rsgsv.net (Mailchimp) with ESMTP id 4RRRGn083Jz5R30nM
+	for <info@broombids.com>; Thu, 17 Aug 2023 13:50:41 +0000 (GMT)
+Subject: =?utf-8?Q?Say=20hello=20to=20our=20pitch=20finalists=21=20=F0=9F=91=8B?=
+From: =?utf-8?Q?Ana=20|=20FutureTravel?= <ana@futuretravel.com>
+Reply-To: =?utf-8?Q?Ana=20|=20FutureTravel?= <ana@futuretravel.com>
+To: =?utf-8?Q?there?= <info@broombids.com>
+Date: Thu, 17 Aug 2023 13:50:30 +0000
+Message-ID: <d81da9c3f887a1be7b9cb58bd.87a6c2fa6d.20230817135016.e80bb10027.572d337d@mail89.atl51.rsgsv.net>
+X-Mailer: Mailchimp Mailer - **CIDe80bb1002787a6c2fa6d**
+X-Campaign: mailchimpd81da9c3f887a1be7b9cb58bd.e80bb10027
+X-campaignid: mailchimpd81da9c3f887a1be7b9cb58bd.e80bb10027
+X-Report-Abuse: Please report abuse for this campaign here: https://mailchimp.com/contact/abuse/?u=d81da9c3f887a1be7b9cb58bd&id=e80bb10027&e=87a6c2fa6d
+X-MC-User: d81da9c3f887a1be7b9cb58bd
+Feedback-ID: 148529318:148529318.15139576:us7:mc
+List-ID: d81da9c3f887a1be7b9cb58bdmc list <d81da9c3f887a1be7b9cb58bd.518047.list-id.mcsv.net>
+X-Accounttype: pd
+List-Unsubscribe: <https://futuretravel.us7.list-manage.com/unsubscribe?u=d81da9c3f887a1be7b9cb58bd&id=454b1d112d&e=87a6c2fa6d&c=e80bb10027>, <mailto:unsubscribe-mc.us7_d81da9c3f887a1be7b9cb58bd.e80bb10027-87a6c2fa6d@unsubscribe.mailchimpapp.net?subject=unsubscribe>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_1113248379"
+MIME-Version: 1.0
+X-Spam-Status: No, score=0.3
+X-Spam-Score: 3
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "smd06.iphost.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Time to shine: meet the 10 early-stage travel startups 🌟
+    View this email in your browser (https://mailchi.mp/futuretravel/119-pitch-finalists?e=87a6c2fa6d)
+    http://www.futuretravel.com Reading time: 4 minutes Click here to read our
+    past editions (https://us7.campaign-archive.com/home/?u=d81da9c3f887a1be7b9cb58bd&id=454b1d112d)
+    https://www.eu-startups.com/2023/08/meet-the-10-finalist [...] 
+ Content analysis details:   (0.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: fonts.googleapis.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76
+                             chars
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 LOTS_OF_MONEY          Huge... sums of money
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+ -0.0 DKIMWL_WL_MED          DKIMwl.org - Medium trust sender
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_1113248379
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+Time to shine: meet the 10 early-stage travel startups =F0=9F=8C=9F
+
+View this email in your browser (https://mailchi.mp/futuretravel/119-pitch=
+-finalists?e=3D87a6c2fa6d)
+http://www.futuretravel.com
+
+Reading time: 4 minutes
+Click here to read our past editions (https://us7.campaign-archive.com/hom=
+e/?u=3Dd81da9c3f887a1be7b9cb58bd&id=3D454b1d112d)
+https://www.eu-startups.com/2023/08/meet-the-10-finalists-of-the-2023-futu=
+retravel-summit-pitch-competition/
+
+Hi there=2C
+
+I'm very happy to introduce you to the 10 finalists of our Pitch Competiti=
+on! We're gearing up to create an engaging atmosphere to showcase these se=
+lected finalists at this year's FutureTravel Summit (https://futuretravel.=
+com/futuretravel-summit/) - and believe me: you don't want to miss this.
+
+We've handpicked a panel of judges with great expertise in the travel indu=
+stry=2C all set to provide insights and select a winner. And here's the ex=
+citing part: beyond the insights and visibility this competition offers=2C=
+ the winner will receive a prize package tailored to boost their business=
+ and open up new opportunities.
+
+After reviewing more than 230 applications from around the world=2C it was=
+ quite a challenge to choose the finalists. But here they are=2C ready to=
+ prepare their pitches for the stage on October 27th=2C in Barcelona.
+=E2=AD=90 It's Time to Meet the Finalists =E2=AD=90 (https://www.eu-startu=
+ps.com/2023/08/meet-the-10-finalists-of-the-2023-futuretravel-summit-pitch=
+-competition/)
+
+Now let=E2=80=99s head to this week's curated selection of the top news in=
+ innovation=2C trends=2C and startups in the travel industry.
+* Smart solutions for smart hotels. (https://www.eu-startups.com/2023/08/g=
+erman-hotel-management-platform-betterspace-secures-7-figure-investment-to=
+-scale-its-solution-to-new-verticals/) German-startup Betterspace=2C a hot=
+el management platform provider=2C has secured a 7-figure investment from=
+ Austrian VC Round2 Capital. Based on Ilmenau and known for smart software=
+ solutions in guest communication and energy management=2C Betterspace's i=
+nnovative offerings reduce costs and promote sustainability=2C maximizing=
+ revenues and relieving hotel staff. Following the success of their better=
+=2Eenergy solution=2C they plan to expand its application to education=2C he=
+althcare=2C and municipalities.
+* A (brilliant) collection of insights on following trends. (https://trave=
+ltechessentialist.substack.com/p/rebels-and-trends-in-the-travel-industry)=
+ Mauricio nailed it with his insightful breakdown on the perils of blindly=
+ following trends when launching new ventures. He brought together a diver=
+se group of industry experts to explore the pitfalls of trend-chasing and=
+ the absolute importance of thinking outside the box when striving to crea=
+te an extraordinary company. This Travel Tech Essentialist article is a mu=
+st-read=2C especially for those creating ~very disruptive and extremely in=
+novative tech solutions~ for the travel sector.
+* New addition to Mondee=E2=80=99s business. (https://skift.com/2023/08/15=
+/mondee-buys-its-fourth-company-this-year/) Mondee's latest acquisition of=
+ Skypass Travel for $15 million marks its fourth acquisition this year=2C=
+ signaling an ambitious expansion into corporate travel. Skypass=2C known=
+ for wholesale travel sales to businesses=2C joins Mondee's portfolio=2C a=
+iming to funnel clients toward Mondee's platform for corporate and persona=
+l bookings. With features like an AI-powered trip assistant=2C Mondee offe=
+rs travel agents and customers a seamless experience. The acquisition gran=
+ts Mondee access to Skypass contracts for discounts on flights=2C hotels=
+=2C and cruises=2C while the company's stock value and marketing strategie=
+s evolve in the competitive travel market.
+* Personalized stays powered by AI. (https://www.travelpulse.ca/news/techn=
+ology/sabre-adds-artificial-intelligence-to-its-hotel-recommendations) Sab=
+re has unveiled Lodging AI=2C integrating its Sabre Travel AI technology i=
+nto the lodging sector. Using AI and advanced machine learning=2C the feat=
+ure enhances customer experiences by delivering personalized content swift=
+ly=2C resulting in expanded revenue opportunities. Part of Sabre=E2=80=99s=
+ Content Services for Lodging=2C this technology assists travel agencies i=
+n generating extra revenue while offering travelers tailored lodging optio=
+ns. The tool analyzes property attributes=2C customer preferences=2C and a=
+gency insights to provide customized lodging choices for a smoother bookin=
+g process.
+
+See you next week=2C
+Ana
+https://futuretravel.com/futuretravel-summit/
+
+Thank you for reading until the end.
+
+The content of this newsletter is curated and published by Ana Metz (https=
+://www.linkedin.com/in/anametz/) =2C an innovation expert=2C passionate ab=
+out technology and excited about the future of travel.
+
+Looking for a space to promote your business or service for more than 21k=
+ subscribers? Let=E2=80=99s talk. (https://futuretravel.com/partners/)
+
+FutureTravel is a weekly newsletter about the future of travel=2C featurin=
+g the most exciting news about innovation=2C trends and startups in the in=
+dustry.
+Subscribe now (http://www.futuretravel.com)
+https://www.futuretravel.com
+https://facebook.com/futuretravelco https://instagram.com/futuretravelco h=
+ttps://twitter.com/futuretravelco https://www.linkedin.com/company/futuret=
+ravel/ https://www.futuretravel.com
+
+Copyright (C) 2023 FutureTravel. All rights reserved.
+You are receiving this email because you opted in via our website.
+Our mailing address is:
+FutureTravel
+Carrer De L'Encarnacio 103 2-2
+Barcelona=2C Barcelona 08024
+Spain
+Want to change how you receive these emails?
+You can
+update your preferences (https://futuretravel.us7.list-manage.com/profile?=
+u=3Dd81da9c3f887a1be7b9cb58bd&id=3D454b1d112d&e=3D87a6c2fa6d&c=3De80bb10027)=
+ or unsubscribe (https://futuretravel.us7.list-manage.com/unsubscribe?u=3D=
+d81da9c3f887a1be7b9cb58bd&id=3D454b1d112d&e=3D87a6c2fa6d&c=3De80bb10027)
+--_----------=_MCPart_1113248379
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn=
+:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:of=
+fice"><head><meta name=3D"twitter:image:src" content=3D"https://mcusercont=
+ent.com/d81da9c3f887a1be7b9cb58bd/images/8e5a563a-c83f-b4de-983d-1d38a8740=
+5e6.png"><meta name=3D"twitter:description" content=3D"Get exclusive acces=
+s to the latest travel innovations=2C trends=2C and startups delivered str=
+aight to your inbox. Our weekly newsletter is the best way to stay informe=
+d and inspired in the world of travel. 20k travel professionals can't be w=
+rong - subscribe now!"><meta name=3D"twitter:title" content=3D"FutureTrave=
+l Newsletter"><meta name=3D"twitter:card" content=3D"summary_large_image">=
+<meta property=3D"og:type" content=3D"article"><meta property=3D"og:descri=
+ption" content=3D"Get exclusive access to the latest travel innovations=2C=
+ trends=2C and startups delivered straight to your inbox. Our weekly newsl=
+etter is the best way to stay informed and inspired in the world of travel=
+=2E 20k travel professionals can't be wrong - subscribe now!"><meta property=
+=3D"og:image" content=3D"https://mcusercontent.com/d81da9c3f887a1be7b9cb58=
+bd/images/8e5a563a-c83f-b4de-983d-1d38a87405e6.png"><meta property=3D"og:t=
+itle" content=3D"FutureTravel Newsletter"><meta property=3D"og:url" conten=
+t=3D"http://eepurl.com/ixVvvY">
+<!--[if gte mso 15]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<meta charset=3D"UTF-8">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width=2C initial-scale=
+=3D1">
+<title>Say hello to our pitch finalists! =F0=9F=91=8B</title>
+<link rel=3D"stylesheet" href=3D"https://fonts.googleapis.com/css?family=
+=3DRoboto:400=2C400i=2C700=2C700i=2C900=2C900i"><style>          img{-ms-i=
+nterpolation-mode:bicubic;}
+          table=2C td{mso-table-lspace:0pt; mso-table-rspace:0pt;}
+          .mceStandardButton=2C .mceStandardButton td=2C .mceStandardButto=
+n td a{mso-hide:all !important;}
+          p=2C a=2C li=2C td=2C blockquote{mso-line-height-rule:exactly;}
+          p=2C a=2C li=2C td=2C body=2C table=2C blockquote{-ms-text-size-=
+adjust:100%; -webkit-text-size-adjust:100%;}
+          @media only screen and (max-width: 480px){
+            body=2C table=2C td=2C p=2C a=2C li=2C blockquote{-webkit-text=
+-size-adjust:none !important;}
+          }
+          .mcnPreviewText{display: none !important;}
+          .bodyCell{margin:0 auto; padding:0; width:100%;}
+          .ExternalClass=2C .ExternalClass p=2C .ExternalClass td=2C .Exte=
+rnalClass div=2C .ExternalClass span=2C .ExternalClass font{line-height:10=
+0%;}
+          .ReadMsgBody{width:100%;} .ExternalClass{width:100%;}
+          a[x-apple-data-detectors]{color:inherit !important; text-decora=
+tion:none !important; font-size:inherit !important; font-family:inherit !i=
+mportant; font-weight:inherit !important; line-height:inherit !important;}
+            body{height:100%; margin:0; padding:0; width:100%; background:=
+ #ffffff;}
+            p{margin:0; padding:0;}
+            table{border-collapse:collapse;}
+            td=2C p=2C a{word-break:break-word;}
+            h1=2C h2=2C h3=2C h4=2C h5=2C h6{display:block; margin:0; padd=
+ing:0;}
+            img=2C a img{border:0; height:auto; outline:none; text-decorat=
+ion:none;}
+            a[href^=3D"tel"]=2C a[href^=3D"sms"]{color:inherit; cursor:d=
+efault; text-decoration:none;}
+            li p {margin: 0 !important;}
+            .ProseMirror a {
+                pointer-events: none;
+            }
+            @media only screen and (max-width: 480px){
+                body{width:100% !important; min-width:100% !important; }
+                body.mobile-native {
+                    -webkit-user-select: none; user-select: none; transiti=
+on: transform 0.2s ease-in; transform-origin: top center;
+                }
+                body.mobile-native.selection-allowed a=2C body.mobile-nati=
+ve.selection-allowed .ProseMirror {
+                    user-select: auto;
+                    -webkit-user-select: auto;
+                }
+                colgroup{display: none;}
+                img{height: auto !important;}
+                .mceWidthContainer{max-width: 660px !important;}
+                .mceColumn{display: block !important; width: 100% !importa=
+nt;}
+                .mceColumn-forceSpan{display: table-cell !important; width=
+: auto !important;}
+                .mceBlockContainer{padding-right:16px !important; padding-=
+left:16px !important;}
+                .mceBlockContainerE2E{padding-right:0px; padding-left:0px;=
+}
+                .mceSpacing-24{padding-right:16px !important; padding-left=
+:16px !important;}
+                .mceFooterSection .mceText=2C .mceFooterSection .mceText p=
+{font-size: 16px !important; line-height: 140% !important;}
+                .mceText=2C .mceText p{font-size: 16px !important; line-he=
+ight: 140% !important;}
+                h1{font-size: 30px !important; line-height: 120% !importan=
+t;}
+                h2{font-size: 26px !important; line-height: 120% !importan=
+t;}
+                h3{font-size: 20px !important; line-height: 125% !importan=
+t;}
+                h4{font-size: 18px !important; line-height: 125% !importan=
+t;}
+            }
+            @media only screen and (max-width: 640px){
+                .mceClusterLayout td{padding: 4px !important;}
+            }
+            div[contenteditable=3D"true"] {outline: 0;}
+            .ProseMirror .empty-node=2C .ProseMirror:empty {position: rela=
+tive;}
+            .ProseMirror .empty-node::before=2C .ProseMirror:empty::before=
+ {
+                position: absolute;
+                left: 0;
+                right: 0;
+                color: rgba(0=2C0=2C0=2C0.2);
+                cursor: text;
+            }
+            .ProseMirror .empty-node:hover::before=2C .ProseMirror:empty:h=
+over::before {
+                color: rgba(0=2C0=2C0=2C0.3);
+            }
+            .ProseMirror h1.empty-node::before {
+                content: 'Heading';
+            }
+            .ProseMirror p.empty-node:only-child::before=2C .ProseMirror:e=
+mpty::before {
+                content: 'Start typing...';
+            }
+            a .ProseMirror p.empty-node::before=2C a .ProseMirror:empty::b=
+efore {
+                content: '';
+            }
+            .mceText=2C .ProseMirror {
+                white-space: pre-wrap;
+            }
+body=2C #bodyTable { background-color: rgb(255=2C 255=2C 255); }.mceText=
+=2C .mceLabel { font-family: Roboto=2C "Helvetica Neue"=2C Helvetica=2C Ar=
+ial=2C sans-serif; }.mceText=2C .mceLabel { color: rgb(51=2C 51=2C 51); }.=
+mceSpacing-24 label { margin-bottom: 24px; }.mceSpacing-24 input { margin-=
+bottom: 24px; }.mceSpacing-24 .mceInput + .mceErrorMessage { margin-top: -=
+12px; }.mceSpacing-12 label { margin-bottom: 12px; }.mceSpacing-12 input {=
+ margin-bottom: 12px; }.mceSpacing-12 .mceInput + .mceErrorMessage { margi=
+n-top: -6px; }.mceSpacing-36 label { margin-bottom: 36px; }.mceSpacing-36=
+ input { margin-bottom: 36px; }.mceSpacing-36 .mceInput + .mceErrorMessage=
+ { margin-top: -18px; }.mceSpacing-72 label { margin-bottom: 72px; }.mceSp=
+acing-72 input { margin-bottom: 72px; }.mceSpacing-72 .mceInput + .mceErro=
+rMessage { margin-top: -36px; }.mceInput { background-color: transparent;=
+ border: 2px solid rgb(208=2C 208=2C 208); width: 60%; color: rgb(77=2C 77=
+=2C 77); display: block; }.mceInput[type=3D"radio"]=2C .mceInput[type=3D=
+"checkbox"] { float: left; margin-right: 12px; display: inline; width: aut=
+o !important; }.mceLabel > .mceInput { margin-bottom: 0px; margin-top: 2px=
+; }.mceLabel { display: block; }.mceText p { color: rgb(51=2C 51=2C 51); f=
+ont-family: Roboto=2C "Helvetica Neue"=2C Helvetica=2C Arial=2C sans-serif=
+; font-size: 16px; font-weight: normal; line-height: 1.5; text-align: left=
+; letter-spacing: 0px; direction: ltr; }.mceText a { color: rgb(0=2C 0=2C=
+ 0); font-style: normal; font-weight: normal; text-decoration: underline;=
+ direction: ltr; }
+@media only screen and (max-width: 480px) {
+            .mceText p { font-size: 16px !important; line-height: 1.5 !imp=
+ortant; }
+          }
+@media only screen and (max-width: 480px) {
+            .mceBlockContainer { padding-left: 16px !important; padding-ri=
+ght: 16px !important; }
+          }
+#dataBlockId-12 p=2C #dataBlockId-12 h1=2C #dataBlockId-12 h2=2C #dataBloc=
+kId-12 h3=2C #dataBlockId-12 h4=2C #dataBlockId-12 ul { text-align: center=
+; }#dataBlockId-1 p=2C #dataBlockId-1 h1=2C #dataBlockId-1 h2=2C #dataBloc=
+kId-1 h3=2C #dataBlockId-1 h4=2C #dataBlockId-1 ul { text-align: center; }=
+#dataBlockId-6 p=2C #dataBlockId-6 h1=2C #dataBlockId-6 h2=2C #dataBlockId=
+-6 h3=2C #dataBlockId-6 h4=2C #dataBlockId-6 ul { text-align: justify; }#d=
+ataBlockId-31 p=2C #dataBlockId-31 h1=2C #dataBlockId-31 h2=2C #dataBlockI=
+d-31 h3=2C #dataBlockId-31 h4=2C #dataBlockId-31 ul { line-height: 1; text=
+-align: right; }#dataBlockId-33 p=2C #dataBlockId-33 h1=2C #dataBlockId-33=
+ h2=2C #dataBlockId-33 h3=2C #dataBlockId-33 h4=2C #dataBlockId-33 ul { te=
+xt-align: left; }#dataBlockId-48 p=2C #dataBlockId-48 h1=2C #dataBlockId-4=
+8 h2=2C #dataBlockId-48 h3=2C #dataBlockId-48 h4=2C #dataBlockId-48 ul { t=
+ext-align: left; }#dataBlockId-65 p=2C #dataBlockId-65 h1=2C #dataBlockId-=
+65 h2=2C #dataBlockId-65 h3=2C #dataBlockId-65 h4=2C #dataBlockId-65 ul {=
+ line-height: 1.5; }
+@media only screen and (max-width: 480px) {
+        .mobileClass-22 {padding-left: 12 !important;padding-top: 0 !impor=
+tant;padding-right: 12 !important;}.mobileClass-22 {padding-left: 12 !impo=
+rtant;padding-top: 0 !important;padding-right: 12 !important;}.mobileClass=
+-22 {padding-left: 12 !important;padding-top: 0 !important;padding-right:=
+ 12 !important;}.mobileClass-22 {padding-left: 12 !important;padding-top:=
+ 0 !important;padding-right: 12 !important;}.mobileClass-22 {padding-left:=
+ 12 !important;padding-top: 0 !important;padding-right: 12 !important;}
+      }</style></head>
+<body><div itemscope=3D"" itemtype=3D"http://schema.org/EmailMessage"><div=
+ itemprop=3D"publisher" itemscope=3D"" itemtype=3D"http://schema.org/Organ=
+ization"><meta itemprop=3D"name" content=3D"FutureTravel"><link itemprop=
+=3D"url" content=3D"https://futuretravel.com"></div><div itemprop=3D"about=
+" itemscope=3D"" itemtype=3D"http://schema.org/Offer"><link itemprop=3D"im=
+age" href=3D"https://mcusercontent.com/d81da9c3f887a1be7b9cb58bd/images/8e=
+5a563a-c83f-b4de-983d-1d38a87405e6.png"></div></div>
+<!--
+-->
+<!--[if !gte mso 9]><!----><span class=3D"mcnPreviewText" style=3D"displa=
+y:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opa=
+city:0; overflow:hidden; visibility:hidden; mso-hide:all;">Time to shine:=
+ meet the 10 early-stage travel startups =F0=9F=8C=9F</span><!--<![endif]=
+-->
+<!--
+-->
+<center>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"100%" wi=
+dth=3D"100%" id=3D"bodyTable" style=3D"background-color: rgb(255=2C 255=2C=
+ 255);">
+<tbody><tr>
+<td class=3D"bodyCell" align=3D"center" valign=3D"top">
+<table id=3D"root" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%"><tbody data-block-id=3D"69" class=3D"mceWrapper"><tr><td align=
+=3D"center" valign=3D"top" class=3D"mceWrapperOuter"><!--[if (gte mso 9)|=
+(IE)]><table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"660" style=3D"width:660px;"><tr><td><![endif]--><table bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"max=
+-width:660px" role=3D"presentation"><tbody><tr><td style=3D"background-col=
+or:#ffffff;background-position:center;background-repeat:no-repeat;backgrou=
+nd-size:cover" class=3D"mceWrapperInner" valign=3D"top"><table align=3D"ce=
+nter" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=
+=3D"presentation" data-block-id=3D"14"><tbody><tr class=3D"mceRow"><td sty=
+le=3D"background-position:center;background-repeat:no-repeat;background-si=
+ze:cover" valign=3D"top"><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" role=3D"presentation"><tbody><tr><td style=3D"paddin=
+g-top:0;padding-bottom:0" class=3D"mceColumn" data-block-id=3D"-22" valign=
+=3D"top" colspan=3D"12" width=3D"100%"><table border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" width=3D"100%" role=3D"presentation"><tbody><tr><td s=
+tyle=3D"padding-top:12px;padding-bottom:12px;padding-right:24px;padding-le=
+ft:24px" class=3D"mceBlockContainer" valign=3D"top"><div data-block-id=3D"=
+1" class=3D"mceText" id=3D"dataBlockId-1" style=3D"width:100%"><p class=3D=
+"last-child"><a href=3D"https://mailchi.mp/futuretravel/119-pitch-finalist=
+s?e=3D87a6c2fa6d" style=3D"color: #666666;"><span style=3D"font-size: 11px">=
+View this email in your browser</span></a></p></div></td></tr><tr><td styl=
+e=3D"padding-top:12px;padding-bottom:12px;padding-right:0;padding-left:0"=
+ class=3D"mceBlockContainer" align=3D"center" valign=3D"top"><a href=3D"ht=
+tps://futuretravel.us7.list-manage.com/track/click?u=3Dd81da9c3f887a1be7b9=
+cb58bd&id=3Db6fae938f1&e=3D87a6c2fa6d" style=3D"display:block" target=3D"=
+_blank" data-block-id=3D"3"><img width=3D"208.14689781021897" height=3D"au=
+to" style=3D"border:0;width:208.14689781021897px;height:auto;max-width:100=
+%;display:block" alt=3D"FutureTravel" src=3D"https://dim.mcusercontent.com=
+/cs/d81da9c3f887a1be7b9cb58bd/images/8399e67b-9f24-dc21-007a-f3d5be0ff76e.=
+png?w=3D208&dpr=3D2&rect=3D214%2C0%2C669%2C300" class=3D""></a></td></tr><=
+tr><td style=3D"background-color:transparent;padding-top:12px;padding-bott=
+om:19px;padding-right:12px;padding-left:24px" class=3D"mceLayoutContainer"=
+ valign=3D"top"><table align=3D"center" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" width=3D"100%" role=3D"presentation" data-block-id=3D"28" i=
+d=3D"section_fc66178f09ca60a9e05c5532d59e3410"><tbody><tr class=3D"mceRow"=
+><td style=3D"background-position:center;background-repeat:no-repeat;backg=
+round-size:cover" valign=3D"top"><table border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" width=3D"100%" role=3D"presentation"><tbody><tr><td class=
+=3D"mceColumn" data-block-id=3D"-23" valign=3D"top" colspan=3D"12" width=
+=3D"100%"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D=
+"100%" role=3D"presentation"><tbody><tr><td align=3D"center" valign=3D"top=
+"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%" role=3D"presentation" data-block-id=3D"-19"><tbody><tr cla=
+ss=3D"mceRow"><td style=3D"background-position:center;background-repeat:no=
+-repeat;background-size:cover;padding-top:0px;padding-bottom:0px" valign=
+=3D"top"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"24" width=3D=
+"100%" style=3D"table-layout:fixed" role=3D"presentation"><colgroup><col s=
+pan=3D"1" width=3D"8.333333333333332%"><col span=3D"1" width=3D"8.33333333=
+3333332%"><col span=3D"1" width=3D"8.333333333333332%"><col span=3D"1" wid=
+th=3D"8.333333333333332%"><col span=3D"1" width=3D"8.333333333333332%"><co=
+l span=3D"1" width=3D"8.333333333333332%"><col span=3D"1" width=3D"8.33333=
+3333333332%"><col span=3D"1" width=3D"8.333333333333332%"><col span=3D"1"=
+ width=3D"8.333333333333332%"><col span=3D"1" width=3D"8.333333333333332%"=
+><col span=3D"1" width=3D"8.333333333333332%"><col span=3D"1" width=3D"8.3=
+33333333333332%"></colgroup><tbody><tr><td style=3D"padding-top:0;padding-=
+bottom:0" class=3D"mceColumn" data-block-id=3D"-5" valign=3D"top" colspan=
+=3D"6" width=3D"50%"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" width=3D"100%" role=3D"presentation"><tbody><tr><td style=3D"padding-to=
+p:12px;padding-bottom:12px;padding-right:12px;padding-left:12px" class=3D"=
+mceBlockContainer" valign=3D"top"></td></tr></tbody></table></td><td style=
+=3D"padding-top:0;padding-bottom:0;margin-bottom:24px" class=3D"mceColumn"=
+ data-block-id=3D"-6" valign=3D"top" colspan=3D"6" width=3D"50%"><table bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"pres=
+entation"><tbody><tr><td style=3D"padding-top:12px;padding-bottom:12px;pad=
+ding-right:12px;padding-left:12px" class=3D"mceBlockContainer" valign=3D"t=
+op"><div data-block-id=3D"31" class=3D"mceText" id=3D"dataBlockId-31" styl=
+e=3D"width:100%"><p class=3D"last-child"><em><span style=3D"color:#666666;=
+"><span style=3D"font-size: 11px">Reading time: 4 minutes<br> =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0</span></span></em><a href=3D"https://futur=
+etravel.us7.list-manage.com/track/click?u=3Dd81da9c3f887a1be7b9cb58bd&id=
+=3Da95d3cf84f&e=3D87a6c2fa6d"><em><span style=3D"color:#666666;"><span st=
+yle=3D"font-size: 11px">Click here to read our past editions</span></span>=
+</em></a></p></div></td></tr></tbody></table></td></tr></tbody></table></t=
+d></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table=
+></td></tr></tbody></table></td></tr><tr><td style=3D"padding-top:12px;pad=
+ding-bottom:12px;padding-right:0;padding-left:0" class=3D"mceBlockContaine=
+r" align=3D"center" valign=3D"top"><a href=3D"https://futuretravel.us7.lis=
+t-manage.com/track/click?u=3Dd81da9c3f887a1be7b9cb58bd&id=3D8827c7a864&e=
+=3D87a6c2fa6d" style=3D"display:block" target=3D"_blank" data-block-id=3D=
+"76"><img width=3D"564" height=3D"auto" style=3D"border:0;width:564px;heig=
+ht:auto;max-width:100%;display:block" alt=3D"" src=3D"https://dim.mcuserco=
+ntent.com/cs/d81da9c3f887a1be7b9cb58bd/images/841029af-4671-5fa7-56b6-2286=
+7df4cc43.png?w=3D564&dpr=3D2" role=3D"presentation" class=3D"imageDropZone=
+"></a></td></tr><tr><td style=3D"padding-top:12px;padding-bottom:12px;padd=
+ing-right:24px;padding-left:24px" class=3D"mceBlockContainer" valign=3D"to=
+p"><div data-block-id=3D"67" class=3D"mceText" id=3D"dataBlockId-67" style=
+=3D"width:100%"><p class=3D"last-child"><span style=3D"color:#666666;"><sp=
+an style=3D"font-size: 15px">Hi there=2C</span></span></p></div=
+></td></tr><tr><td style=3D"padding-top:12px;padding-bottom:12px;padding-r=
+ight:24px;padding-left:24px" class=3D"mceBlockContainer" valign=3D"top"><d=
+iv data-block-id=3D"74" class=3D"mceText" id=3D"dataBlockId-74" style=3D"w=
+idth:100%"><p style=3D"text-align: justify;"><span style=3D"color:#666666;=
+"><span style=3D"font-size: 15px">I'm very happy to introduce you to the 1=
+0 finalists of our Pitch Competition! We're gearing up to create an engagi=
+ng atmosphere to showcase these selected finalists at this year's </span><=
+/span><a href=3D"https://futuretravel.us7.list-manage.com/track/click?u=3D=
+d81da9c3f887a1be7b9cb58bd&id=3Dacbfa984d2&e=3D87a6c2fa6d" target=3D"_blan=
+k"><strong><span style=3D"text-decoration:underline;"><span style=3D"font-=
+size: 15px">FutureTravel Summit</span></span></strong></a><span style=3D"c=
+olor:#666666;"><span style=3D"font-size: 15px"> - and believe me: you don'=
+t want to miss this.=C2=A0</span></span></p><p style=3D"text-align: justif=
+y;"><br></p><p style=3D"text-align: justify;"><span style=3D"color:#666666=
+;"><span style=3D"font-size: 15px">We've handpicked a panel of judges with=
+ great expertise in the travel industry=2C all set to provide insights and=
+ select a winner. And here's the exciting part: beyond the insights and vi=
+sibility this competition offers=2C the winner will receive a prize packag=
+e tailored to boost their business and open up new opportunities.=C2=A0</s=
+pan></span></p><p style=3D"text-align: justify;"><br></p><p style=3D"text-=
+align: justify;" class=3D"last-child"><span style=3D"color:#666666;"><span=
+ style=3D"font-size: 15px">After reviewing more than 230 applications from=
+ around the world=2C it was quite a challenge to choose the finalists. But=
+ here they are=2C ready to prepare their pitches for the stage on October=
+ 27th=2C in Barcelona.</span></span></p></div></td></tr><tr><td style=3D"p=
+adding-top:12px;padding-bottom:12px;padding-right:24px;padding-left:24px"=
+ class=3D"mceBlockContainer" align=3D"center" valign=3D"top"><table align=
+=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"prese=
+ntation" data-block-id=3D"78"><tbody><tr class=3D"mceStandardButton"><td s=
+tyle=3D"background-color:#ffe535;border-radius:0;text-align:center" class=
+=3D"mceButton" valign=3D"top"><a href=3D"https://futuretravel.us7.list-man=
+age.com/track/click?u=3Dd81da9c3f887a1be7b9cb58bd&id=3D2065dd0d39&e=3D87a6c2fa6d" target=3D"_blank" style=3D"background-color:#ffe535;border-radius=
+:0;border:2px solid #ffe535;color:#000000;display:block;font-family:'Robot=
+o'=2C 'Helvetica Neue'=2C Helvetica=2C Arial=2C sans-serif;font-size:16px;=
+font-weight:bold;font-style:normal;padding:16px 28px;text-decoration:none;=
+min-width:30px;text-align:center;direction:ltr;letter-spacing:0px">=E2=AD=
+=90 It's Time to Meet the Finalists =E2=AD=90</a></td></tr><tr>
+<!--[if mso]>
+<td align=3D"center">
+<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"
+href=3D"https://www.eu-startups.com/2023/08/meet-the-10-finalists-of-the-2=
+023-futuretravel-summit-pitch-competition/"
+style=3D"v-text-anchor:middle; width:311.06px; height:57px;"
+arcsize=3D"0%"
+strokecolor=3D"#ffe535"
+strokeweight=3D"2px"
+fillcolor=3D"#ffe535">
+<v:stroke dashstyle=3D"solid"/>
+<w:anchorlock />
+<center style=3D"
+color: #000000;
+display: block;
+font-family: 'Roboto'=2C 'Helvetica Neue'=2C Helvetica=2C Arial=2C sans-se=
+rif;
+font-size: 16;
+font-style: normal;
+font-weight: bold;
+letter-spacing: 0px;
+text-decoration: none;
+text-align: center;
+direction: ltr;"
+>
+=E2=AD=90 It's Time to Meet the Finalists =E2=AD=90
+</center>
+</v:roundrect>
+</td>
+<![endif]-->
+</tr></tbody></table></td></tr><tr><td style=3D"padding-top:12px;padding-b=
+ottom:12px;padding-right:24px;padding-left:24px" class=3D"mceBlockContaine=
+r" valign=3D"top"><div data-block-id=3D"77" class=3D"mceText" id=3D"dataBl=
+ockId-77" style=3D"width:100%"><p style=3D"text-align: justify;" class=3D"=
+last-child"><span style=3D"color:#666666;"><span style=3D"font-size: 15px"=
+>Now let=E2=80=99s head to this week's curated selection of the top news i=
+n innovation=2C trends=2C and startups in the travel industry.</span></spa=
+n></p></div></td></tr><tr><td style=3D"padding-top:12px;padding-bottom:12p=
+x;padding-right:24px;padding-left:24px" class=3D"mceBlockContainer" valign=
+=3D"top"><div data-block-id=3D"6" class=3D"mceText" id=3D"dataBlockId-6" s=
+tyle=3D"width:100%"><ul class=3D"last-child"><li style=3D"color: #666666;"=
+><p><a href=3D"https://futuretravel.us7.list-manage.com/track/click?u=3Dd8=
+1da9c3f887a1be7b9cb58bd&id=3D73175f14d3&e=3D87a6c2fa6d" target=3D"_blank"=
+><strong><span style=3D"text-decoration:underline;"><span style=3D"font-si=
+ze: 15px">Smart solutions for smart hotels.</span></span></strong></a><spa=
+n style=3D"color:#666666;"><span style=3D"font-size: 15px"> German-startup=
+ </span></span><strong><span style=3D"color:#000000;"><span style=3D"font-=
+size: 15px">Betterspace</span></span></strong><span style=3D"color:#666666=
+;"><span style=3D"font-size: 15px">=2C a hotel management platform provide=
+r=2C has secured a 7-figure investment from Austrian VC Round2 Capital. Ba=
+sed on Ilmenau and known for smart software solutions in guest communicati=
+on and energy management=2C Betterspace's innovative offerings reduce cost=
+s and promote sustainability=2C maximizing revenues and relieving hotel st=
+aff. Following the success of their better.energy solution=2C they plan to=
+ expand its application to education=2C healthcare=2C and municipalities.<=
+/span></span></p><p><br></p></li><li style=3D"color: #666666;"><p><a href=
+=3D"https://futuretravel.us7.list-manage.com/track/click?u=3Dd81da9c3f887a=
+1be7b9cb58bd&id=3Dfe368097af&e=3D87a6c2fa6d" target=3D"_blank"><strong><s=
+pan style=3D"text-decoration:underline;"><span style=3D"font-size: 15px">A=
+ (brilliant) collection of insights on following trends.</span></span></st=
+rong></a><span style=3D"color:#666666;"><span style=3D"font-size: 15px"> M=
+auricio nailed it with his insightful breakdown on the perils of blindly f=
+ollowing trends when launching new ventures. He brought together a diverse=
+ group of industry experts to explore the pitfalls of trend-chasing and th=
+e absolute importance of thinking outside the box when striving to create=
+ an extraordinary company. This </span></span><strong><span style=3D"color=
+:#000000;"><span style=3D"font-size: 15px">Travel Tech Essentialist</span>=
+</span></strong><span style=3D"color:#666666;"><span style=3D"font-size: 1=
+5px"> article is a must-read=2C especially for those creating ~very disrup=
+tive and extremely innovative tech solutions~ for the travel sector.=C2=A0=
+</span></span></p><p><br></p></li><li style=3D"color: #666666;"><p><a href=
+=3D"https://futuretravel.us7.list-manage.com/track/click?u=3Dd81da9c3f887a=
+1be7b9cb58bd&id=3Dcc85949160&e=3D87a6c2fa6d" target=3D"_blank"><strong><s=
+pan style=3D"text-decoration:underline;"><span style=3D"font-size: 15px">N=
+ew addition to Mondee=E2=80=99s business.</span></span></strong></a><span=
+ style=3D"color:#666666;"><span style=3D"font-size: 15px"> Mondee's latest=
+ acquisition of </span></span><strong><span style=3D"color:#000000;"><span=
+ style=3D"font-size: 15px">Skypass Travel </span></span></strong><span sty=
+le=3D"color:#666666;"><span style=3D"font-size: 15px">for $15 million mark=
+s its fourth acquisition this year=2C signaling an ambitious expansion int=
+o corporate travel. Skypass=2C known for wholesale travel sales to busines=
+ses=2C joins Mondee's portfolio=2C aiming to funnel clients toward Mondee'=
+s platform for corporate and personal bookings. With features like an AI-p=
+owered trip assistant=2C Mondee offers travel agents and customers a seaml=
+ess experience. The acquisition grants </span></span><strong><span style=
+=3D"color:#000000;"><span style=3D"font-size: 15px">Mondee</span></span></=
+strong><span style=3D"color:#666666;"><span style=3D"font-size: 15px"> acc=
+ess to Skypass contracts for discounts on flights=2C hotels=2C and cruises=
+=2C while the company's stock value and marketing strategies evolve in the=
+ competitive travel market.</span></span></p><p><br></p></li><li style=3D"=
+color: #666666;"><p><a href=3D"https://futuretravel.us7.list-manage.com/tr=
+ack/click?u=3Dd81da9c3f887a1be7b9cb58bd&id=3D5a08d81b81&e=3D87a6c2fa6d" t=
+arget=3D"_blank"><strong><span style=3D"text-decoration:underline;"><span=
+ style=3D"font-size: 15px">Personalized stays powered by AI.</span></span>=
+</strong></a><span style=3D"color:#666666;"><span style=3D"font-size: 15px=
+"> </span></span><strong><span style=3D"color:#000000;"><span style=3D"fon=
+t-size: 15px">Sabre</span></span></strong><span style=3D"color:#666666;"><=
+span style=3D"font-size: 15px"> has unveiled Lodging AI=2C integrating its=
+ Sabre Travel AI technology into the lodging sector. Using AI and advanced=
+ machine learning=2C the feature enhances customer experiences by deliveri=
+ng personalized content swiftly=2C resulting in expanded revenue opportuni=
+ties. Part of Sabre=E2=80=99s Content Services for Lodging=2C this technol=
+ogy assists travel agencies in generating extra revenue while offering tra=
+velers tailored lodging options. The tool analyzes property attributes=2C=
+ customer preferences=2C and agency insights to provide customized lodging=
+ choices for a smoother booking process.</span></span></p></li></ul></div>=
+</td></tr><tr><td style=3D"padding-top:12px;padding-bottom:12px;padding-ri=
+ght:24px;padding-left:24px" class=3D"mceBlockContainer" valign=3D"top"><di=
+v data-block-id=3D"65" class=3D"mceText" id=3D"dataBlockId-65" style=3D"wi=
+dth:100%"><p class=3D"last-child"><span style=3D"color:#666666;"><span sty=
+le=3D"font-size: 15px">See you next week=2C <br>Ana</span></span></p></div=
+></td></tr><tr><td style=3D"padding-top:12px;padding-bottom:12px;padding-r=
+ight:0;padding-left:0" class=3D"mceBlockContainer" align=3D"center" valign=
+=3D"top"><a href=3D"https://futuretravel.us7.list-manage.com/track/click?u=
+=3Dd81da9c3f887a1be7b9cb58bd&id=3Da47cd540f8&e=3D87a6c2fa6d" style=3D"dis=
+play:block" target=3D"_blank" data-block-id=3D"79"><img width=3D"564" heig=
+ht=3D"auto" style=3D"border:0;width:564px;height:auto;max-width:100%;displ=
+ay:block" alt=3D"" src=3D"https://dim.mcusercontent.com/cs/d81da9c3f887a1b=
+e7b9cb58bd/images/181b5fc8-9346-a02e-bc6f-d4fb16576d26.png?w=3D564&dpr=3D2=
+" role=3D"presentation" class=3D"imageDropZone"></a></td></tr><tr><td styl=
+e=3D"background-color:transparent;padding-top:12px;padding-bottom:12px;pad=
+ding-right:24px;padding-left:24px" class=3D"mceBlockContainer" valign=3D"t=
+op"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"=
+ style=3D"background-color:transparent" role=3D"presentation" data-block-i=
+d=3D"75"><tbody><tr><td style=3D"min-width:100%;border-top:2px solid #0000=
+00" valign=3D"top"></td></tr></tbody></table></td></tr><tr><td style=3D"pa=
+dding-top:12px;padding-bottom:12px;padding-right:24px;padding-left:24px" c=
+lass=3D"mceBlockContainer" valign=3D"top"><div data-block-id=3D"33" class=
+=3D"mceText" id=3D"dataBlockId-33" style=3D"width:100%"><p><strong><span s=
+tyle=3D"font-size: 14px">Thank you for reading until the end.</span></stro=
+ng></p><p style=3D"line-height: 1;"><br></p><p style=3D"line-height: 1;"><=
+span style=3D"color:#797979;"><span style=3D"font-size: 12px">The content=
+ of this newsletter is curated and published by</span></span><span style=
+=3D"color:#4d5156;"><span style=3D"font-size: 12px"> </span></span><a href=
+=3D"https://futuretravel.us7.list-manage.com/track/click?u=3Dd81da9c3f887a=
+1be7b9cb58bd&id=3D1743cf7b77&e=3D87a6c2fa6d"><strong><span style=3D"color=
+:#333333;"><span style=3D"text-decoration:underline;"><span style=3D"font-=
+size: 12px">Ana Metz</span></span></span></strong></a><span style=3D"color=
+:#4d5156;"><span style=3D"font-size: 12px">=2C </span></span><span style=
+=3D"color:#797979;"><span style=3D"font-size: 12px">an innovation expert=
+=2C passionate about technology and excited about the future of travel. </=
+span></span></p><p style=3D"line-height: 1;"><br></p><p style=3D"line-heig=
+ht: 1;" class=3D"last-child"><span style=3D"color:#797979;"><span style=3D=
+"font-size: 12px">Looking for a space to promote your business or service=
+ for more than 21k subscribers?</span></span><span style=3D"color:#4d5156;=
+"><span style=3D"font-size: 12px"> </span></span><a href=3D"https://future=
+travel.us7.list-manage.com/track/click?u=3Dd81da9c3f887a1be7b9cb58bd&id=3D=
+104274412d&e=3D87a6c2fa6d"><strong><span style=3D"color:#333333;"><span s=
+tyle=3D"text-decoration:underline;"><span style=3D"font-size: 12px">Let=E2=
+=80=99s talk.</span></span></span></strong></a></p></div></td></tr><tr><td=
+ style=3D"background-color:transparent;padding-top:12px;padding-bottom:12p=
+x;padding-right:24px;padding-left:24px" class=3D"mceBlockContainer" valign=
+=3D"top"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+100%" style=3D"background-color:transparent" role=3D"presentation" data-bl=
+ock-id=3D"72"><tbody><tr><td style=3D"min-width:100%;border-top:2px solid=
+ #000000" valign=3D"top"></td></tr></tbody></table></td></tr><tr><td style=
+=3D"background-color:transparent;padding-top:0;padding-bottom:0;padding-ri=
+ght:0;padding-left:0" class=3D"mceBlockContainer" valign=3D"top"><table bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"bac=
+kground-color:transparent" role=3D"presentation" data-block-id=3D"60"><tbo=
+dy><tr><td style=3D"min-width:100%;border-top:20px solid transparent" vali=
+gn=3D"top"></td></tr></tbody></table></td></tr><tr><td style=3D"padding-to=
+p:8px;padding-bottom:8px;padding-right:8px;padding-left:8px" class=3D"mceL=
+ayoutContainer" valign=3D"top"><table align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presentation" data-bl=
+ock-id=3D"47" id=3D"section_32a8086d95cd6d808f5358e79b4e10e4"><tbody><tr c=
+lass=3D"mceRow"><td style=3D"background-position:center;background-repeat:=
+no-repeat;background-size:cover" valign=3D"top"><table border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presentation"><tbody>=
+<tr><td class=3D"mceColumn" data-block-id=3D"-24" valign=3D"top" colspan=
+=3D"12" width=3D"100%"><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" role=3D"presentation"><tbody><tr><td align=3D"center=
+" valign=3D"top"><table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" width=3D"100%" role=3D"presentation" data-block-id=3D"-21"=
+><tbody><tr class=3D"mceRow"><td style=3D"background-position:center;backg=
+round-repeat:no-repeat;background-size:cover;padding-top:0px;padding-botto=
+m:0px" valign=3D"top"><table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"72" width=3D"100%" style=3D"table-layout:fixed" role=3D"presentation"><co=
+lgroup><col span=3D"1" width=3D"8.333333333333332%"><col span=3D"1" width=
+=3D"8.333333333333332%"><col span=3D"1" width=3D"8.333333333333332%"><col=
+ span=3D"1" width=3D"8.333333333333332%"><col span=3D"1" width=3D"8.333333=
+333333332%"><col span=3D"1" width=3D"8.333333333333332%"><col span=3D"1" w=
+idth=3D"8.333333333333332%"><col span=3D"1" width=3D"8.333333333333332%"><=
+col span=3D"1" width=3D"8.333333333333332%"><col span=3D"1" width=3D"8.333=
+333333333332%"><col span=3D"1" width=3D"8.333333333333332%"><col span=3D"1=
+" width=3D"8.333333333333332%"></colgroup><tbody><tr><td style=3D"padding-=
+top:0;padding-bottom:0" class=3D"mceColumn" data-block-id=3D"-8" valign=3D=
+"center" colspan=3D"6" width=3D"50%"><table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"100%" role=3D"presentation"><tbody><tr><td sty=
+le=3D"padding-top:12px;padding-bottom:12px;padding-right:12px;padding-left=
+:12px" class=3D"mceBlockContainer" valign=3D"top"><div data-block-id=3D"48=
+" class=3D"mceText" id=3D"dataBlockId-48" style=3D"width:100%"><p class=3D=
+"last-child"><strong><span style=3D"font-size: 14px">FutureTravel is a wee=
+kly newsletter about the future of travel=2C featuring the most exciting n=
+ews about innovation=2C trends and startups in the industry. </span></stro=
+ng></p></div><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%" style=3D"background-color:transparent" role=3D"presentation" dat=
+a-block-id=3D"49"><tbody><tr><td style=3D"min-width:100%;border-top:20px s=
+olid transparent" valign=3D"top"></td></tr></tbody></table><table align=3D=
+"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" data-block-id=3D"50"><tbody><tr class=3D"mceStandardButton"><td style=
+=3D"background-color:#ffe535;border-radius:0;text-align:center" class=3D"m=
+ceButton" valign=3D"top"><a href=3D"https://futuretravel.us7.list-manage.c=
+om/track/click?u=3Dd81da9c3f887a1be7b9cb58bd&id=3D60d0e858a2&e=3D87a6c2fa6d" target=3D"_blank" style=3D"background-color:#ffe535;border-radius:0;bo=
+rder:2px solid #ffe535;color:#000000;display:block;font-family:'Roboto'=2C=
+ 'Helvetica Neue'=2C Helvetica=2C Arial=2C sans-serif;font-size:15px;font-=
+weight:bold;font-style:normal;padding:16px 28px;text-decoration:none;min-w=
+idth:30px;text-align:center;direction:ltr;letter-spacing:0px">Subscribe no=
+w</a></td></tr><tr>
+<!--[if mso]>
+<td align=3D"left">
+<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"
+href=3D"http://www.futuretravel.com"
+style=3D"v-text-anchor:middle; width:159.24px; height:53.5px;"
+arcsize=3D"0%"
+strokecolor=3D"#ffe535"
+strokeweight=3D"2px"
+fillcolor=3D"#ffe535">
+<v:stroke dashstyle=3D"solid"/>
+<w:anchorlock />
+<center style=3D"
+color: #000000;
+display: block;
+font-family: 'Roboto'=2C 'Helvetica Neue'=2C Helvetica=2C Arial=2C sans-se=
+rif;
+font-size: 15;
+font-style: normal;
+font-weight: bold;
+letter-spacing: 0px;
+text-decoration: none;
+text-align: center;
+direction: ltr;"
+>
+Subscribe now
+</center>
+</v:roundrect>
+</td>
+<![endif]-->
+</tr></tbody></table></td></tr></tbody></table></td><td style=3D"padding-t=
+op:0;padding-bottom:0;margin-bottom:72px" class=3D"mceColumn" data-block-i=
+d=3D"-9" valign=3D"center" colspan=3D"6" width=3D"50%"><table border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presentation">=
+<tbody><tr><td style=3D"padding-top:12px;padding-bottom:12px;padding-right=
+:12px;padding-left:12px" class=3D"mceBlockContainer" align=3D"center" vali=
+gn=3D"top"><a href=3D"https://futuretravel.us7.list-manage.com/track/click=
+?u=3Dd81da9c3f887a1be7b9cb58bd&id=3D5bd08ebe64&e=3D87a6c2fa6d" style=3D"d=
+isplay:block" target=3D"_blank" data-block-id=3D"52"><img width=3D"124" he=
+ight=3D"auto" style=3D"border:0;width:124px;height:auto;max-width:100%;dis=
+play:block" alt=3D"" src=3D"https://dim.mcusercontent.com/cs/d81da9c3f887a=
+1be7b9cb58bd/images/dc53275c-3f24-25dc-0f97-d24c45cd6b86.png?w=3D124&dpr=
+=3D2" role=3D"presentation" class=3D"imageDropZone"></a></td></tr></tbody>=
+</table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tb=
+ody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr>=
+<tr><td style=3D"background-color:transparent;padding-top:0;padding-bottom=
+:0;padding-right:0;padding-left:0" class=3D"mceBlockContainer" valign=3D"t=
+op"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"=
+ style=3D"background-color:transparent" role=3D"presentation" data-block-i=
+d=3D"59"><tbody><tr><td style=3D"min-width:100%;border-top:40px solid tran=
+sparent" valign=3D"top"></td></tr></tbody></table></td></tr><tr><td style=
+=3D"background-color:transparent;padding-top:12px;padding-bottom:12px;padd=
+ing-right:0;padding-left:0" class=3D"mceLayoutContainer" valign=3D"top"><t=
+able align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wid=
+th=3D"100%" role=3D"presentation" data-block-id=3D"10"><tbody><tr class=3D=
+"mceRow"><td style=3D"background-color:transparent;background-position:cen=
+ter;background-repeat:no-repeat;background-size:cover;padding-top:0px;padd=
+ing-bottom:0px" valign=3D"top"><table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"24" width=3D"100%" role=3D"presentation"><tbody><tr><td style=3D=
+"margin-bottom:24px" class=3D"mceColumn" data-block-id=3D"-17" valign=3D"t=
+op" colspan=3D"12" width=3D"100%"><table border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" width=3D"100%" role=3D"presentation"><tbody><tr><td align=
+=3D"center" valign=3D"top"><table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"" role=3D"presentation" class=3D"mceClusterLayout" data-=
+block-id=3D"-16"><tbody><tr><td style=3D"padding-left:18px;padding-top:0;p=
+adding-right:18px" data-breakpoint=3D"22" valign=3D"top" class=3D"mobileCl=
+ass-22"><a href=3D"https://futuretravel.us7.list-manage.com/track/click?u=
+=3Dd81da9c3f887a1be7b9cb58bd&id=3D5ba5b851c4&e=3D87a6c2fa6d" style=3D"dis=
+play:block" target=3D"_blank" data-block-id=3D"-11"><img width=3D"32" heig=
+ht=3D"auto" style=3D"border:0;width:32px;height:auto;max-width:100%;displa=
+y:block" alt=3D"Facebook icon" src=3D"https://dim.mcusercontent.com/https/=
+cdn-images.mailchimp.com%2Ficons%2Fsocial-block-v3%2Fblock-icons-v3%2Fface=
+book-filled-dark-40.png?w=3D32&dpr=3D2" class=3D""></a></td><td style=3D"p=
+adding-left:18px;padding-top:0;padding-right:18px" data-breakpoint=3D"22"=
+ valign=3D"top" class=3D"mobileClass-22"><a href=3D"https://futuretravel.u=
+s7.list-manage.com/track/click?u=3Dd81da9c3f887a1be7b9cb58bd&id=3Da8e1980a=
+1b&e=3D87a6c2fa6d" style=3D"display:block" target=3D"_blank" data-block-i=
+d=3D"-12"><img width=3D"32" height=3D"auto" style=3D"border:0;width:32px;h=
+eight:auto;max-width:100%;display:block" alt=3D"Instagram icon" src=3D"htt=
+ps://dim.mcusercontent.com/https/cdn-images.mailchimp.com%2Ficons%2Fsocial=
+-block-v3%2Fblock-icons-v3%2Finstagram-filled-dark-40.png?w=3D32&dpr=3D2"=
+ class=3D""></a></td><td style=3D"padding-left:18px;padding-top:0;padding-=
+right:18px" data-breakpoint=3D"22" valign=3D"top" class=3D"mobileClass-22"=
+><a href=3D"https://futuretravel.us7.list-manage.com/track/click?u=3Dd81da=
+9c3f887a1be7b9cb58bd&id=3Da29c2bdac5&e=3D87a6c2fa6d" style=3D"display:blo=
+ck" target=3D"_blank" data-block-id=3D"-13"><img width=3D"32" height=3D"au=
+to" style=3D"border:0;width:32px;height:auto;max-width:100%;display:block"=
+ alt=3D"Twitter icon" src=3D"https://dim.mcusercontent.com/https/cdn-image=
+s.mailchimp.com%2Ficons%2Fsocial-block-v3%2Fblock-icons-v3%2Ftwitter-fille=
+d-dark-40.png?w=3D32&dpr=3D2" class=3D""></a></td><td style=3D"padding-lef=
+t:18px;padding-top:0;padding-right:18px" data-breakpoint=3D"22" valign=3D"=
+top" class=3D"mobileClass-22"><a href=3D"https://futuretravel.us7.list-man=
+age.com/track/click?u=3Dd81da9c3f887a1be7b9cb58bd&id=3Dbbd5db333d&e=3D87a6c2fa6d" style=3D"display:block" target=3D"_blank" data-block-id=3D"-14"><=
+img width=3D"32" height=3D"auto" style=3D"border:0;width:32px;height:auto;=
+max-width:100%;display:block" alt=3D"LinkedIn icon" src=3D"https://dim.mcu=
+sercontent.com/https/cdn-images.mailchimp.com%2Ficons%2Fsocial-block-v3%2F=
+block-icons-v3%2Flinkedin-filled-dark-40.png?w=3D32&dpr=3D2" class=3D""></=
+a></td><td style=3D"padding-left:18px;padding-top:0;padding-right:18px" da=
+ta-breakpoint=3D"22" valign=3D"top" class=3D"mobileClass-22"><a href=3D"ht=
+tps://futuretravel.us7.list-manage.com/track/click?u=3Dd81da9c3f887a1be7b9=
+cb58bd&id=3Dc50f641273&e=3D87a6c2fa6d" style=3D"display:block" target=3D"=
+_blank" data-block-id=3D"-15"><img width=3D"32" height=3D"auto" style=3D"b=
+order:0;width:32px;height:auto;max-width:100%;display:block" alt=3D"Websit=
+e icon" src=3D"https://dim.mcusercontent.com/https/cdn-images.mailchimp.co=
+m%2Ficons%2Fsocial-block-v3%2Fblock-icons-v3%2Fwebsite-filled-dark-40.png?=
+w=3D32&dpr=3D2" class=3D""></a></td></tr></tbody></table></td></tr></tbody=
+></table></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr=
+><td style=3D"padding-top:8px;padding-bottom:8px;padding-right:8px;padding=
+-left:8px" class=3D"mceLayoutContainer" valign=3D"top"><table align=3D"cen=
+ter" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=
+=3D"presentation" data-block-id=3D"13" id=3D"section_4b59ba706a19fdf040a8b=
+dc106821554" class=3D"mceFooterSection"><tbody><tr class=3D"mceRow"><td st=
+yle=3D"background-position:center;background-repeat:no-repeat;background-s=
+ize:cover" valign=3D"top"><table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"12" width=3D"100%" role=3D"presentation"><tbody><tr><td style=3D"padd=
+ing-top:0;padding-bottom:0;margin-bottom:12px" class=3D"mceColumn" data-bl=
+ock-id=3D"-3" valign=3D"top" colspan=3D"12" width=3D"100%"><table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presenta=
+tion"><tbody><tr><td style=3D"padding-top:12px;padding-bottom:12px;padding=
+-right:16px;padding-left:16px" class=3D"mceBlockContainer" align=3D"center=
+" valign=3D"top"><div data-block-id=3D"12" class=3D"mceText" id=3D"dataBlo=
+ckId-12" style=3D"display:inline-block;width:100%"><p class=3D"last-child"=
+><em><span style=3D"font-size: 10px">Copyright (C) 2023 FutureTravel. All=
+ rights reserved.</span></em><span style=3D"font-size: 10px"><br>
+You are receiving this email because you opted in via our website.
+<br><br>Our mailing address is:<br>
+<div class=3D"vcard"><span class=3D"org fn">FutureTravel</span><div class=
+=3D"adr"><div class=3D"street-address">Carrer De L'Encarnacio 103 2-2</div=
+><span class=3D"locality">Barcelona</span>=2C <span class=3D"region">Barce=
+lona</span> <span class=3D"postal-code">08024</span> <div class=3D"country=
+-name">Spain</div></div><br><a href=3D"https://futuretravel.us7.list-manag=
+e.com/vcard?u=3Dd81da9c3f887a1be7b9cb58bd&id=3D454b1d112d" class=3D"hcard-=
+download">Add us to your address book</a></div>
+<br><br>Want to change how you receive these emails?<br>You can </span><a=
+ href=3D"https://futuretravel.us7.list-manage.com/profile?u=3Dd81da9c3f887=
+a1be7b9cb58bd&id=3D454b1d112d&e=3D87a6c2fa6d&c=3De80bb10027"><span style=3D"=
+font-size: 10px">update your preferences</span></a><span style=3D"font-siz=
+e: 10px"> or </span><a href=3D"https://futuretravel.us7.list-manage.com/un=
+subscribe?u=3Dd81da9c3f887a1be7b9cb58bd&id=3D454b1d112d&e=3D87a6c2fa6d&c=3De=
+80bb10027"><span style=3D"font-size: 10px">unsubscribe</span></a></p></div=
+></td></tr><tr><td class=3D"mceLayoutContainer" align=3D"center" valign=3D=
+"top"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" role=3D"presentation" data-block-id=3D"-2"><tbody><t=
+r class=3D"mceRow"><td style=3D"background-position:center;background-repe=
+at:no-repeat;background-size:cover;padding-top:0px;padding-bottom:0px" val=
+ign=3D"top"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"24" width=
+=3D"100%" role=3D"presentation"><tbody></tbody></table></td></tr></tbody><=
+/table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbo=
+dy></table></td></tr></tbody></table></td></tr></tbody></table></td></tr><=
+/tbody></table></td></tr></tbody></table><!--[if (gte mso 9)|(IE)]></td><=
+/tr></table><![endif]--></td></tr></tbody></table>
+</td>
+</tr>
+</tbody></table>
+</center>
+<img src=3D"https://futuretravel.us7.list-manage.com/track/open.php?u=3Dd8=
+1da9c3f887a1be7b9cb58bd&id=3De80bb10027&e=3D87a6c2fa6d" height=3D"1" widt=
+h=3D"1" alt=3D""></body></html>
+--_----------=_MCPart_1113248379--

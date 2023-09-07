@@ -1,0 +1,130 @@
+Return-Path: <ykovkduerz@camwater.cm>
+Delivered-To: support@broombids.com
+Received: from smd06.iphost.net
+	by smd06.iphost.net with LMTP
+	id RQtWBVPTjGSueAAAT4N6Cg
+	(envelope-from <ykovkduerz@camwater.cm>)
+	for <support@broombids.com>; Sat, 17 Jun 2023 00:25:39 +0300
+Return-path: <ykovkduerz@camwater.cm>
+Envelope-to: support@broombids.com
+Delivery-date: Sat, 17 Jun 2023 00:25:39 +0300
+Received: from mail.camwater.cm ([197.159.23.194]:50196 helo=mta01.camwater.cm)
+	by smd06.iphost.net with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <ykovkduerz@camwater.cm>)
+	id 1qAGwt-0007ik-1E
+	for support@broombids.com;
+	Sat, 17 Jun 2023 00:25:39 +0300
+Received: from localhost (localhost [127.0.0.1])
+	by mta01.camwater.cm (Postfix) with ESMTP id 6E4F8410D9D0;
+	Fri, 16 Jun 2023 16:42:02 +0100 (+01)
+Received: from mta01.camwater.cm ([127.0.0.1])
+	by localhost (mta01.camwater.cm [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id WKij8P6GYhQ1; Fri, 16 Jun 2023 16:41:59 +0100 (+01)
+Received: from localhost (localhost [127.0.0.1])
+	by mta01.camwater.cm (Postfix) with ESMTP id EF02A41C09EE;
+	Fri, 16 Jun 2023 14:08:06 +0100 (+01)
+DKIM-Filter: OpenDKIM Filter v2.10.3 mta01.camwater.cm EF02A41C09EE
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=camwater.cm;
+	s=selector; t=1686920887;
+	bh=ojRAQWixOdAjFe0ayq46faFnZv1Fc1GJVTqykYsn++0=;
+	h=From:To:Date:Message-Id;
+	b=LjcdQm+M2i1rQikIBXrTACcBZLdDyQHu0t1PVGkynKwGiAgglTLaE1cgxTZiI3rLo
+	 Tsdk7h1ruJCQIQxDZYMH2tdH7YcZzARY6dERj1mz9euUwRpUAbrwEPWRHICYMhCh1t
+	 +pnyvHj4QhZ/Ua7IwHFjuI4xRrZ5y2uBBL6maOks=
+X-Virus-Scanned: amavisd-new at mta01.camwater.cm
+Received: from mta01.camwater.cm ([127.0.0.1])
+	by localhost (mta01.camwater.cm [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id c2qVgcd249hO; Fri, 16 Jun 2023 14:08:06 +0100 (+01)
+Received: from mail.camwater.cm (unknown [192.168.10.254])
+	by mta01.camwater.cm (Postfix) with ESMTP id B8B25435C76B;
+	Fri, 16 Jun 2023 11:42:55 +0100 (+01)
+From: "SUPER LIST" <ykovkduerz@camwater.cm>
+To: anteng@shatly.com
+Reply-To: contactarinteresse@gmail.com
+Date: Fri, 16 Jun 2023 05:42:59 -0500
+Message-Id: <20230616104255.B8B25435C76B@mta01.camwater.cm>
+X-Spam-Status: Yes, score=10.4
+X-Spam-Score: 104
+X-Spam-Bar: ++++++++++
+X-Spam-Report: Spam detection software, running on the system "smd06.iphost.net",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Get the best email lists for your email marketing. 100% VALID
+    email lists of any country in the world. Talk to us in WhatsApp: +55 21 98110
+    4898 
+ Content analysis details:   (10.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.8 NA_DOLLARS             BODY: Talks about a million North American dollars
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: camwater.cm]
+  1.3 RCVD_IN_VALIDITY_RPBL  RBL: Relay in Validity RPBL,
+                             https://senderscore.org/blocklistlookup/
+                            [197.159.23.194 listed in bl.score.senderscore.com]
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  0.8 KAM_ASCII_DIVIDERS     Spam that uses ascii formatting tricks
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  3.0 BIGNUM_EMAILS_MANY     Lots of email addresses/leads, over and over
+  0.0 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+  0.2 BIGNUM_EMAILS_FREEM    Lots of email addresses/leads, free email
+                             account
+  2.5 FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Email lists 100% VALID - Any country in the world
+
+
+Get the best email lists for your email marketing.
+
+100% VALID email lists of any country in the world.
+
+Talk to us in WhatsApp:
++55 21 98110 4898
+
+Or Skype:
+corbettsoftware
+
+-------------------------------------------
+Email lists from any country in the world:
+
+Each 100.000 emails = US$ 150
+Each 500.000 emails = US$ 350
+Each 1 million emails = US$ 500
+Each 5 million emails = US$ 750
+Each 10 million emails = US$ 1000
+
+Segmented email lists from any country:
+
+Each 10.000 emails = US$ 150
+Each 50.000 emails = US$ 350
+Each 100.000 emails = US$ 500
+Each 500.000 emails = US$ 750
+Each 1 million emails = US$ 1000
+--------------------------------------------
+
+
+We are waiting for you.
+
+Best regards,
+
+SUPER LIST
+The best email lists since 1998
+
+WhatsApp: 
++55 21 98110 4898
+
+Skype:
+corbettsoftware

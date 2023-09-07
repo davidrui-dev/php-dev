@@ -1,0 +1,322 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202309 will be lost/reset.
+# Last config file used to build this data file was /home3/broombi/tmp/awstats/ssl/awstats.admin.broombids.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2020                
+POS_TIME 2702                
+POS_VISITOR 6504                
+POS_DAY 7457                
+POS_DOMAIN 3308                
+POS_LOGIN 3637                
+POS_ROBOT 3792                
+POS_WORMS 4016                
+POS_EMAILSENDER 4147                
+POS_EMAILRECEIVER 4290                
+POS_SESSION 7594                
+POS_SIDER 7799                
+POS_FILETYPES 4425                
+POS_DOWNLOADS 4711                
+POS_OS 4759                
+POS_BROWSER 4866                
+POS_SCREENSIZE 4965                
+POS_UNKNOWNREFERER 5039                
+POS_UNKNOWNREFERERBROWSER 5275                
+POS_ORIGIN 5420                
+POS_SEREFERRALS 5556                
+POS_PAGEREFS 5700                
+POS_SEARCHWORDS 5874                
+POS_KEYWORDS 6026                
+POS_MISC 2366                
+POS_ERRORS 6085                
+POS_CLUSTER 3493                
+POS_SIDER_404 6179                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230904150143 361 83945 15325282195022
+FirstTime 20230901042135
+LastTime 20230904150118
+LastUpdate 20230904150333 361 0 361 0 0
+TotalVisits 18                  
+TotalUnique 7                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 27                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 4 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 18 29 2603376 0 0 0
+1 0 0 0 0 0 0
+2 1 17 2270018 0 1 322
+3 0 0 0 0 2 22909
+4 3 30 18095478 0 0 0
+5 0 0 0 0 0 0
+6 7 25 2340948 1 1 0
+7 7 7 14298 0 0 0
+8 0 0 0 0 0 0
+9 0 1 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 7 18 2054658 0 0 0
+14 18 19 276606 0 0 0
+15 13 61 16423880 0 1 322
+16 12 20 8090184 0 2 644
+17 29 43 817970 1 1 0
+18 15 31 4173355 1 12 2026429
+19 3 3 31696 1 1 0
+20 7 11 311448 0 0 0
+21 35 40 968194 3 3 0
+22 31 31 984653 0 0 0
+23 32 33 1121824 1 1 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+gr 108 159 8761832
+us 101 136 8293049
+gb 17 37 16331891
+ru 10 63 23951220
+et 2 5 107324
+ie 0 4 921460
+za 0 15 2211810
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+facebookexternalhit/ 11 2026429 20230903183407 0
+Googlebot\-Image/ 1 22589 20230904031732 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+woff 3 168324 0 0
+php 1 236 0 0
+html 6 34224 0 0
+css 8 6144444 0 0
+Unknown 217 5066381 0 0
+svg 10 162440 0 0
+png 83 13155121 0 0
+js 14 25723446 0 0
+jpeg 11 4484667 0 0
+woff2 2 115544 0 0
+jpg 55 5520906 0 0
+map 9 2853 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 3
+win10 375 234
+Unknown 22 4
+android10 22 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 3
+mozilla 4 2
+Unknown 18 2
+chrome116.0.0.0 397 234
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+PostmanRuntime/7.32.3 20230903164209
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20230904022707
+cortex/1.0 20230903183445
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+PostmanRuntime/7.32.3 20230903164209
+cortex/1.0 20230903183445
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 23 49
+From1 0 0
+From2 0 0
+From3 0 3
+From4 215 367
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://localhost:8080 0 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+302 8 0
+404 1 320
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1
+/robots.txt 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 27
+79.130.36.91 108 137 4742934 20230904150118 20230904145106 /Master/DeleteRecord
+104.223.97.2 99 111 3321780 20230904145340 20230904142354 /Pages/Post
+51.159.153.147 17 37 16331891 20230903164337
+188.43.14.13 10 63 23951220 20230901135611
+197.156.76.21 2 5 107324 20230903164209
+167.248.133.125 1 2 58208 20230903231753
+162.142.125.226 1 2 58208 20230904022706
+173.252.95.5 0 1 415019 
+173.252.79.2 0 1 407697 
+31.13.127.11 0 1 399402 
+69.171.230.117 0 1 151524 
+69.63.189.6 0 1 230368 
+31.13.127.117 0 1 415019 
+173.252.95.10 0 1 399402 
+173.252.95.12 0 1 151524 
+66.220.149.11 0 1 90319 
+66.220.149.2 0 1 208642 
+31.13.103.120 0 1 90319 
+69.171.249.10 0 1 16720 
+31.13.127.23 0 1 16720 
+104.223.98.2 0 9 1936931 
+196.158.193.23 0 15 2211810 
+69.63.189.117 0 1 407697 
+173.252.107.116 0 1 208642 
+31.152.162.107 0 11 2026429 
+79.130.44.115 0 11 1992469 
+69.171.251.18 0 1 230368 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 3
+20230901 21 83 25912212 4
+20230903 171 228 24634879 9
+20230904 46 108 10031495 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+2mn-5mn 2
+15mn-30mn 1
+0s-30s 3
+1h+ 3
+5mn-15mn 3
+30mn-1h 1
+30s-2mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 32
+/Dashboard 51 1176913 5 1
+/Pages/ContestInformation 34 832727 1 2
+/Pages/Post 32 1424971 0 3
+/Master/LoginUser 25 1012 1 2
+/home 16 91264 3 0
+/Master/DeleteRecord 9 0 0 0
+/assets/js/toastr.js.map 9 2853 1 1
+/Master/DeleteCustomer 7 0 0 2
+/Pages/support 6 6336 0 1
+/ 6 34224 4 2
+/Pages/VehicleList 5 1045685 0 0
+/dashboard 5 104082 0 0
+/Pages/Subscription 5 37028 0 0
+/Pages/CustomerList 4 33421 1 0
+/Pages/Location 3 23946 0 0
+/assets/fonts/themify-icons.woff 3 168324 0 0
+/Pages/VehicleType 2 32550 0 0
+/Pages/Dashboard 2 6614 0 0
+/Pages/CreateVender 1 10364 0 0
+/Pages/CreateCustomer 1 1618 0 0
+/login 1 316 1 0
+/Pages/VenderUserList 1 5485 0 0
+/Pages/AdminUserList 1 3384 1 0
+/Pages/VehicleName 1 175576 0 0
+/assets/fonts/material-icons.woff2 1 38384 0 0
+/assets/fonts/font-awesome.woff2 1 77160 0 1
+/Master/EditBidPrice 1 0 0 0
+/Pages/addAdminUser 1 2226 0 0
+/Master/LoginUser.php 1 236 0 1
+/Pages/VehicleFuelType 1 7168 0 0
+/Master/DeleteAdminUser 1 0 0 0
+/Pages/VehicleCompany 1 43695 0 0
+END_SIDER

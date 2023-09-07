@@ -1,0 +1,376 @@
+Return-Path: <bounce-mc.us7_148529318.15135196-87a6c2fa6d@mail27.atl301.rsgsv.net>
+Delivered-To: info@broombids.com
+Received: from smd06.iphost.net
+	by smd06.iphost.net with LMTP
+	id 4BTYNzrjp2RdOQAAT4N6Cg
+	(envelope-from <bounce-mc.us7_148529318.15135196-87a6c2fa6d@mail27.atl301.rsgsv.net>)
+	for <info@broombids.com>; Fri, 07 Jul 2023 13:04:42 +0300
+Return-path: <bounce-mc.us7_148529318.15135196-87a6c2fa6d@mail27.atl301.rsgsv.net>
+Envelope-to: info@broombids.com
+Delivery-date: Fri, 07 Jul 2023 13:04:42 +0300
+Received: from mail27.atl301.rsgsv.net ([198.2.144.27]:56522)
+	by smd06.iphost.net with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <bounce-mc.us7_148529318.15135196-87a6c2fa6d@mail27.atl301.rsgsv.net>)
+	id 1qHiKR-0003dW-2Z
+	for info@broombids.com;
+	Fri, 07 Jul 2023 13:04:42 +0300
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mailchimpapp.net;
+	s=k2; t=1688724238; x=1688984738;
+	i=thomas=3Dfuturetravel.com@mailchimpapp.net;
+	bh=zrqdNJpYxwVnjJ5m4ur9+86xJcEzcLVxLzwseFT3lCk=;
+	h=Subject:From:Reply-To:To:Date:Message-ID:X-MC-User:Feedback-ID:
+	 List-ID:List-Unsubscribe:List-Unsubscribe-Post:Content-Type:
+	 MIME-Version:CC:Date:Subject:From;
+	b=Mi1VJwoNdmg4lu7d7UCZH40s5L0oLPaHa8irUPVtlmlEmunqRTIAWj5Onwxue2enl
+	 4FLPwQFVmFAxLU58yJQa799eBrCTSOtGegHhA3C8t66ASArgUPW/zf/hCJN3IxVjrV
+	 nYuRGe60tZbxXnhO48UV5gkhpupYDcPJNEEOHfe2ncjyV1WnJzFR/FK+L+COLGzhLe
+	 +RTmlVmK+0qm7SPd9RgJyh3v30HBv+I8d73Sr5XKWw1VeEDG2ULaQCGoeFfq6aQfNR
+	 1B9AxSRUxo29RNQU09uKKzKCcag0/H0hdn3AcqSymZzh4FqMFVlH4Dh6r4sqwGlqKw
+	 fakFhHCYnpxPw==
+Received: from localhost (localhost [127.0.0.1])
+	by mail27.atl301.rsgsv.net (Mailchimp) with ESMTP id 4Qy8B62rd5zddYM
+	for <info@broombids.com>; Fri,  7 Jul 2023 10:03:58 +0000 (GMT)
+Subject: =?utf-8?Q?Broombids=20=2F=20FutureTravel=20Summit?=
+From: =?utf-8?Q?Thomas=20|=20FutureTravel?= <thomas@futuretravel.com>
+Reply-To: =?utf-8?Q?Thomas=20|=20FutureTravel?= <thomas@futuretravel.com>
+To: =?utf-8?Q?there?= <info@broombids.com>
+Date: Fri,  7 Jul 2023 10:03:54 +0000
+Message-ID: <d81da9c3f887a1be7b9cb58bd.87a6c2fa6d.20230707100348.220bc604f8.2827f8b9@mail27.atl301.rsgsv.net>
+X-Mailer: Mailchimp Mailer - **CID220bc604f887a6c2fa6d**
+X-Campaign: mailchimpd81da9c3f887a1be7b9cb58bd.220bc604f8
+X-campaignid: mailchimpd81da9c3f887a1be7b9cb58bd.220bc604f8
+X-Report-Abuse: Please report abuse for this campaign here: https://mailchimp.com/contact/abuse/?u=d81da9c3f887a1be7b9cb58bd&id=220bc604f8&e=87a6c2fa6d
+X-MC-User: d81da9c3f887a1be7b9cb58bd
+Feedback-ID: 148529318:148529318.15135196:us7:mc
+List-ID: d81da9c3f887a1be7b9cb58bdmc list <d81da9c3f887a1be7b9cb58bd.518047.list-id.mcsv.net>
+X-Accounttype: pd
+List-Unsubscribe: <https://futuretravel.us7.list-manage.com/unsubscribe?u=d81da9c3f887a1be7b9cb58bd&id=454b1d112d&e=87a6c2fa6d&c=220bc604f8>, <mailto:unsubscribe-mc.us7_d81da9c3f887a1be7b9cb58bd.220bc604f8-87a6c2fa6d@unsubscribe.mailchimpapp.net?subject=unsubscribe>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_1000251894"
+MIME-Version: 1.0
+X-Spam-Status: No, score=0.2
+X-Spam-Score: 2
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "smd06.iphost.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi there, We're currently accepting applications for the Pitch
+    Competition (https://futuretravel.com/pitch-2023/) at this year's FutureTravel
+    Summit, which will be held on October 27 in Barcelona. I just came across
+    Broombids and thought this could be an interesting opportunity for you. In
+    case you haven't applied yet, you can do so now. The event will gather over
+    400 travel innovators & startu [...] 
+ Content analysis details:   (0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: list-manage.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76
+                             chars
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+ -0.0 DKIMWL_WL_MED          DKIMwl.org - Medium trust sender
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_1000251894
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Hi there=2C
+
+We're currently accepting applications for the Pitch Competition (https://=
+futuretravel.com/pitch-2023/) at this year's FutureTravel Summit=2C which=
+ will be held on October 27 in Barcelona.
+
+I just came across Broombids and thought this could be an interesti=
+ng opportunity for you. In case you haven't applied yet=2C you can do so n=
+ow. The event will gather over 400 travel innovators & startups=2C investo=
+rs=2C industry leaders=2C and influencers from across the globe.
+
+It would be nice to meet you at this year=E2=80=99s FutureTravel Summit. A=
+nyways: Have a nice weekend!
+
+Best regards=2C
+
+Thomas
+FutureTravel
+Carrer De L'Encarnacio 103 2-2
+Barcelona=2C Barcelona 08024
+Spain
+Want to change how you receive my emails? You can update your preferences=
+ (https://futuretravel.us7.list-manage.com/profile?u=3Dd81da9c3f887a1be7b9=
+cb58bd&id=3D454b1d112d&e=3D87a6c2fa6d&c=3D220bc604f8) or unsubscribe (https:=
+//futuretravel.us7.list-manage.com/unsubscribe?u=3Dd81da9c3f887a1be7b9cb58=
+bd&id=3D454b1d112d&e=3D87a6c2fa6d&c=3D220bc604f8)
+--_----------=_MCPart_1000251894
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn=
+:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:of=
+fice"><head>
+<!--[if gte mso 15]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<meta charset=3D"UTF-8" />
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />
+<meta name=3D"viewport" content=3D"width=3Ddevice-width=2C initial-scale=
+=3D1" />
+<title>*|MMERGE2|* / FutureTravel Summit</title>
+<link rel=3D"stylesheet" href=3D"https://fonts.googleapis.com/css?family=
+=3DRoboto:400=2C400i=2C700=2C700i=2C900=2C900i" /><style>          img{-ms=
+-interpolation-mode:bicubic;}
+          table=2C td{mso-table-lspace:0pt; mso-table-rspace:0pt;}
+          .mceStandardButton=2C .mceStandardButton td=2C .mceStandardButto=
+n td a{mso-hide:all !important;}
+          p=2C a=2C li=2C td=2C blockquote{mso-line-height-rule:exactly;}
+          p=2C a=2C li=2C td=2C body=2C table=2C blockquote{-ms-text-size-=
+adjust:100%; -webkit-text-size-adjust:100%;}
+          @media only screen and (max-width: 480px){
+            body=2C table=2C td=2C p=2C a=2C li=2C blockquote{-webkit-text=
+-size-adjust:none !important;}
+          }
+          .mcnPreviewText{display: none !important;}
+          .bodyCell{margin:0 auto; padding:0; width:100%;}
+          .ExternalClass=2C .ExternalClass p=2C .ExternalClass td=2C .Exte=
+rnalClass div=2C .ExternalClass span=2C .ExternalClass font{line-height:10=
+0%;}
+          .ReadMsgBody{width:100%;} .ExternalClass{width:100%;}
+          a[x-apple-data-detectors]{color:inherit !important; text-decora=
+tion:none !important; font-size:inherit !important; font-family:inherit !i=
+mportant; font-weight:inherit !important; line-height:inherit !important;}
+            body{height:100%; margin:0; padding:0; width:100%; background:=
+ #ffffff;}
+            p{margin:0; padding:0;}
+            table{border-collapse:collapse;}
+            td=2C p=2C a{word-break:break-word;}
+            h1=2C h2=2C h3=2C h4=2C h5=2C h6{display:block; margin:0; padd=
+ing:0;}
+            img=2C a img{border:0; height:auto; outline:none; text-decorat=
+ion:none;}
+            a[href^=3D"tel"]=2C a[href^=3D"sms"]{color:inherit; cursor:d=
+efault; text-decoration:none;}
+            li p {margin: 0 !important;}
+            .ProseMirror a {
+                pointer-events: none;
+            }
+            @media only screen and (max-width: 480px){
+                body{width:100% !important; min-width:100% !important; }
+                body.mobile-native {
+                    -webkit-user-select: none; user-select: none; transiti=
+on: transform 0.2s ease-in; transform-origin: top center;
+                }
+                body.mobile-native.selection-allowed a=2C body.mobile-nati=
+ve.selection-allowed .ProseMirror {
+                    user-select: auto;
+                    -webkit-user-select: auto;
+                }
+                colgroup{display: none;}
+                img{height: auto !important;}
+                .mceWidthContainer{max-width: 660px !important;}
+                .mceColumn{display: block !important; width: 100% !importa=
+nt;}
+                .mceColumn-forceSpan{display: table-cell !important; width=
+: auto !important;}
+                .mceBlockContainer{padding-right:16px !important; padding-=
+left:16px !important;}
+                .mceSpacing-24{padding-right:16px !important; padding-left=
+:16px !important;}
+                .mceFooterSection .mceText=2C .mceFooterSection .mceText p=
+{font-size: 16px !important; line-height: 140% !important;}
+                .mceText=2C .mceText p{font-size: 16px !important; line-he=
+ight: 140% !important;}
+                h1{font-size: 30px !important; line-height: 120% !importan=
+t;}
+                h2{font-size: 26px !important; line-height: 120% !importan=
+t;}
+                h3{font-size: 20px !important; line-height: 125% !importan=
+t;}
+                h4{font-size: 18px !important; line-height: 125% !importan=
+t;}
+                .ProseMirror {
+                    -webkit-user-modify: read-write-plaintext-only;
+                    user-modify: read-write-plaintext-only;
+                }
+            }
+            @media only screen and (max-width: 640px){
+                .mceClusterLayout td{padding: 4px !important;}
+            }
+            div[contenteditable=3D"true"] {outline: 0;}
+            .ProseMirror .empty-node=2C .ProseMirror:empty {position: rela=
+tive;}
+            .ProseMirror .empty-node::before=2C .ProseMirror:empty::before=
+ {
+                position: absolute;
+                left: 0;
+                right: 0;
+                color: rgba(0=2C0=2C0=2C0.2);
+                cursor: text;
+            }
+            .ProseMirror .empty-node:hover::before=2C .ProseMirror:empty:h=
+over::before {
+                color: rgba(0=2C0=2C0=2C0.3);
+            }
+            .ProseMirror h1.empty-node::before {
+                content: 'Heading';
+            }
+            .ProseMirror p.empty-node:only-child::before=2C .ProseMirror:e=
+mpty::before {
+                content: 'Start typing...';
+            }
+            a .ProseMirror p.empty-node::before=2C a .ProseMirror:empty::b=
+efore {
+                content: '';
+            }
+            .mceText=2C .ProseMirror {
+                white-space: pre-wrap;
+            }
+body=2C #bodyTable { background-color: rgb(255=2C 255=2C 255); }.mceText=
+=2C .mceLabel { font-family: Roboto=2C "Helvetica Neue"=2C Helvetica=2C Ar=
+ial=2C sans-serif; }.mceText=2C .mceLabel { color: rgb(51=2C 51=2C 51); }.=
+mceSpacing-12 label { margin-bottom: 12px; }.mceSpacing-12 input { margin-=
+bottom: 12px; }.mceSpacing-12 .mceInput + .mceErrorMessage { margin-top: -=
+6px; }.mceSpacing-24 label { margin-bottom: 24px; }.mceSpacing-24 input {=
+ margin-bottom: 24px; }.mceSpacing-24 .mceInput + .mceErrorMessage { margi=
+n-top: -12px; }.mceInput { background-color: transparent; border: 2px soli=
+d rgb(208=2C 208=2C 208); width: 60%; color: rgb(77=2C 77=2C 77); display:=
+ block; }.mceInput[type=3D"radio"]=2C .mceInput[type=3D"checkbox"] { flo=
+at: left; margin-right: 12px; display: inline; width: auto !important; }.m=
+ceLabel > .mceInput { margin-bottom: 0px; margin-top: 2px; }.mceLabel { di=
+splay: block; }.mceText p { color: rgb(51=2C 51=2C 51); font-family: Robot=
+o=2C "Helvetica Neue"=2C Helvetica=2C Arial=2C sans-serif; font-size: 16px=
+; font-weight: normal; line-height: 1.5; text-align: left; letter-spacing:=
+ 0px; direction: ltr; }.mceText a { color: rgb(0=2C 0=2C 0); font-style: n=
+ormal; font-weight: normal; text-decoration: underline; direction: ltr; }
+@media only screen and (max-width: 480px) {
+            .mceText p { font-size: 16px !important; line-height: 1.5 !imp=
+ortant; }
+          }
+@media only screen and (max-width: 480px) {
+            .mceBlockContainer { padding-left: 16px !important; padding-ri=
+ght: 16px !important; }
+          }
+#dataBlockId-71 p=2C #dataBlockId-71 h1=2C #dataBlockId-71 h2=2C #dataBloc=
+kId-71 h3=2C #dataBlockId-71 h4=2C #dataBlockId-71 ul { text-align: start;=
+ }</style></head>
+<body>
+<!--
+-->
+<center>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"100%" wi=
+dth=3D"100%" id=3D"bodyTable" style=3D"background-color: rgb(255=2C 255=2C=
+ 255);">
+<tbody><tr>
+<td class=3D"bodyCell" align=3D"center" valign=3D"top">
+<table id=3D"root" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%"><tbody data-block-id=3D"72" class=3D"mceWrapper"><tr><td align=
+=3D"center" valign=3D"top" class=3D"mceWrapperOuter"><!--[if (gte mso 9)|=
+(IE)]><table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"660" style=3D"width:660px;"><tr><td><![endif]--><table bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"max=
+-width:660px" role=3D"presentation"><tbody><tr><td style=3D"background-col=
+or:#ffffff;background-position:center;background-repeat:no-repeat;backgrou=
+nd-size:cover" class=3D"mceWrapperInner" valign=3D"top"><table align=3D"ce=
+nter" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=
+=3D"presentation" data-block-id=3D"14"><tbody><tr class=3D"mceRow"><td sty=
+le=3D"background-position:center;background-repeat:no-repeat;background-si=
+ze:cover" valign=3D"top"><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" role=3D"presentation"><tbody><tr><td style=3D"paddin=
+g-top:0;padding-bottom:0" class=3D"mceColumn" data-block-id=3D"-4" valign=
+=3D"top" colspan=3D"12" width=3D"100%"><table border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" width=3D"100%" role=3D"presentation"><tbody><tr><td s=
+tyle=3D"padding-top:10px;padding-bottom:0;padding-right:21px;padding-left:=
+21px" class=3D"mceBlockContainer" valign=3D"top"><div data-block-id=3D"70"=
+ class=3D"mceText" id=3D"dataBlockId-70" style=3D"width:100%"><p><span sty=
+le=3D"color:#333333;"><span style=3D"font-size: 15px">Hi there=
+=2C</span></span></p><p><br /></p><p><span style=3D"color:#333333;"><span=
+ style=3D"font-size: 15px">We're currently accepting applications for the=
+ </span></span><a href=3D"https://futuretravel.us7.list-manage.com/track/c=
+lick?u=3Dd81da9c3f887a1be7b9cb58bd&id=3Dda909a7047&e=3D87a6c2fa6d" target=
+=3D"_blank"><span style=3D"font-size: 15px">Pitch Competition</span></a><s=
+pan style=3D"color:#333333;"><span style=3D"font-size: 15px"> at this year=
+'s FutureTravel Summit=2C which will be held on October 27 in Barcelona. <=
+/span></span></p><p><br /></p><p><span style=3D"color:#333333;"><span styl=
+e=3D"font-size: 15px">I just came across Broombids and thought this=
+ could be an interesting opportunity for you. In case you haven't applied=
+ yet=2C you can do so now. The event will gather over 400 travel innovator=
+s &amp; startups=2C investors=2C industry leaders=2C and influencers from=
+ across the globe.</span></span></p><p><br /></p><p><span style=3D"color:#=
+333333;"><span style=3D"font-size: 15px">It would be nice to meet you at t=
+his year=E2=80=99s FutureTravel Summit. Anyways: Have a nice weekend! </sp=
+an></span></p><p><br /></p><p><span style=3D"color:#333333;"><span style=
+=3D"font-size: 15px">Best regards=2C</span></span></p><p class=3D"last-chi=
+ld"><span style=3D"color:#333333;"><span style=3D"font-size: 15px">Thomas<=
+/span></span></p></div></td></tr><tr><td style=3D"padding-top:8px;padding-=
+bottom:8px;padding-right:8px;padding-left:8px" class=3D"mceLayoutContainer=
+" valign=3D"top"><table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" width=3D"100%" role=3D"presentation" data-block-id=3D"13"=
+ id=3D"section_4403f96d50cf7e92c705e1bea22ce9a0" class=3D"mceFooterSection=
+"><tbody><tr class=3D"mceRow"><td style=3D"background-position:center;back=
+ground-repeat:no-repeat;background-size:cover" valign=3D"top"><table borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"12" width=3D"100%" role=3D"presen=
+tation"><tbody><tr><td style=3D"padding-top:0;padding-bottom:0;margin-bott=
+om:12px" class=3D"mceColumn" data-block-id=3D"-3" valign=3D"top" colspan=
+=3D"12" width=3D"100%"><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" role=3D"presentation"><tbody><tr><td style=3D"paddin=
+g-top:1px;padding-bottom:10px;padding-right:16px;padding-left:12px" class=
+=3D"mceBlockContainer" align=3D"left" valign=3D"top"><div data-block-id=3D=
+"71" class=3D"mceText" id=3D"dataBlockId-71" style=3D"width:100%"><p class=
+=3D"last-child"><span style=3D"color:#4d4d4d;"><span style=3D"font-size: 1=
+1px">
+<div class=3D"vcard"><span class=3D"org fn">FutureTravel</span><div class=
+=3D"adr"><div class=3D"street-address">Carrer De L'Encarnacio 103 2-2</div=
+><span class=3D"locality">Barcelona</span>=2C <span class=3D"region">Barce=
+lona</span> <span class=3D"postal-code">08024</span> <div class=3D"country=
+-name">Spain</div></div><br><a href=3D"https://futuretravel.us7.list-manag=
+e.com/vcard?u=3Dd81da9c3f887a1be7b9cb58bd&id=3D454b1d112d" class=3D"hcard-=
+download">Add us to your address book</a></div>
+<br /></span><span style=3D"font-size: 10px">Want to change how you receiv=
+e my emails? You can </span></span><a href=3D"https://futuretravel.us7.lis=
+t-manage.com/profile?u=3Dd81da9c3f887a1be7b9cb58bd&id=3D454b1d112d&e=3D87a6c2fa6d&c=3D220bc604f8"><span style=3D"color:#4d4d4d;"><span style=3D"font-s=
+ize: 10px">update your preferences</span></span></a><span style=3D"color:#=
+4d4d4d;"><span style=3D"font-size: 10px"> or </span></span><a href=3D"http=
+s://futuretravel.us7.list-manage.com/unsubscribe?u=3Dd81da9c3f887a1be7b9cb=
+58bd&id=3D454b1d112d&e=3D87a6c2fa6d&c=3D220bc604f8"><span style=3D"color:#4d=
+4d4d;"><span style=3D"font-size: 10px">unsubscribe</span></span></a></p></=
+div></td></tr><tr><td class=3D"mceLayoutContainer" align=3D"left" valign=
+=3D"top"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" width=3D"100%" role=3D"presentation" data-block-id=3D"-2"><tbody><=
+tr class=3D"mceRow"><td style=3D"background-position:center;background-rep=
+eat:no-repeat;background-size:cover;padding-top:0px;padding-bottom:0px" va=
+lign=3D"top"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"24" widt=
+h=3D"100%" role=3D"presentation"><tbody></tbody></table></td></tr></tbody>=
+</table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tb=
+ody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr>=
+</tbody></table></td></tr></tbody></table><!--[if (gte mso 9)|(IE)]></td>=
+</tr></table><![endif]--></td></tr></tbody></table>
+</td>
+</tr>
+</tbody></table>
+</center>
+<img src=3D"https://futuretravel.us7.list-manage.com/track/open.php?u=3Dd8=
+1da9c3f887a1be7b9cb58bd&id=3D220bc604f8&e=3D87a6c2fa6d" height=3D"1" widt=
+h=3D"1" alt=3D""></body></html>
+--_----------=_MCPart_1000251894--

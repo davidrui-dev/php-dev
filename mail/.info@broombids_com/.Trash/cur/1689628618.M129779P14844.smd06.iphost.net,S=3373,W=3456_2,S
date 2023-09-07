@@ -1,0 +1,83 @@
+Return-Path: <mmorita@icrr.u-tokyo.ac.jp>
+Delivered-To: info@broombids.com
+Received: from smd06.iphost.net
+	by smd06.iphost.net with LMTP
+	id WIXuBsqvtWT8OQAAT4N6Cg
+	(envelope-from <mmorita@icrr.u-tokyo.ac.jp>)
+	for <info@broombids.com>; Tue, 18 Jul 2023 00:16:58 +0300
+Return-path: <mmorita@icrr.u-tokyo.ac.jp>
+Envelope-to: info@broombids.com
+Delivery-date: Tue, 18 Jul 2023 00:16:58 +0300
+Received: from icrmail-e1.icrr.u-tokyo.ac.jp ([157.82.232.26]:53180)
+	by smd06.iphost.net with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <mmorita@icrr.u-tokyo.ac.jp>)
+	id 1qLVaR-0004Xd-0u
+	for info@broombids.com;
+	Tue, 18 Jul 2023 00:16:58 +0300
+Received: from icrr.u-tokyo.ac.jp (icrwmail1.icrr.u-tokyo.ac.jp [157.82.232.101])
+	by icrmail-e1.icrr.u-tokyo.ac.jp (Postfix) with SMTP id 4CF9E10D1FDD5;
+	Tue, 18 Jul 2023 05:21:23 +0900 (JST)
+MIME-Version: 1.0
+Message-ID: <20230717202123.0002492F.0118@icrr.u-tokyo.ac.jp>
+Date: Tue, 18 Jul 2023 05:21:23 +0900
+From: "GULF lNVEST GROUP" <mmorita@icrr.u-tokyo.ac.jp>
+To: <wire.payment@BlLL.com>
+Reply-To: <info@gulfinvestqroup.com>
+Subject:  REF: REQUEST FOR INVESTMENT COLLABORATION
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MAILER: Active! mail
+X-KLMS-Rule-ID: 5
+X-KLMS-Message-Action: skipped
+X-KLMS-AntiSpam-Status: not scanned, disabled by settings
+X-KLMS-AntiSpam-Interceptor-Info: not scanned
+X-KLMS-AntiPhishing: not scanned, disabled by settings
+X-KLMS-AntiVirus: Kaspersky Security for Linux Mail Server, version 8.0.3.30, not scanned, disabled by settings
+X-KLMS-AntiVirus-Status: NotScanned, disabled by settings, skipped
+X-Spam-Status: No, score=2.5
+X-Spam-Score: 25
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "smd06.iphost.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  REF: REQUEST FOR INVESTMENT COLLABORATION Attn: We give Personal
+    and Corporate Loan at 2.5% Interest Rate for a duration of 10 years. We pay
+    1% commission to brokers or friends who introduce project owners for finance
+    or other opportunities. 
+ Content analysis details:   (2.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.5 SUBJ_ALL_CAPS          Subject is all capitals
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.0 KAM_DMARC_STATUS       Test Rule for DKIM or SPF Failure with Strict
+                             Alignment
+  0.0 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+X-Spam-Flag: NO
+
+
+
+REF: REQUEST FOR INVESTMENT COLLABORATION
+
+Attn:
+
+We give Personal and Corporate Loan at 2.5% Interest Rate for a 
+duration of 10 years. We pay 1% commission to brokers or friends
+who introduce project owners for finance or other opportunities.
+
+Also open for any (JV) Joint venture partnership.
+
+Our company will send you more full details on our next email.
+
+
+Yours loyally,
+Mr. Saad Almuhannadi
+Gulf Investments Group
+
+

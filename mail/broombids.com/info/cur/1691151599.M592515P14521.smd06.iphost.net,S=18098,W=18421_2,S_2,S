@@ -1,0 +1,323 @@
+Return-Path: <info@pelatologio.gr>
+Delivered-To: info@broombids.com
+Received: from smd06.iphost.net
+	by smd06.iphost.net with LMTP
+	id ALmhIu/szGS5OAAAT4N6Cg
+	(envelope-from <info@pelatologio.gr>)
+	for <info@broombids.com>; Fri, 04 Aug 2023 15:19:59 +0300
+Return-path: <info@pelatologio.gr>
+Envelope-to: info@broombids.com
+Delivery-date: Fri, 04 Aug 2023 15:19:59 +0300
+Received: from mail.pelatologio.gr ([77.81.244.108]:34257)
+	by smd06.iphost.net with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <info@pelatologio.gr>)
+	id 1qRtmh-0003qx-1X
+	for info@broombids.com;
+	Fri, 04 Aug 2023 15:19:59 +0300
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=pelatologio.gr; s=default; h=In-Reply-To:To:References:Cc:Subject:From:
+	MIME-Version:Date:Message-ID:Content-Type:Sender:Reply-To:
+	Content-Transfer-Encoding:Content-ID:Content-Description:Resent-Date:
+	Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=mwpljMMPCGrkv7stYkZxFy6C/XJsI3o5VVHqAJc/01w=; b=Sb8Hy1zTNUX8ESdxNkrbv6imq9
+	aAMye3Ohr+gBAISHhHQJGsgxAZrYNTfWNdmCxqY5/YZr+HOWIOwqAgFptmnAf9tcwi0EjF9eQbzYv
+	580MLBueKqps/HwB7E5L90ZbIVePIjEVu1BDoZ0jUtZHGuZ/glhY6tDP2rXXfMpIof7nvxYw8CaV6
+	jQJC3OQeMFAiviy/8lmyb37bvHOKU89kcYmei81YSdDez1m0MU4DY3dg3Rh1SeE43aPTbtVb8amRX
+	Onz4YxOoG1cnKwolD7ypXzeHDRto1DgE9lZHSFRXlSCzIJelZsU9qxddb8f9KVn8VeuTvBTftrOnt
+	akK8bsaw==;
+Received: from [5.203.255.130] (port=2973 helo=[192.168.82.63])
+	by srv4.websystem.gr with esmtpsa  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <info@pelatologio.gr>)
+	id 1qRtm1-00CIOk-07;
+	Fri, 04 Aug 2023 15:19:15 +0300
+Content-Type: multipart/alternative;
+ boundary="------------gUcc02JL0iGHtE4jfMWJf6Ag"
+Message-ID: <2fec61ea-afa3-297a-f13d-1787c0a556c0@pelatologio.gr>
+Date: Fri, 4 Aug 2023 15:19:13 +0300
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101
+ Thunderbird/102.14.0
+From: Oxygen Pelatologio <info@pelatologio.gr>
+Subject: =?UTF-8?B?T1hZR0VOIFBFTEFUT0xPR0lPIC0gzqDOoc6fzqPOps6fzqHOkSDOl86b?=
+ =?UTF-8?B?zpXOms6kzqHOn86dzpnOms6XzqMgzqTOmc6czp/Om86fzpPOl86jzpfOow==?=
+Cc: Oxygen Pelatologio <info@pelatologio.gr>
+References: <9a40de90-09d2-f43f-9290-1298c7b5f77d@pelatologio.gr>
+Content-Language: en-US
+To: info@broombids.com
+In-Reply-To: <9a40de90-09d2-f43f-9290-1298c7b5f77d@pelatologio.gr>
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - srv4.websystem.gr
+X-AntiAbuse: Original Domain - broombids.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - pelatologio.gr
+X-Get-Message-Sender-Via: srv4.websystem.gr: authenticated_id: info@pelatologio.gr
+X-Authenticated-Sender: srv4.websystem.gr: info@pelatologio.gr
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Spam-Status: No, score=0.3
+X-Spam-Score: 3
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "smd06.iphost.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Καλησπέρα σας, σας αποστέλλω την
+    προσφορά σχετικά με το *πακέτο **PRO***που ικανοποιεί
+    τις ανάγκες τις επιχείρησής σας και το οπ
+    [...] 
+ Content analysis details:   (0.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: pelatologio.gr]
+  0.5 SUBJ_ALL_CAPS          Subject is all capitals
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+--------------gUcc02JL0iGHtE4jfMWJf6Ag
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Καλησπέρα σας,
+
+σας αποστέλλω την προσφορά σχετικά με το *πακέτο **PRO***που ικανοποιεί 
+τις ανάγκες τις επιχείρησής σας και το οποίο περιλαμβάνει υπηρεσίες 
+παροχής υπηρεσιών και πώληση προϊόντων, αποθήκες, δελτία αποστολής και 
+επιπλέον αναφορές.
+_Το ετήσιο κόστος είναι 238.80 + ΦΠΑ (19.90/μήνα), δηλαδή 296.11€ τελική 
+τιμή. _
+
+__
+
+Θα πρέπει πρώτα να κάνετε την εγγραφή σας δωρεάν από εδώ 
+<https://www.pelatologio.gr/pricing.php?id=5&lang=1.>
+
+Χωρίς *καμία *επιπλέον χρέωση παρέχεται η _τεχνική υποστήριξη_, καθώς 
+και όλες οι_αναβαθμίσεις_ της εφαρμογής μας. Το πακέτο θα περιλαμβάνει 
+αυτόματη υποβολή των παραστατικών στο myDATA.
+
+Στην περίπτωση που αποδέχεστε την προσφορά, παρακαλώ όπως μας 
+αποστείλετε το αποδεικτικό της κατάθεσης με απαντητικό email, όταν 
+ολοκληρώσετε την διαδικασία της αγοράς, ώστε να ενεργοποιηθεί η συνδρομή.
+
+Τα στοιχεία του τραπεζικού λογαριασμού είναι:
+ΙΒΑΝ: GR54 0172 7510 0057 5109 9950 491 (ΤΡΑΠΕΖΑ ΠΕΙΡΑΙΩΣ)
+ΟΝΟΜΑ: CLOUDSERVICESI.K.E.
+
+_Σαν αιτιολογία βάλτε το όνομά σας και το ΑΦΜ σας._
+
+
+Διαφορετικά μπορείτε να προχωρήσετε σε εξόφληση με κάρτα στο παρακάτω link:
+
+Oxygen Pelatologio - Απόκτηση Συνδρομής 
+<https://app.pelatologio.gr/pay/1a0f9fc8aedf70c1e71b0835d4245407>
+
+
+Μπορείτε να καλέσετε τις εργάσιμες ημέρες και ώρες στο *215.215.4433* 
+ώστε να σας λύσουμε ότι απορίες μπορεί να έχετε.__
+
+_/Επιπλέον σας ενημερώνουμε ότι υπεύθυνος επικοινωνίας για τεχνικές 
+απορίες είναι ο κος Σαραντόγλου Ηλίας και το e-mail επικοινωνίας είναι: 
+isaran/_/_toglou@oxygen.gr_/
+
+
+Στη διάθεσή σας.
+
+Κωνσταντίνα Πλουμή
+
+*Oxygen****Pelatologio*
+--------------------------
+www.pelatologio.gr <www.pelatologio.gr>
+*215.215.4433*
+
+
+--------------gUcc02JL0iGHtE4jfMWJf6Ag
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <div class="moz-forward-container">
+      <p class="MsoNormal"
+        style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+        line-height:normal"><span
+          style="font-size:12.0pt;font-family:&quot;Times New
+          Roman&quot;,serif; mso-fareast-font-family:&quot;Times New
+          Roman&quot;;mso-ansi-language:EL" lang="EL">Καλησπέρα σας,</span></p>
+      <p class="MsoNormal"
+        style="mso-margin-top-alt:auto;margin-bottom:12.0pt;
+        line-height:normal"><span
+          style="font-size:12.0pt;font-family:&quot;Times New
+          Roman&quot;,serif; mso-fareast-font-family:&quot;Times New
+          Roman&quot;;mso-ansi-language:EL" lang="EL">σας αποστέλλω την
+          προσφορά σχετικά με το <b>πακέτο </b></span><b><span
+            style="font-size:12.0pt; font-family:&quot;Times New
+            Roman&quot;,serif;mso-fareast-font-family:&quot;Times New
+            Roman&quot;">PRO</span></b><b><span
+            style="font-size:12.0pt;font-family:&quot;Times New
+            Roman&quot;,serif;mso-fareast-font-family: &quot;Times New
+            Roman&quot;;mso-ansi-language:EL"> </span></b><span
+          style="font-size:12.0pt;font-family:&quot;Times New
+          Roman&quot;,serif;mso-fareast-font-family: &quot;Times New
+          Roman&quot;;mso-ansi-language:EL" lang="EL">που ικανοποιεί τις
+          ανάγκες τις επιχείρησής σας και το οποίο περιλαμβάνει
+          υπηρεσίες παροχής υπηρεσιών και πώληση προϊόντων, αποθήκες,
+          δελτία αποστολής και επιπλέον αναφορές.<br>
+          <u>Το ετήσιο κόστος είναι 238.80 + ΦΠΑ (19.90/μήνα), δηλαδή
+            296.11€ τελική τιμή. </u></span></p>
+      <span style="font-size:12.0pt;font-family:&quot;Times New
+        Roman&quot;,serif; mso-fareast-font-family:&quot;Times New
+        Roman&quot;;mso-ansi-language:EL" lang="EL"></span><u><span
+          style="font-size:12.0pt;font-family:&quot;Times New
+          Roman&quot;,serif; mso-fareast-font-family:&quot;Times New
+          Roman&quot;;mso-ansi-language:EL" lang="EL"></span></u>
+      <p class="MsoNormal"
+        style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+        line-height:normal"><span
+          style="font-size:12.0pt;font-family:&quot;Times New
+          Roman&quot;,serif; mso-fareast-font-family:&quot;Times New
+          Roman&quot;;mso-ansi-language:EL" lang="EL">Θα πρέπει πρώτα να
+          κάνετε την εγγραφή </span><span
+          style="font-size:12.0pt;font-family:&quot;Times New
+          Roman&quot;,serif; mso-fareast-font-family:&quot;Times New
+          Roman&quot;;mso-ansi-language:EL" lang="EL"><span
+            style="font-size:12.0pt;font-family:&quot;Times New
+            Roman&quot;,serif; mso-fareast-font-family:&quot;Times New
+            Roman&quot;;mso-ansi-language:EL" lang="EL">σας </span>δωρεάν
+          από <a moz-do-not-send="true"
+            href="https://www.pelatologio.gr/pricing.php?id=5&amp;lang=1.">εδώ</a></span></p>
+      <p class="MsoNormal"
+        style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+        line-height:normal"><span
+          style="font-size:12.0pt;font-family:&quot;Times New
+          Roman&quot;,serif; mso-fareast-font-family:&quot;Times New
+          Roman&quot;;mso-ansi-language:EL" lang="EL">Χωρίς <b>καμία </b>επιπλέον
+          χρέωση παρέχεται η <u>τεχνική υποστήριξη</u>, καθώς και όλες
+          οι<u> αναβαθμίσεις</u> της εφαρμογής μας. Το πακέτο θα
+          περιλαμβάνει αυτόματη υποβολή των παραστατικών στο </span><span
+          style="font-size:12.0pt;font-family:&quot;Times New
+          Roman&quot;,serif;mso-fareast-font-family: &quot;Times New
+          Roman&quot;">myDATA</span><span style="font-size:12.0pt;
+          font-family:&quot;Times New
+          Roman&quot;,serif;mso-fareast-font-family:&quot;Times New
+          Roman&quot;; mso-ansi-language:EL" lang="EL">.</span></p>
+      <span style="font-size:12.0pt;font-family:&quot;Times New
+        Roman&quot;,serif;mso-fareast-font-family: &quot;Times New
+        Roman&quot;"></span><span
+        style="font-size:12.0pt;font-family:&quot;Times New
+        Roman&quot;,serif;mso-fareast-font-family: &quot;Times New
+        Roman&quot;;mso-ansi-language:EL" lang="EL"></span>
+      <p><span lang="EL">Στην περίπτωση που αποδέχεστε την προσφορά,
+          παρακαλώ όπως μας αποστείλετε το αποδεικτικό της κατάθεσης με
+          απαντητικό </span><span>email</span><span lang="EL">, όταν
+          ολοκληρώσετε την διαδικασία της αγοράς, ώστε να ενεργοποιηθεί
+          η συνδρομή.</span><br>
+        <span lang="EL"></span> </p>
+      <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal"><span
+          lang="EL"> Τα στοιχεία του τραπεζικού λογαριασμού είναι:<br>
+          ΙΒΑΝ: </span><span>GR</span><span lang="EL">54 0172 7510 0057
+          5109 9950 491 (ΤΡΑΠΕΖΑ ΠΕΙΡΑΙΩΣ)<br>
+          ΟΝΟΜΑ: </span><span>CLOUD</span><span> </span><span>SERVICES</span><span>
+        </span><span>I</span><span lang="EL">.</span><span>K</span><span
+          lang="EL">.</span><span>E</span><span lang="EL">.<br>
+          <br>
+        </span></p>
+      <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal"><span
+          lang="EL"><u> Σαν αιτιολογία βάλτε το όνομά σας και το ΑΦΜ
+            σας.</u> </span></p>
+      <p class="MsoNormal"><span lang="EL"><br>
+          Διαφορετικά μπορείτε να προχωρήσετε σε εξόφληση με κάρτα στο
+          παρακάτω link: <br>
+        </span></p>
+      <p class="MsoNormal"><span lang="EL"><a moz-do-not-send="true"
+            href="https://app.pelatologio.gr/pay/1a0f9fc8aedf70c1e71b0835d4245407">Oxygen
+            Pelatologio - Απόκτηση Συνδρομής</a><br>
+        </span></p>
+      <div class="moz-cite-prefix"><br>
+      </div>
+      <p class="MsoNormal"><span
+          style="font-size:12.0pt;line-height:107%;
+          font-family:&quot;Times New
+          Roman&quot;,serif;mso-fareast-font-family:&quot;Times New
+          Roman&quot;; mso-ansi-language:EL" lang="EL"></span></p>
+      <p class="MsoNormal"><span
+          style="font-size:12.0pt;line-height:107%;
+          font-family:&quot;Times New
+          Roman&quot;,serif;mso-fareast-font-family:&quot;Times New
+          Roman&quot;; mso-ansi-language:EL" lang="EL">Μπορείτε να
+          καλέσετε τις εργάσιμες ημέρες και ώρες στο <b>215.215.4433</b>
+          ώστε να σας λύσουμε ότι απορίες μπορεί να έχετε.</span><u><span
+            style="font-size:12.0pt;line-height:107%;
+            font-family:&quot;Times New
+            Roman&quot;,serif;mso-fareast-font-family:&quot;Times New
+            Roman&quot;; mso-ansi-language:EL" lang="EL"></span></u></p>
+      <p class="MsoNormal"><u><i>Επιπλέον σας ενημερώνουμε ότι υπεύθυνος
+            επικοινωνίας για τεχνικές απορίες είναι ο κος Σαραντόγλου
+            Ηλίας και το e-mail επικοινωνίας είναι: isaran</i></u><i><u><a class="moz-txt-link-abbreviated" href="mailto:toglou@oxygen.gr">toglou@oxygen.gr</a></u></i><br>
+      </p>
+      <p class="MsoNormal"><br>
+      </p>
+      <p class="MsoNormal"><span
+          style="font-size:12.0pt;line-height:107%;font-family:
+          &quot;Times New
+          Roman&quot;,serif;mso-fareast-font-family:&quot;Times New
+          Roman&quot;;mso-ansi-language: EL" lang="EL">Στη διάθεσή σας.</span></p>
+      <p class="MsoNormal"><span
+          style="font-size:12.0pt;line-height:107%;font-family:
+          &quot;Times New
+          Roman&quot;,serif;mso-fareast-font-family:&quot;Times New
+          Roman&quot;;mso-ansi-language: EL" lang="EL">Κωνσταντίνα
+          Πλουμή<br>
+        </span></p>
+      <p class="MsoNormal"><b><span
+            style="font-size:12.0pt;line-height:107%;font-family:&quot;Times
+            New Roman&quot;,serif; mso-fareast-font-family:&quot;Times
+            New Roman&quot;">Oxygen</span></b><b><span
+            style="font-size:12.0pt;line-height:107%;font-family:&quot;Times
+            New Roman&quot;,serif; mso-fareast-font-family:&quot;Times
+            New Roman&quot;;mso-ansi-language:EL"> </span></b><b><span
+style="font-size:12.0pt;line-height:107%;font-family:&quot;Times New
+            Roman&quot;,serif; mso-fareast-font-family:&quot;Times New
+            Roman&quot;">Pelatologio</span></b><span
+          style="font-size:12.0pt;line-height:107%;font-family:&quot;Times
+          New Roman&quot;,serif; mso-fareast-font-family:&quot;Times New
+          Roman&quot;;mso-ansi-language:EL" lang="EL"><br>
+          --------------------------<br>
+        </span><a moz-do-not-send="true" href="www.pelatologio.gr"><span
+style="font-size:12.0pt;line-height:107%;font-family:&quot;Times New
+            Roman&quot;,serif; mso-fareast-font-family:&quot;Times New
+            Roman&quot;">www<span style="mso-ansi-language:EL" lang="EL">.</span>pelatologio<span
+              style="mso-ansi-language:EL" lang="EL">.</span>gr</span></a><span
+style="font-size:12.0pt;line-height:107%;font-family:&quot;Times New
+          Roman&quot;,serif; mso-fareast-font-family:&quot;Times New
+          Roman&quot;;mso-ansi-language:EL" lang="EL"><br>
+          <b>215.215.4433</b></span><span style="mso-ansi-language:EL"
+          lang="EL"></span></p>
+      <div class="moz-signature"><br>
+      </div>
+    </div>
+  </body>
+</html>
+
+--------------gUcc02JL0iGHtE4jfMWJf6Ag--

@@ -1,0 +1,106 @@
+.multiselect {
+  width: 100%;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+}
+#checkboxes label
+{
+    border-bottom: 1px solid #999;
+    padding: 7px 10px;
+    margin: 0px;
+}
+#checkboxes label:hover
+{
+  color:#2dc1d6;
+}
+#checkboxes input[type=checkbox]
+{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+#checkboxes_vtype {
+  display: none;
+  border: 1px #dadada solid;
+}
+#checkboxes_vtype label
+{
+    border-bottom: 1px solid #999;
+    padding: 7px 10px;
+    margin: 0px;
+}
+#checkboxes_vtype label:hover
+{
+  color:#2dc1d6;
+}
+#checkboxes_vtype input[type=checkbox]
+{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+
+#checkboxes_cname {
+  display: none;
+  border: 1px #dadada solid;
+}
+#checkboxes_cname label
+{
+    border-bottom: 1px solid #999;
+    padding: 7px 10px;
+    margin: 0px;
+}
+#checkboxes_cname label:hover
+{
+  color:#2dc1d6;
+}
+#checkboxes_cname input[type=checkbox]
+{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+
+#checkboxes_vname {
+  display: none;
+  border: 1px #dadada solid;
+}
+#checkboxes_vname label
+{
+    border-bottom: 1px solid #999;
+    padding: 7px 10px;
+    margin: 0px;
+}
+#checkboxes_vname label:hover
+{
+  color:#2dc1d6;
+}
+#checkboxes_vname input[type=checkbox]
+{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}

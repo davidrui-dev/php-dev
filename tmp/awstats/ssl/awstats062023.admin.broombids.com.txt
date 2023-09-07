@@ -1,0 +1,478 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202306 will be lost/reset.
+# Last config file used to build this data file was /home3/broombi/tmp/awstats/ssl/awstats.admin.broombids.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2020                
+POS_TIME 2692                
+POS_VISITOR 7983                
+POS_DAY 10339               
+POS_DOMAIN 3464                
+POS_LOGIN 3868                
+POS_ROBOT 4023                
+POS_WORMS 4306                
+POS_EMAILSENDER 4437                
+POS_EMAILRECEIVER 4580                
+POS_SESSION 11163               
+POS_SIDER 11370               
+POS_FILETYPES 4715                
+POS_DOWNLOADS 5051                
+POS_OS 5099                
+POS_BROWSER 5298                
+POS_SCREENSIZE 5692                
+POS_UNKNOWNREFERER 5766                
+POS_UNKNOWNREFERERBROWSER 6456                
+POS_ORIGIN 6896                
+POS_SEREFERRALS 7036                
+POS_PAGEREFS 7180                
+POS_SEARCHWORDS 7328                
+POS_KEYWORDS 7480                
+POS_MISC 2355                
+POS_ERRORS 7539                
+POS_CLUSTER 3724                
+POS_SIDER_404 7657                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230701165911 1 0 3699492587876
+FirstTime 20230601071345
+LastTime 20230630235050
+LastUpdate 20230702150506 1 0 0 0 0
+TotalVisits 81                  
+TotalUnique 34                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 67                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+AddToFavourites 0 29 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 26 3249677 1 4 48283
+1 0 2 0 0 3 961
+2 0 0 0 1 2 6024
+3 1 2 58208 0 2 642
+4 20 24 147702 0 11 2523923
+5 1 2 58208 0 19 2600607
+6 39 102 1848863 1 6 661267
+7 90 737 37015115 0 4 1504239
+8 401 643 41074707 1 4 962
+9 108 232 15636951 0 4 87096
+10 19 104 14017911 0 2 59193
+11 156 834 132236786 0 11 2351919
+12 235 563 67839623 0 12 3864
+13 161 584 35639088 0 1 322
+14 44 146 15023786 3 19 767016
+15 19 50 16746325 1 3 6344
+16 112 189 95987390 2 6 6992
+17 5 19 529914 0 12 3126220
+18 5 32 8462729 1 7 1386231
+19 1 20 411375 0 1 1142611
+20 9 89 2874217 0 8 196221
+21 37 221 1279467 1 3 642
+22 22 169 13918124 0 3 964
+23 1 45 9534681 0 20 3203705
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+gr 1069 3286 100280433
+in 375 1346 371169406
+us 35 150 23089815
+ca 5 5 28520
+be 2 4 116416
+cn 2 8 12891026
+au 2 2 11408
+lb 1 1 5704
+bd 0 7 213902
+fr 0 14 1806179
+cz 0 6 1989019
+gb 0 6 1989019
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+feed 80 13894751 20230619140241 0
+Googlebot\-Image/ 18 4324955 20230620143827 0
+no_user_agent 4 22816 20230625165253 0
+survey 3 17112 20230606022644 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+xml 16 5049 0 0
+woff 26 1308288 0 0
+html 42 239568 0 0
+js 118 166606242 0 0
+svg 82 361859 0 0
+jpg 1983 223023897 0 0
+ttf 1 78584 0 0
+Unknown 1340 44909594 0 0
+css 38 29186109 0 0
+woff2 42 2426424 0 0
+map 23 6974 0 0
+png 1104 44540515 0 0
+php 1 321 0 0
+jpeg 19 897423 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+macosx6 2 2
+ios_iphone 15 0
+Unknown 49 22
+win7 9 3
+win10 4613 1464
+android10 74 0
+macosx15 31 0
+ios_ipad 6 0
+linux 22 0
+android 14 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 17
+chrome109.0.0.0 34 0
+safari 6 0
+chrome110.0.5481.77 13 0
+Unknown 7 7
+chrome79.0.3945.79 13 0
+firefox114.0 14 0
+iphone 15 0
+chrome108.0.0.0 34 0
+chrome101.0.4951.64 1 1
+chrome49.0.2623.112 8 2
+chrome104.0.0.0 2 2
+chrome114.0.0.0 3930 1177
+firefox29.0 1 1
+chrome106.0.5249.30 22 0
+chrome113.0.0.0 674 267
+mozilla 42 15
+chrome89.0.4389.114 19 19
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20230630131416
+python-requests/2.28.2 20230606115923
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20230630073204
+Mozilla/5.0_(compatible;_Dataprovider.com) 20230627193312
+WhatsApp/2.2322.2_W 20230619162829
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20230623052238
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+WhatsApp/2.2322.2_W 20230619162829
+python-requests/2.28.2 20230606115923
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20230630073204
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 100 147
+From1 0 0
+From2 0 0
+From3 0 0
+From4 1391 4688
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+404 19 6080
+302 2 0
+400 3 0
+206 9 1411198
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1
+/robots.txt 19 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 67
+94.71.37.210 340 1654 33828448 20230628082702
+49.248.155.3 319 1119 321836047 20230619162829
+79.130.38.149 298 518 28249344 20230612122748
+79.130.37.252 233 342 8841618 20230606111611
+94.66.35.223 103 112 4452131 20230611082859
+183.87.184.88 56 121 28003872 20230622081103
+79.130.39.88 38 47 276207 20230630131719
+85.72.216.117 31 204 5460145 20230601140925
+192.3.118.117 19 19 16778 20230618044411
+94.66.35.250 16 174 711733 20230609214543
+2.84.33.98 7 33 148338 20230613093344
+94.71.4.37 3 98 217625 20230602071843
+167.94.138.125 2 4 116416 20230630131415
+180.235.117.51 2 2 11408 20230630235050
+167.248.133.189 2 4 116416 20230609005832
+167.94.138.36 2 4 116416 20230604203226
+54.242.51.88 2 2 11408 20230624120152
+167.94.138.127 2 4 116416 20230608225024
+198.235.24.65 1 1 5704 20230620064350
+167.94.138.35 1 2 58208 20230630125209
+106.75.133.48 1 4 6445513 20230620221911
+198.235.24.72 1 1 5704 20230630073204
+87.236.176.81 1 1 5704 20230619061643
+167.248.133.185 1 2 58208 20230617223355
+87.236.176.209 1 1 5704 20230623052236
+104.167.221.206 0 26 7010329 
+106.213.80.252 0 6 1989019 
+87.236.176.167 0 1 52504 
+199.127.56.236 0 13 1756612 
+38.242.163.203 0 15 3087571 
+37.6.164.104 0 7 2448118 
+122.168.164.123 0 6 1989019 
+37.66.23.25 0 14 1806179 
+49.36.111.138 0 15 3087571 
+49.36.43.62 0 6 1989019 
+103.112.55.153 0 15 1783748 
+152.58.4.222 0 4 121625 
+79.130.46.219 0 14 1945979 
+79.130.36.126 0 13 991800 
+49.36.109.88 0 38 5636989 
+51.89.224.65 0 6 1989019 
+167.248.133.36 1 2 58208 20230602044701
+167.248.133.126 1 2 58208 20230625080221
+198.235.24.228 1 1 5704 20230616153544
+89.187.177.74 0 6 1989019 
+149.56.150.137 0 12 405671 
+49.37.98.184 0 6 1989019 
+80.106.87.93 0 5 803368 
+212.30.37.221 1 1 5704 20230606115923
+162.142.125.14 1 2 58208 20230602032049
+84.205.231.45 0 5 846408 
+198.235.24.209 1 1 5704 20230623174316
+180.149.0.202 0 7 213902 
+45.139.212.46 0 5 846408 
+106.75.177.21 1 4 6445513 20230621091758
+37.6.166.245 0 1 399402 
+94.66.220.171 0 22 2495287 
+49.36.107.194 0 6 1945979 
+205.169.39.212 0 13 1745149 
+193.92.198.82 0 6 1989019 
+152.58.34.152 1 5 6394220 20230624102327
+5.203.225.121 0 16 3087892 
+45.127.45.156 0 3 72716 
+198.235.24.131 1 1 5704 20230628060348
+37.6.164.224 0 15 3087571 
+87.236.176.65 0 1 52504 
+152.39.149.248 0 15 1783748 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20230601 31 217 7956329 2
+20230602 9 108 365181 4
+20230603 8 110 3691596 4
+20230604 6 12 147556 3
+20230605 211 236 13779440 4
+20230606 9 34 7999763 3
+20230607 60 299 69076656 1
+20230608 1 11 2047227 1
+20230609 36 232 12926197 4
+20230610 94 100 3983897 4
+20230611 78 227 23217962 5
+20230612 271 391 25848000 3
+20230613 61 320 79271095 2
+20230614 17 184 6776975 1
+20230615 165 504 17824256 3
+20230616 18 211 5858279 3
+20230617 1 22 58208 1
+20230618 19 61 4175628 1
+20230619 183 532 174022985 2
+20230620 33 203 7857211 5
+20230621 30 86 7989969 2
+20230622 36 155 11444034 2
+20230623 26 67 2315705 5
+20230624 15 206 9650396 4
+20230625 2 18 1922595 2
+20230626 17 81 1153390 2
+20230627 0 85 7034460 0
+20230628 11 42 3040973 2
+20230629 0 27 1745149 0
+20230630 43 54 409735 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30mn-1h 11
+2mn-5mn 2
+1h+ 5
+5mn-15mn 4
+15mn-30mn 5
+0s-30s 48
+30s-2mn 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 86
+/Master/update_v_name 170 0 0 0
+/Dashboard 89 1727896 14 6
+/Pages/VehicleList 86 17917387 1 5
+/Pages/VehicleName 81 13177998 1 3
+/Pages/Faq 80 5726281 2 3
+/Master/GetFaqDetails 70 96303 0 0
+/Master/EditFaqDetails 68 476 0 0
+/blog 63 1312017 3 6
+/Pages/EditVehicleDetails 55 663096 2 1
+/Pages/VehicleType 55 873881 5 3
+/Master/UpdateFutureImage 45 4711 0 1
+/ 42 239568 36 29
+/Master/LoginUser 40 280 1 0
+/home 36 205344 0 2
+/Master/update_v_type 34 527 0 2
+/Pages/VehicleCompany 29 1129345 0 1
+/Master/DeleteRecord 28 0 1 0
+/Pages/ManageVehicle 24 272101 0 0
+/assets/js/toastr.js.map 23 6974 0 0
+/blog/edit 22 503505 1 0
+/assets/fonts/material-icons.woff2 21 806064 0 0
+/assets/fonts/themify-icons.woff 21 1178268 0 0
+/assets/fonts/font-awesome.woff2 21 1620360 0 0
+/Pages/VehicleFuelType 19 115403 0 1
+/Pages/support 17 17952 2 2
+/CarGallary/featured_36 2 642 0 0
+/Master/AddCarDetails 1 7 0 0
+/pages/blog 10 2814 0 0
+//xmlrpc.php 1 321 0 0
+/Master/add_blog 11 3134 0 0
+/Master/FaqAdd 2 14 0 0
+/Master/check_email 1 32 0 0
+/Pages/VenderUserList 9 62352 2 3
+//wp2/wp-includes/wlwmanifest.xml 1 314 0 0
+//shop/wp-includes/wlwmanifest.xml 1 315 0 0
+/Master/GetVtypeCompany 14 14632 0 0
+/Master/GetCompay 12 171297 0 1
+/Master/AddCompanyToType 1 7 0 0
+/CarGallary/Gallary_1599320281 2 642 0 0
+/Pages/CustomerList 16 86525 3 2
+/Pages/Post 15 423522 1 2
+/Master/GetCarName 8 2918 0 0
+/CarGallary/Gallary_1599320464 1 321 0 0
+/Master/AddCustomer 8 206 0 0
+/Master/UpdateVehicle 1 7 0 0
+/Master/DeleteLocation 4 0 0 0
+/CarGallary/featured_2 2 642 0 0
+/Pages/CreateVender 4 40852 1 0
+//sito/wp-includes/wlwmanifest.xml 1 315 0 1
+//wp1/wp-includes/wlwmanifest.xml 1 314 0 0
+//2019/wp-includes/wlwmanifest.xml 1 315 0 0
+/Master/update_v_transmission 2 0 0 0
+/Pages/VehicleTransmission 16 70377 0 0
+/Master/update_blog 10 656 0 1
+/Pages/Location 11 62358 0 0
+/CarGallary/featured_12 2 642 0 0
+/Master/StoreCarId 1 0 0 0
+//cms/wp-includes/wlwmanifest.xml 1 314 0 0
+/Pages/CustomerEdit 3 4385 0 0
+//test/wp-includes/wlwmanifest.xml 1 315 0 0
+/Pages/VehicleDetails 1 3445 0 0
+/Pages/CreateCustomer 8 12944 1 0
+//news/wp-includes/wlwmanifest.xml 1 315 0 0
+/Master/addVehicleName 2 1103 0 1
+/dashboard 6 128153 1 1
+/Pages/VenderDetails 3 24232 0 1
+/Pages/blog 10 8732 0 0
+/Pages/Dashboard 6 19842 2 1
+//wp/wp-includes/wlwmanifest.xml 1 313 0 0
+/Pages/AdminUserList 4 13544 1 2
+/Master/AddVehicleType 3 2146 0 0
+//wordpress/wp-includes/wlwmanifest.xml 1 320 0 0
+/Master/AddLocation 4 1959 0 0
+//wp-includes/wlwmanifest.xml 1 322 0 0
+/assets/fonts/themify-icons.ttf 1 78584 0 0
+//2020/wp-includes/wlwmanifest.xml 1 315 0 0
+/Master/Deleteblog 5 0 0 0
+//website/wp-includes/wlwmanifest.xml 1 318 0 0
+/Master/StoreVenderId 3 0 0 0
+//web/wp-includes/wlwmanifest.xml 1 314 0 0
+/Master/update_v_company_name 2 0 0 0
+/Master/UnBlockUser 1 7 0 0
+//site/wp-includes/wlwmanifest.xml 1 315 0 0
+/Master/update_v_fuil_type 2 0 0 0
+//blog/wp-includes/wlwmanifest.xml 1 315 0 0
+/assets/fonts/dripicons.woff 5 130020 0 0
+END_SIDER

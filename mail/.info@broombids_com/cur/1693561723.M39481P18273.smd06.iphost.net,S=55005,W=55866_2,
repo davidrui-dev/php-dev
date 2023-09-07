@@ -1,0 +1,861 @@
+Return-Path: <bounces+34096674-eb7a-info=broombids.com@em756.www.futuretravel.com>
+Delivered-To: info@broombids.com
+Received: from smd06.iphost.net
+	by smd06.iphost.net with LMTP
+	id yBR8AXuz8WRhRwAAT4N6Cg
+	(envelope-from <bounces+34096674-eb7a-info=broombids.com@em756.www.futuretravel.com>)
+	for <info@broombids.com>; Fri, 01 Sep 2023 12:48:43 +0300
+Return-path: <bounces+34096674-eb7a-info=broombids.com@em756.www.futuretravel.com>
+Envelope-to: info@broombids.com
+Delivery-date: Fri, 01 Sep 2023 12:48:43 +0300
+Received: from wrqvxptp.outbound-mail.sendgrid.net ([149.72.163.115]:19298)
+	by smd06.iphost.net with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <bounces+34096674-eb7a-info=broombids.com@em756.www.futuretravel.com>)
+	id 1qc0le-0003JK-14
+	for info@broombids.com;
+	Fri, 01 Sep 2023 12:48:42 +0300
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=www.futuretravel.com;
+	h=content-type:from:mime-version:subject:reply-to:list-unsubscribe:to:
+	cc:content-type:from:subject:to;
+	s=0b7; bh=/kYvtagkgz7Atzu26s+r8LRJPmELguTq1ijnDXNxFzM=;
+	b=lpfB2DDI+GskatWyDL+djJ5u83ugr+4uUrgA9HBnzx5Uii0yAYCTRE423hJNei25hrx2
+	ZW7D7muF2A15ITQBsiJjr76ZGRHSIeHyPtpdbyMOx8fI2TKCNzeByMolthffcfxESNZBwN
+	WZi5T+rUZoJ+DLRpWhnEAHFvVgpH7j9gihqUrzknUz2LR635LWjXkf01tOhJDuSb08sgSL
+	vlqXjxYxUOP0iBGFYm75h05a3h8KDJb4cxRfILHix716HqmqIGxFk8bRstHUWbxv7lkgMH
+	kmgR44FR7ZbxnlrA6z1M3Wfy28WbpHeMGlJAOMeo4bJFQt814WxWp/qXjZaQVxYw==
+Received: by filterdrecv-d7bbbc8bf-hf4lw with SMTP id filterdrecv-d7bbbc8bf-hf4lw-1-64F1B323-8
+        2023-09-01 09:47:15.184123487 +0000 UTC m=+9799649.056686617
+Received: from MzQwOTY2NzQ (unknown)
+	by geopod-ismtpd-23 (SG) with HTTP
+	id H8L6bKSRQzW6AJKz4t_siw
+	Fri, 01 Sep 2023 09:47:15.138 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=34f6f2404ac531f7e293190200a9030724e8420c2e321f2f9e2addf2b938
+Date: Fri, 01 Sep 2023 09:47:57 +0000 (UTC)
+From: Ana | FutureTravel <hi@www.futuretravel.com>
+Mime-Version: 1.0
+Message-ID: <H8L6bKSRQzW6AJKz4t_siw@geopod-ismtpd-23>
+Subject: The =?UTF-8?B?V29ybGTigJlz?= Top 100 Travel Startups
+ =?UTF-8?B?8J+agA==?=
+Reply-To: Ana | FutureTravel <ana@futuretravel.com>
+sId: cca4e38c-f081-47d5-80b7-52e411966ca2
+x-newsletter: https://futuretravel.beehiiv.com/p/top100-report-2023
+x-beehiiv-ids: 
+ =?us-ascii?Q?{=22account=5Fname=22=3A=22https=3A=2F=2Ffuturetravel=2Ebeehiiv=2Ecom=2F=22=2C=22audience=5F?=
+ =?us-ascii?Q?type=22=3A=22free=22=2C=22campaign=5Fid=22=3A=224fdd64c6-26?=
+ =?us-ascii?Q?f1-4667-9df9-c26531478918=22=2C=22category=22=3A=22?=
+ =?us-ascii?Q?newsletter=22=2C=22email=5Fgenerated=5Fat=22=3A169356?=
+ =?us-ascii?Q?1633=2C=22user=5Fid=22=3A=22cca4e38c-f081-47d5-80b7?=
+ =?us-ascii?Q?-52e411966ca2=22}?=
+x-list-owner: <mailto:ana@futuretravel.com>
+x-newsletter-id: https://futuretravel.beehiiv.com/
+List-Unsubscribe: 
+ =?us-ascii?Q?=3Cmailto=3Acca4e38c-f081-47d5-80b7-52e411966ca2+bd1a4c79-6791-46d?=
+ =?us-ascii?Q?b-a2bb-253c02eff19a+4fdd64c6-26f1-4667-?=
+ =?us-ascii?Q?9df9-c26531478918=40unsub=2Ebeehiiv=2Ecom=3E=2C?=
+ =?us-ascii?Q?_=3Chttps=3A=2F=2Ffuturetravel=2Ebeehiiv=2Ecom=2Fsubscribe=2Fbd1a4c79-6791-46db?=
+ =?us-ascii?Q?-a2bb-253c02eff19a=2Fmanage=3Fpost=5Fid=3D4fdd6?=
+ =?us-ascii?Q?4c6-26f1-4667-9df9-c26531478918=3E?=
+x-list-id: cca4e38c-f081-47d5-80b7-52e411966ca2
+Feedback-ID: 
+ =?us-ascii?Q?4fdd64c6-26f1-4667-9df9-c26531478918=3Anewsletter=3Acca4e38c-f081-?=
+ =?us-ascii?Q?47d5-80b7-52e411966ca2=3Afe068a4438363c5?=
+x-beehiiv-type: newsletter
+x-newsletter-signup: https://futuretravel.beehiiv.com/subscribe
+X-SG-EID: 
+ =?us-ascii?Q?IXdP5V=2FI6nyphVrJHMbsozLCYs6XTy2BgO4K8MydRMlgPoiREBArCo6Ij5t8FW?=
+ =?us-ascii?Q?vMOyHvGwI5Yld2I=2F0DmkZCpqy+0E3bZHlHATjaP?=
+ =?us-ascii?Q?Eg7fy3Pc6doBtGb1lZ4HnMLVrgaAW0NC5IIIc=2FU?=
+ =?us-ascii?Q?s7fT5gLVCuQ6Ton6c+=2Fm7bf8YRkzLKx+RiEILlh?=
+ =?us-ascii?Q?J+eX9CXkeO70cchu+IQF4NSaT3RIAVDs4kMwwL0?=
+ =?us-ascii?Q?d6RLw6ynGB3CSLDaineTOLhx9n+=2FiPPCbbt0U6e?=
+ =?us-ascii?Q?BMYwXn9EPhW4NAmwgQUxQ=3D=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb8raWjw0ZPf1VmjsCkspi=2FLxVM69ceEc1HIRn6NgiB?=
+ =?us-ascii?Q?p7apAHrVcY8OHrH0SYxqJG8lWOYDnZCZm30wYG7?=
+ =?us-ascii?Q?s8A314ap2IZbSHJ4mvyOnIbMICpnax9xeeXrv=2Fw?=
+ =?us-ascii?Q?UUR1OgNud6nEOYRTLB9=2Fpla=2F82lqPtZkru=2FVDd1?=
+ =?us-ascii?Q?cppxoPV9kqvgMWoRmfYnq06cGlMocFx4cDxtKmb?=
+ =?us-ascii?Q?KDdHTZva+69v6FBcQ+KWfjoctQxw5VvBWsAr5Ug?=
+ =?us-ascii?Q?+ItuNkUNBlYXYWZQohTkw=3D=3D?=
+To: "info@broombids.com" <info@broombids.com>
+X-Entity-ID: /KgUVIfUi0tR/piUHemy0Q==
+X-Spam-Status: No, score=1.2
+X-Spam-Score: 12
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "smd06.iphost.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  As someone who _really_ loves staying up-to-date with new
+   ideas and working with founders in the travel industry, I'm super excited
+   to share our new report with you. In each newsletter, we highlight and celebrate
+    amazing ventures. We spend a lot of time learning about and keeping in touch
+    with innovative groups, and it's really valuable. And now, we've put togethe
+    [...] 
+ Content analysis details:   (1.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: futuretravel.com]
+  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in
+                             bl.spamcop.net
+              [Blocked - see <https://www.spamcop.net/bl.shtml?149.72.163.115>]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.0 LOTS_OF_MONEY          Huge... sums of money
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+X-Spam-Flag: NO
+
+--34f6f2404ac531f7e293190200a9030724e8420c2e321f2f9e2addf2b938
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0
+
+As someone who _really_ loves staying up-to-date with new ideas and working=
+ with founders in the travel industry, I'm super excited to share our new r=
+eport with you.
+
+In each newsletter, we highlight and celebrate amazing ventures. We spend a=
+ lot of time learning about and keeping in touch with innovative groups, an=
+d it's really valuable. And now, we've put together all this information in=
+to a big report: [**The World=E2=80=99s Top 100 Travel Startups.**](https:/=
+/futuretravel.com/report-top-100-travel-startups/)
+
+Believe me when I say that this report is an absolute gem. It is a must-rea=
+d for anyone who is curious and passionate about the latest projects taking=
+ flight in the world of travel. We've done this kind of report before, and =
+now we're doing it again -  it=E2=80=99s for anyone willing to become an in=
+sider in this dynamic ecosystem.
+
+Don't miss out on this chance to get exclusive access to our curated collec=
+tion of the top travel startups.
+
+Don't Miss Out - Download the Report (https://futuretravel.com/report-top-1=
+00-travel-startups/)
+
+I=E2=80=99m excited to tell you about two amazing speakers for this year's =
+FutureTravel Summit.  [Pranav Sood](https://futuretravel.com/future-proofin=
+g-travel-with-fintech-pranav-sood-to-speak-at-the-futuretravel-summit/), Ex=
+ecutive General Manager EMEA from **Airwallex**, will join the stage to dis=
+cuss some exciting opportunities blending fintech and travel. And [David Ga=
+rcia](https://futuretravel.com/david-garcia-cio-of-tui-musement-shares-insi=
+ghts-at-the-futuretravel-summit/), CIO of **TUI Musement**, will share insi=
+ghts on their journey of innovation and tech, along with how they work with=
+ startups. [Don=E2=80=99t miss out, get your ticket now!](https://futuretra=
+vel.com/futuretravel-summit/)
+
+And now, here is our curation of the top news in travel this week:
+
+* [Embracing AI for personalized travel.](https://www.phocuswire.com/travel=
+shift-ota-10m-funding) Online travel agency **Travelshift** has secured $10=
+ million in funding. The funds will support the company's growth and the de=
+velopment of AI-driven personalized travel experiences. This funding follow=
+s the recent launch of Guide to Europe, an AI-powered marketplace for Europ=
+ean leisure travel by Travelshift.
+
+
+
+* [Acquiring for a friend - collective trips await.](https://www.businesstr=
+avelnewseurope.com/Technology/Snowfall-acquires-trip-planning-app-AmigoGo) =
+Travel tech company **Snowfall** has acquired start-up **AmigoGo**, an app =
+for planning and booking group trips together. Snowfall aims to enhance its=
+ Junction One booking platform with this strategic move. AmigoGo, launched =
+in 2022, helps travelers plan group trips by solving decision-making challe=
+nges. The integration will improve Snowfall's Junction platform with better=
+ group trip planning capabilities. AmigoGo founders will join Snowfall's te=
+ch team as part of the deal. Financial details of the acquisition remain un=
+disclosed.
+
+
+
+* [Goodwings for clean travel.](https://www.phocuswire.com/climate-focused-=
+travel-management-platform-goodwings-raises-1-point-5-m) Denmark-based trav=
+el management system **Goodwings** has secured $1.5 million in funding. Goo=
+dwings offers a subscription-based platform allowing businesses to book tra=
+vel and receive commissions from hotel and flight bookings, which are depos=
+ited into a "Carbon Account" that can be used to offset emissions through g=
+reen aviation fuel and carbon offsets. On a recent update, the company upda=
+ted its dashboard to provide clients with more data on emissions reductions=
+. The company also announced a partnership with **JTB USA** to expand its s=
+upply of flights, hotels, trains, and car rentals.
+
+
+
+* [Path to Expansion and Growth.](https://www.phocuswire.com/modern-adventu=
+res-series-a-funding) Group tour and experience specialist **Modern Adventu=
+re** has secured $4.8 million in Series A funding. The funds will be used t=
+o expand travel offerings, improve customer experiences, and support recrui=
+tment. Modern Adventure believes that experiences are crucial for building =
+customer relationships and offers talent-hosted trips and private group ret=
+reats worldwide.
+
+
+
+* [Keeping Guests Eco-Informed.](https://www.travolution.com/news/travel-se=
+ctors/air/easyjet-holidays-partners-with-because-to-expand-hotel-sustainabi=
+lity-data-capabilities/) Based in Copenhagen, **BeCause** is joining forces=
+ with **easyJet** **holidays** to improve the way sustainability informatio=
+n about hotels is presented. Their tech connects certifying organizations w=
+ith travel companies, making sure that accurate and reliable sustainability=
+ data is provided to travelers. Through this partnership, easyJet holidays =
+will automate and simplify the process of presenting sustainability informa=
+tion, replacing the need for manual updates. This guarantees that users wil=
+l always have the latest information about eco-certified accommodations.=20
+
+We've been making some changes behind the scenes at FutureTravel: we're now=
+ using a new platform to send our weekly newsletters. While I truly enjoy e=
+xperimenting with new tools, it can take a bit of time to make sure everyth=
+ing is working smoothly. If you notice anything unusual, please reply to th=
+is e-mail and let me know.
+
+See you next week,
+
+Ana
+
+
+=E2=80=94=E2=80=94=E2=80=94
+
+You are reading a plain text version of this post. For the best experience,=
+ copy and paste this link in your browser to view the post online:
+https://futuretravel.beehiiv.com/p/top100-report-2023
+
+--34f6f2404ac531f7e293190200a9030724e8420c2e321f2f9e2addf2b938
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!DOCTYPE html><html lang=3D"en" xmlns=3D"http://www.w3.org/1999/xhtml" xml=
+ns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com=
+:office:office" style=3D"font-size:16px;"><head><!-- Some yahoo clients rem=
+ove the first <head> reference. This duplication controls Yahoo but doesn't=
+ effect others --></head><head><meta charset=3D"utf-8"/><!--[if !mso]><!-->=
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"/><!--<![endif]--=
+><meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1"=
+/><meta name=3D"x-apple-disable-message-reformatting"/><meta name=3D"format=
+-detection" content=3D"telephone=3Dno,address=3Dno,email=3Dno,date=3Dno,url=
+=3Dno"/><meta name=3D"color-scheme" content=3D"light"/><meta name=3D"suppor=
+ted-color-schemes" content=3D"light"/><title>The World=E2=80=99s Top 100 Tr=
+avel Startups =F0=9F=9A=80</title><!--[if mso]><xml><o:OfficeDocumentSettin=
+gs><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSett=
+ings></xml><![endif]--><style>
+  :root { color-scheme: light; supported-color-schemes: light; }
+  body { margin: 0; padding: 0; min-width: 100%!important; -ms-text-size-ad=
+just: 100% !important; -webkit-transform: scale(1) !important; -webkit-text=
+-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !importa=
+nt; }
+  .body { word-wrap: normal; word-spacing:normal; }
+  table.mso { width: 100%; border-collapse: collapse; padding: 0; table-lay=
+out: fixed; }
+  img { border: 0 !important; outline: none !important; }
+  table {  mso-table-lspace: 0px; mso-table-rspace: 0px; }
+  td, a, span {  mso-line-height-rule: exactly; }
+  #root [x-apple-data-detectors=3Dtrue],
+  a[x-apple-data-detectors=3Dtrue],
+  #MessageViewBody a { color: inherit !important; text-decoration: inherit =
+!important; font-size: inherit !important; font-family: inherit !important;=
+ font-weight: inherit !important; line-height: inherit !important; }
+  span.MsoHyperlink { color: inherit !important; mso-style-priority: 99 !im=
+portant; }
+  span.MsoHyperlinkFollowed { color: inherit !important; mso-style-priority=
+: 99 !important; }
+  .a { background-color:#FFFFFF; }
+  .b { background-color:#ffffff; }
+  .c  { background-color:#FFFFFF; }
+  .d { background-color:#222222; }
+  .d2 { background-color:#FFFFFF; }
+  .d3 { background-color:#ffffff; }
+  h1 { color:#000000; }
+  h2 { color:#000000; }
+  h3 { color:#2A2A2A; }
+  h4 { color:#2A2A2A; }
+  h5 { color:#2A2A2A; }
+  h6 { color:#222222; }
+  h1 a { text-decoration:underline;color:#000000 !important; }
+  h2 a { text-decoration:underline;color:#000000 !important; }
+  h3 a { text-decoration:underline;color:#2A2A2A !important; }
+  h4 a { text-decoration:underline;color:#2A2A2A !important; }
+  h5 a { text-decoration:underline;color:#2A2A2A !important; }
+  h6 a { text-decoration:underline;color:#222222 !important; }
+  h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a, ul, li, ol, p=
+, p a { margin: 0;padding: 0; }
+  h1 { font-family:'Roboto',-apple-system,BlinkMacSystemFont,Tahoma,sans-se=
+rif;font-weight:Bold;font-size:28px;line-height:34px;padding-bottom:16px;pa=
+dding-top:16px;mso-margin-top-alt:16px;mso-margin-bottom-alt:16px }
+  h2 { font-family:'Roboto',-apple-system,BlinkMacSystemFont,Tahoma,sans-se=
+rif;font-weight:Bold;font-size:24px;line-height:36px;padding-bottom:4px;pad=
+ding-top:16px;mso-margin-top-alt:16px;mso-margin-bottom-alt:4px }
+  h3 { font-family:'Trebuchet MS','Lucida Grande',Tahoma,sans-serif;font-we=
+ight:normal;font-size:20px;line-height:30px;padding-bottom:4px;padding-top:=
+16px;mso-margin-top-alt:16px;mso-margin-bottom-alt:4px }
+  h4 { font-family:'Trebuchet MS','Lucida Grande',Tahoma,sans-serif;font-we=
+ight:normal;font-size:18px;line-height:27px;padding-bottom:4px;padding-top:=
+16px;mso-margin-top-alt:16px;mso-margin-bottom-alt:4px }
+  h5 { font-family:'Trebuchet MS','Lucida Grande',Tahoma,sans-serif;font-we=
+ight:normal;font-size:16px;line-height:24px;padding-bottom:4px;padding-top:=
+16px;mso-margin-top-alt:16px;mso-margin-bottom-alt:4px }
+  h6 { font-family:'Roboto',-apple-system,BlinkMacSystemFont,Tahoma,sans-se=
+rif;font-weight:Bold;font-size:16px;line-height:19px;padding-bottom:4px;pad=
+ding-top:16px;mso-margin-top-alt:16px;mso-margin-bottom-alt:4px }
+  p { font-family:'Roboto',-apple-system,BlinkMacSystemFont,Tahoma,sans-ser=
+if;color:#666666;font-size:16px;line-height:24px;padding-bottom:11px;paddin=
+g-top:11px;mso-margin-top-alt:11px;mso-margin-bottom-alt:11px; }
+  p a, .e a, ul a, li a  { word-break:break-word;color:#000000 !important;t=
+ext-decoration:underline;text-decoration-color:#000000;font-weight:bold; }
+  p .bold { font-weight:bold;color:#666666; }
+  p span[style*=3D"font-size"] { line-height: 1.6; }
+  .f p { font-size:12px;line-height:15px;color:#666666;padding:0; }
+  .f p a { text-decoration:underline;color:#666666 !important; }
+  .g p { font-family:'Roboto',-apple-system,BlinkMacSystemFont,Tahoma,sans-=
+serif;font-size:15px;line-height:21px;font-weight:normal;margin:0; }
+  .g p a  { text-decoration: underline; }
+  .i p { font-family:'Roboto',-apple-system,BlinkMacSystemFont,Tahoma,sans-=
+serif;line-height:23px;font-size:15px;color:#ffffff; }
+  .i p a { text-decoration:underline;color:#ffffff !important; }
+  .i2 p { font-family:'Helvetica',Arial,sans-serif;line-height:23px;font-si=
+ze:15px;color:#2D2D2D; }
+  .i2 p a { text-decoration:underline;color:#2D2D2D !important; }
+  .i3 p { font-family:'Roboto',-apple-system,BlinkMacSystemFont,Tahoma,sans=
+-serif;line-height:36px;font-size:24px;color:#2D2D2D; }
+  .i3 p a { text-decoration:underline;color:#2D2D2D !important; }
+  .h p a { text-decoration:underline;color:#c0c0c0 !important; }
+  .h2 p a { text-decoration:underline;color:#595959 !important; }
+  .h3 p a { text-decoration:underline;color:#595959 !important; }
+  .j { border-top:3px solid #ffe535; }
+  .k p { padding-left:15px;padding-bottom:0px;padding-top:6px;mso-margin-to=
+p-alt:6px;mso-margin-bottom-alt:0px;mso-margin-left-alt:15px; }
+  .o { background-color:#FFFFFF;border:1px solid #F1F1F1;border-radius:5px;=
+ }
+  .o p { font-family:'Roboto',-apple-system,BlinkMacSystemFont,Tahoma,sans-=
+serif;padding:0px;margin:0px; }
+  .l p,
+  .l p a { font-size:14px;line-height:20px;font-weight: bold;color:#2D2D2D;=
+padding-bottom:6px;mso-margin-bottom-alt:6px;text-decoration:none; }
+  .m p,
+  .m p a { font-size:13px;line-height:18px;font-weight:400;color:#2D2D2D;pa=
+dding-bottom:6px;mso-margin-bottom-alt:6px;text-decoration:none; }
+  .n p,
+  .n p a { font-size:12px;line-height:17px;font-weight:400;color:#2D2D2D;pa=
+dding-bottom:6px;mso-margin-bottom-alt:6px;text-decoration:none; }
+  .p { background-color:#FFFFFF;max-width:520px;border:1px solid #E1E8ED;bo=
+rder:1px solid rgba(80, 80, 80, 0.3);border-radius:5px; }
+  .q { font-size:16px;font-family:Helvetica,Roboto,Calibri,sans-serif !impo=
+rtant;border:1px solid #e1e8ed;border:1px solid rgba(80, 80, 80, 0.3);borde=
+r-radius:5px;background-color:#FFFFFF; }
+  .q p { font-size:16px;font-family:Helvetica,Roboto,Calibri,sans-serif !im=
+portant;color:#222222; }
+  .r { border:1px solid #E1E8ED !important;border-radius:5px; }
+  .s p { font-size: 14px; line-height: 17px; font-weight: 400; color: #6978=
+82; text-decoration: none; }
+  .t p { font-family:'Helvetica',Arial,sans-serif;font-size:12px;line-heigh=
+t:18px;font-weight:400;color:#000000;font-style:italic;padding:8px 0px 0px;=
+}
+  .v { border-radius:0px;border:solid 0px #ffe535;background-color:#ffe535;=
+font-family:'Roboto',-apple-system,BlinkMacSystemFont,Tahoma,sans-serif;col=
+or:#000000; }
+  .v a { text-decoration:none;display:block;color:#000000; }
+  .w p { font-size:12px;line-height:15px;font-weight:400;color:#979797; }
+  .w p a { text-decoration: underline !important;color:#979797 !important; =
+}
+  ul { font-family:'Roboto',-apple-system,BlinkMacSystemFont,Tahoma,sans-se=
+rif;margin:0px 0px 0px 25px !important;padding:0px !important;color:#2D2D2D=
+;line-height:24px;list-style:disc;font-size:16px; }
+  ul li { font-family:'Roboto',-apple-system,BlinkMacSystemFont,Tahoma,sans=
+-serif;margin:10px 0px 0px 0px !important;padding: 0px 0px 0px 0px !importa=
+nt; color: #2D2D2D; list-style:disc; }
+  ol { font-family:'Roboto',-apple-system,BlinkMacSystemFont,Tahoma,sans-se=
+rif;margin: 0px 0px 0px 25px !important;padding:0px !important;color:#2D2D2=
+D;line-height:24px;list-style:decimal;font-size:16px; }
+  ol li { font-family:'Roboto',-apple-system,BlinkMacSystemFont,Tahoma,sans=
+-serif;margin:10px 0px 0px 0px !important;padding: 0px 0px 0px 0px !importa=
+nt; color: #2D2D2D; list-style:decimal; }
+  .e h3,
+  .e p,
+  .e span { padding-bottom:0px;padding-top:0px;mso-margin-top-alt:0px;mso-m=
+argin-bottom-alt:0px; }
+  .e span,
+  .e li { font-family:'Roboto',-apple-system,BlinkMacSystemFont,Tahoma,sans=
+-serif;font-size:16px;color:#666666;line-height:24px; }
+  .rec { font-family:  ui-sans-serif, system-ui, -apple-system, BlinkMacSys=
+temFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-ser=
+if, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color E=
+moji" !important; }
+  .rec__button:hover { background-color: #f9fafb !important; }
+  .copyright a {color: inherit !important; text-decoration: none !important=
+; font-size: inherit !important; font-family: inherit !important; font-weig=
+ht: inherit !important; line-height: inherit !important;}
+  .txt_social p { padding: 0; }
+  @media only screen and (max-width:667px) {
+    .aa { width: 100% !important; }
+    .bb img { width: 100% !important; height: auto !important; max-width: n=
+one !important; }
+    .cc { padding: 0px 8px !important; }
+    .ee { padding-top:10px !important;padding-bottom:10px !important; }
+    .ff ul, .ff ol { margin: 0px 0px 0px 10px !important;padding: 0px !impo=
+rtant; }
+    .ff li { margin:10px 0px 0px 10px !important; }
+    .r {height:140px !important;}
+    .s p { font-size:13px !important;line-height:15px !important; }
+    .mob-hide {display:none !important;}
+    .mob-stack {display:block !important;width:100% !important;}
+    .mob-block {display:block !important;}
+    .embed-img {padding:0px 0px 12px 0px !important;}
+    .socialShare {padding-top:15px !important;}
+    .rec { padding-left:15px!important;padding-right:15px!important; }
+  }
+  @media screen and (max-width: 480px) {
+    u + .a .gg { width: 100% !important; width: 100vw !important; }
+    .tok-heart { padding-top:75% !important; }
+    .tok-play { padding-top: 250px !important; }
+  }
+  @media screen and (max-width: 320px) {
+    .tok-heart { padding-top:65% !important; }
+  }
+  .u { border: 1px solid #CACACA !important; border-radius: 2px !important;=
+ background-color: #ffffff !important; padding: 0px 13px 0px 13px !importan=
+t; font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Se=
+goe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif !important;fon=
+t-size: 12px !important; color: #767676 !important; }
+  .u a { text-decoration: none; display: block !important; color: #767676 !=
+important; margin: 0px !important; }
+  .u span, .u img { color: #767676 !important;margin:0px !important; max-he=
+ight:32px !important;background-color:#ffffff !important; }
+</style><!--[if mso]><style type=3D"text/css">
+    sup { font-size: 100% !important;vertical-align: .5em !important;mso-te=
+xt-raise: -1.5% !important;line-height: 0 !important; }
+    ul { margin-left:0px !important; margin-right:10px !important; margin-t=
+op:20px !important; margin-bottom:20px !important; }
+    ul li { margin-left: 0px !important; mso-special-format: decimal; }
+    ol { margin-left:0px !important; margin-right:10px !important; margin-t=
+op:20px !important; margin-bottom:20px !important; }
+    ol li { margin-left: 0px !important; mso-special-format: decimal; }
+    li.listItem { margin-left:15px !important; margin-top:0px !important; }
+    .paddingDesktop { padding: 10px 0 !important; }
+    .edm_outlooklist { margin-left: -20px !important; }
+    .embedImage { display:none !important; }
+  </style><![endif]--><style>
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxKKT=
+U1Kg.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlfBB=
+c4AMP6lQ.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/roboto/v29/KFOkCnqEu92Fr1Mu51xIIz=
+IXKMny.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    src: url('https://fonts.gstatic.com/s/roboto/v29/KFOjCnqEu92Fr1Mu51TzBi=
+c6CsTYl4BO.woff2') format('woff2');
+  }
+</style></head><body class=3D"a" style=3D"margin:0px auto;padding:0px;word-=
+wrap:normal;word-spacing:normal;background-color:#FFFFFF;"><div role=3D"art=
+icle" aria-roledescription=3D"email" aria-label=3D"email_name" lang=3Den st=
+yle=3D"font-size:1rem"><div style=3D"display:none;max-height:0px;overflow:h=
+idden;"> Exclusive scoop on cutting-edge travel startups! &#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204; </div><table role=3D"none" width=3D"100%"=
+ border=3D"0" cellspacing=3D"0" align=3D"center" cellpadding=3D"0" class=3D=
+"gg"><tr><td align=3D"center" valign=3D"top"><table role=3D"none" width=3D"=
+670" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"aa" style=3D=
+"width:670px;table-layout:fixed;"><tr><td align=3D"center" valign=3D"top" s=
+tyle=3D"padding:22px 5px 21px 5px;"><table role=3D"none" width=3D"100%" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center"><tr><td alig=
+n=3D"center" valign=3D"top" style=3D"border:0px solid #ff0000;border-radius=
+:10px;background-color:#FFFFFF;" class=3D"c"><table role=3D"none" width=3D"=
+100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center"><tr=
+><td class=3D"f" align=3D"right" valign=3D"top" style=3D"padding:20px 15px;=
+"><p> September 01, 2023 </p></td></tr><tr><td class=3D"dd" align=3D"center=
+" valign=3D"top" style=3D"width:100%;"><table role=3D"none" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D"margin:0 auto 1=
+6px;"><tbody><tr><td style=3D"width:220px;"><a href=3D"https://link.mail.be=
+ehiiv.com/ss/c/Z3mahYt1PxkUduO4bwYfxYOD5DlM8B5z-Is8j4DfZT0JIJ9FrNYPV96iDon6=
+9lSvcxBKhg3dDGR1M_KnUUsQKDaowsvrHlHjRWOUw9Cru6qg96-_ykBdJ0Rf12ntreN67VozZMK=
+Gt0s11HUsocpWm-bA_qnPb7YUzFt2AgzY3zGrjfXJ7Y9VwN7_zvYwGwXX/3z8/2sLUFZeNSX6yT=
+7qogIEKEQ/h0/ahpkAecoCyMMPB7ajTbEO3_1vx5CQjzzXZ39w7KYMkE"><img alt=3D"" wid=
+th=3D"220" height=3D"auto" border=3D"0" style=3D"width:100%;height:auto;bor=
+der:0;display:block;outline:none;text-decoration:none;" src=3D"https://medi=
+a.beehiiv.com/cdn-cgi/image/fit=3Dscale-down,format=3Dauto,onerror=3Dredire=
+ct,quality=3D80/uploads/asset/file/23ce2337-ea1a-4107-a212-c40bc58dbbc1/Fut=
+ureTravel_Newsletter_Header.png"/></a></td></tr></tbody></table></td></tr><=
+tr><td class=3D"dd" align=3D"center" valign=3D"top" style=3D"padding:0px 15=
+px 8px;"><table role=3D"none" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" align=3D"center"><tr><td align=3D"center" valign=3D"top"=
+><h1 style=3D"text-align:left;font-family:&#39;Roboto&#39;,-apple-system,Bl=
+inkMacSystemFont,Tahoma,sans-serif;font-weight:Bold;font-size:32px;color:#0=
+00000;padding:2px 0;line-height:38px;"> The World=E2=80=99s Top 100 Travel =
+Startups =F0=9F=9A=80 </h1></td></tr></table></td></tr><tr><td style=3D"hei=
+ght:0px;width:0px;"><div style=3D"height:1px;" data-open-tracking=3D"true">=
+ <img src=3D"https://link.mail.beehiiv.com/ss/o/SsP5LmXlktxstUBNiSVPRQ/3z8/=
+2sLUFZeNSX6yT7qogIEKEQ/ho.gif" alt=3D"" width=3D"1" height=3D"1" border=3D"=
+0" style=3D"height:1px !important;width:1px !important;border-width:0 !impo=
+rtant;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !im=
+portant;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 =
+!important;padding-right:0 !important;padding-left:0 !important;"/> </div><=
+/td></tr><tr id=3D"content-blocks"><td class=3D"email-card-body" align=3D"c=
+enter" valign=3D"top" style=3D"padding-bottom:15px;"><table role=3D"none" w=
+idth=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"cen=
+ter"><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-ali=
+gn:left;word-break:break-word;"><p> As someone who <span style=3D""><i>real=
+ly</i></span> loves staying up-to-date with new ideas and working with foun=
+ders in the travel industry, I&#39;m super excited to share our new report =
+with you. </p></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"paddin=
+g:0px 15px;text-align:left;word-break:break-word;"><p> In each newsletter, =
+we highlight and celebrate amazing ventures. We spend a lot of time learnin=
+g about and keeping in touch with innovative groups, and it&#39;s really va=
+luable. And now, we&#39;ve put together all this information into a big rep=
+ort: <a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/aDMgW0yHb=
+-jJvXPvLdIuQ8oNDy_clRsImzv5CPBhSpO-6AuyWVz6pKTtq5ft_DUAMBEkSq9FR9GOo0qKnngH=
+Zzf8lmJu0-PvN75o_6GA-ge-dPfJYpmtkTowAvRPGD_lDQkT5W0dAcGpcfoCdYxKfIcfYwEzUnA=
+BkhjZ0eiFEm--p056IqVAWyhZ5f0MzhRxLQKV8b4-BWxidlqPH1QJVIKMVeKFDMqjmXAHUeMB9V=
+A/3z8/2sLUFZeNSX6yT7qogIEKEQ/h1/JS-QQpZi09CMzWguPZyp2hoqRXxATbB_EF7EQxyQKZM=
+" target=3D"_blank" rel=3D"noopener noreferrer nofollow"><b>The World=E2=80=
+=99s Top 100 Travel Startups.</b></a></p></td></tr><tr><td class=3D"dd" ali=
+gn=3D"left" style=3D"padding:0px 15px;text-align:left;word-break:break-word=
+;"><p> Believe me when I say that this report is an absolute gem. It is a m=
+ust-read for anyone who is curious and passionate about the latest projects=
+ taking flight in the world of travel. We&#39;ve done this kind of report b=
+efore, and now we&#39;re doing it again - it=E2=80=99s for anyone willing t=
+o become an insider in this dynamic ecosystem. </p></td></tr><tr><td class=
+=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:left;word-break=
+:break-word;"><p> Don&#39;t miss out on this chance to get exclusive access=
+ to our curated collection of the top travel startups. </p></td></tr><tr><t=
+d align=3D"center" valign=3D"top" style=3D"padding-bottom:12px;padding-left=
+:15px;padding-right:15px;padding-top:12px;text-align:center;width:100%;word=
+-break:break-word;" class=3D"dd"><table role=3D"none" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" align=3D"center"><tr><td class=3D"v" align=3D"c=
+enter" valign=3D"middle" height=3D"52" style=3D"height:52px;"><a href=3D"ht=
+tps://link.mail.beehiiv.com/ss/c/aDMgW0yHb-jJvXPvLdIuQ8oNDy_clRsImzv5CPBhSp=
+O-6AuyWVz6pKTtq5ft_DUAMBEkSq9FR9GOo0qKnngHZzf8lmJu0-PvN75o_6GA-ge-dPfJYpmtk=
+TowAvRPGD_lDQkT5W0dAcGpcfoCdYxKfIcfYwEzUnABkhjZ0eiFEm--p056IqVAWyhZ5f0MzhRx=
+LQKV8b4-BWxidlqPH1QJVIKMVeKFDMqjmXAHUeMB9VA/3z8/2sLUFZeNSX6yT7qogIEKEQ/h2/1=
+DU7sWxLfzlD93qoWYN4SSg27I6IOAYcXcBUK9wDWEg" target=3D"_blank" rel=3D"noopen=
+er noreferrer nofollow" style=3D"color:#000000;font-size:18px;padding:0px 2=
+2px;text-decoration:none;"> Don&#39;t Miss Out - Download the Report </a></=
+td></tr></table></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padd=
+ing:0px 15px;text-align:left;word-break:break-word;"><p> I=E2=80=99m excite=
+d to tell you about two amazing speakers for this year&#39;s FutureTravel S=
+ummit. <a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/aDMgW0y=
+Hb-jJvXPvLdIuQ8oNDy_clRsImzv5CPBhSpOIw_GNd4Dm2eFpUQFCm4v63ZVcmSVjZ46Zjqva1A=
+pzXFcEpBKAPZJLWisJdX5HWG2h__iPPNGY7w2bIbGsHp7HOfrVNxhsDWUXqi2fB9w86HIGvmX5H=
+HKBY1SkRibMWoc904v-s7P4G04vmdmq8zwFg7I74mMz8Cm1pbgleMu2giZ4y9weQOOHRep7uecY=
+83SHclikGaPJEX3zsGlgeaWZsvXYcxaeYvBCa4gi32bUbkTg0DUrvgB2TRNfio1yCfY/3z8/2sL=
+UFZeNSX6yT7qogIEKEQ/h3/sbANZ4bdXSJD0uTIWdm9BLu463XtjfGdO3sQB0DlNC8" target=
+=3D"_blank" rel=3D"noopener noreferrer nofollow">Pranav Sood</a>, Executive=
+ General Manager EMEA from <span style=3D""><b>Airwallex</b></span>, will j=
+oin the stage to discuss some exciting opportunities blending fintech and t=
+ravel. And <a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/aDM=
+gW0yHb-jJvXPvLdIuQ8oNDy_clRsImzv5CPBhSpM9VIQvVxg4LOOO9WQSTcD305wqAbz3UzgxRt=
+1iGDSWrcGvYygguFVfLCXRDrQ_PH9SruicHwkwQVJ2I0RzzATCNUIjUol0rJDUh3-diFFw-kJqS=
+omZWPmM5ji9sd49VK5KHr7irXBje0PXAQts2crTUtC-OJMCyv6v0XMFR3CZ2gHj8flZXgZVlgVc=
+poAts1x_GuLwrQN2yMWxRqiGbC3A67fZYQUnW91mXsTkHxHpHsq62ld0Tkc_XWbzverZIoo/3z8=
+/2sLUFZeNSX6yT7qogIEKEQ/h4/vOZfW5Zv2y_9YR7urostxCy1m1Wd6dMNOZN3TA9pCUk" tar=
+get=3D"_blank" rel=3D"noopener noreferrer nofollow">David Garcia</a>, CIO o=
+f <span style=3D""><b>TUI Musement</b></span>, will share insights on their=
+ journey of innovation and tech, along with how they work with startups. <a=
+ class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/aDMgW0yHb-jJvXPv=
+LdIuQ8oNDy_clRsImzv5CPBhSpP0VttVu9H1bMQfMsgGDpCMJZaRXLVzkrOJMwl5t_L-aReduNz=
+mxIEyeCfGYThsirFfV6lcpM3JEO7QacejLkc2X7vFm6PRJSNnp9gzUTrzAtND_HKcdh83Cp6cIu=
+aJVjd2ZQpvzN0LcFA5-xyuT65uLsETX8AwUeVsczK-KXs9Lg/3z8/2sLUFZeNSX6yT7qogIEKEQ=
+/h5/D5RmVR00kv888Wv3JBkvSxUonzGTiQRODRVVnqAMEy8" target=3D"_blank" rel=3D"n=
+oopener noreferrer nofollow">Don=E2=80=99t miss out, get your ticket now!</=
+a></p></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15=
+px;text-align:left;word-break:break-word;"><p> And now, here is our curatio=
+n of the top news in travel this week: </p></td></tr><tr><td style=3D"paddi=
+ng-bottom:12px;padding-left:37px;padding-right:27px;padding-top:12px;" clas=
+s=3D"ee"><div style=3D"margin-left:0px;" class=3D"edm_outlooklist"><ul styl=
+e=3D"list-style-type:disc;margin:0px 0px;padding:0px 0px 0px 0px;"><li clas=
+s=3D"listItem ultext"><p style=3D"padding:0px;text-align:left;word-break:br=
+eak-word;"><a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/Z3m=
+ahYt1PxkUduO4bwYfxVetBQr2KO7Ak9JtJ5c1AVrRjI0Y6pjYaGn4xjTrypPHJ7Me1FU9OrhpBw=
+22EyQYHFa24KJffNgtzSXN7FY_qOWa3228izsrgFcynliAftY55ZIDtxAwp2ah_CDeJKA0Lvv41=
+gmJFxk1RFn8W0Qt5buz_KGWPg4J7W-0aqcYerhrnA94710vhzvUF9r8WdJ9rHSAa4Nb2mZRc7uW=
+sfSZjTU/3z8/2sLUFZeNSX6yT7qogIEKEQ/h6/I71orxysVq8NpqQtnzoxSyB_8gnk10ItQHWiF=
+WgNiIE" target=3D"_blank" rel=3D"noopener noreferrer nofollow">Embracing AI=
+ for personalized travel.</a> Online travel agency <b>Travelshift</b> has s=
+ecured $10 million in funding. The funds will support the company&#39;s gro=
+wth and the development of AI-driven personalized travel experiences. This =
+funding follows the recent launch of Guide to Europe, an AI-powered marketp=
+lace for European leisure travel by Travelshift. </p><p style=3D"padding:0p=
+x;text-align:left;word-break:break-word;"></p></li><li class=3D"listItem ul=
+text"><p style=3D"padding:0px;text-align:left;word-break:break-word;"><a cl=
+ass=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/Z3mahYt1PxkUduO4bwY=
+fxR-2CuPo8b4o92pSvC2XbarLGqBDYOKmvN7Xe_dq-Zr03HjiJeupV4LFEjtz79CutJLoIS7l3G=
+WYHfSasLQlyRBdFqeJ4Xl8U8taNQFxHLP2rdAh-xdJpQikJvaw7zkvBxV3IOKPimWRNisDnLIIv=
+4FKTd2Dh68tBqZqCo9Iwo600h1Ec6hbK3rKaiNW_t6fc7SuGMbC-PeHW95aHL3ExU3sBc3Xyjcl=
+jmUat4dEEpN6bIAtaaeydjvx3vBg-mt9q_0Z7CbDINL6jGkD4jJLlFs/3z8/2sLUFZeNSX6yT7q=
+ogIEKEQ/h7/C9Wf-8stX7I_-QGH4TJpxPX11LyoE_cJey1_gTh1EUs" target=3D"_blank" r=
+el=3D"noopener noreferrer nofollow">Acquiring for a friend - collective tri=
+ps await.</a> Travel tech company <b>Snowfall</b> has acquired start-up <b>=
+AmigoGo</b>, an app for planning and booking group trips together. Snowfall=
+ aims to enhance its Junction One booking platform with this strategic move=
+. AmigoGo, launched in 2022, helps travelers plan group trips by solving de=
+cision-making challenges. The integration will improve Snowfall&#39;s Junct=
+ion platform with better group trip planning capabilities. AmigoGo founders=
+ will join Snowfall&#39;s tech team as part of the deal. Financial details =
+of the acquisition remain undisclosed. </p><p style=3D"padding:0px;text-ali=
+gn:left;word-break:break-word;"></p></li><li class=3D"listItem ultext"><p s=
+tyle=3D"padding:0px;text-align:left;word-break:break-word;"><a class=3D"lin=
+k" href=3D"https://link.mail.beehiiv.com/ss/c/Z3mahYt1PxkUduO4bwYfxVetBQr2K=
+O7Ak9JtJ5c1AVpZ8Hh-O6b4xLYbkPIJ9OA-dA2w_RhTAM_Q0ctytd7YoEfMyHpcKWwOgzIe0ylo=
+0LcYE7ihM_CQAELMaFAY9SfBUErNqwwThj5C5BkBu3LYBseVSlLlXAqP4EGDfMFYT-eq11Fg2in=
+1wFV7ianKJZdCPsnUXVmn_cYjsrFeapj8huSlhCqIHWFTIVDZXOWWsgcDmqM6mn7n1dXhqM_h1K=
+fxspbf9JvmVQIzuPtrRC1EKwLHiQjIgI4MERxup3JCZUs/3z8/2sLUFZeNSX6yT7qogIEKEQ/h8=
+/zOt3Urms1rgwydTCJe7uVGIm7onsjS02_r5U8XjJ2Ps" target=3D"_blank" rel=3D"noop=
+ener noreferrer nofollow">Goodwings for clean travel.</a> Denmark-based tra=
+vel management system <b>Goodwings</b> has secured $1.5 million in funding.=
+ Goodwings offers a subscription-based platform allowing businesses to book=
+ travel and receive commissions from hotel and flight bookings, which are d=
+eposited into a &quot;Carbon Account&quot; that can be used to offset emiss=
+ions through green aviation fuel and carbon offsets. On a recent update, th=
+e company updated its dashboard to provide clients with more data on emissi=
+ons reductions. The company also announced a partnership with <b>JTB USA</b=
+> to expand its supply of flights, hotels, trains, and car rentals. </p><p =
+style=3D"padding:0px;text-align:left;word-break:break-word;"></p></li><li c=
+lass=3D"listItem ultext"><p style=3D"padding:0px;text-align:left;word-break=
+:break-word;"><a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/=
+Z3mahYt1PxkUduO4bwYfxVetBQr2KO7Ak9JtJ5c1AVpNKugW_UuYpgXcYy7ZVUpUSh3aYf2hxQ7=
+xwG8I2c9mz8QTrKqVF3_uey7H8-qi-asQMBSnVvMlQh5tRAgYNsqWH3kKw0W7AOeEryhDMN-9vg=
+7qTlrn4zaObEA69i-K0ue8kL0LOgICVr4O_nPP2y67trgUkR5S40pA2XqFdMU4-gFRFuyev4vNm=
+XJnMa-OPtU/3z8/2sLUFZeNSX6yT7qogIEKEQ/h9/xnpfpoB6JOZkOGx5bk-wWRDf5t70V6q6Qa=
+4rxE6kwTs" target=3D"_blank" rel=3D"noopener noreferrer nofollow">Path to E=
+xpansion and Growth.</a> Group tour and experience specialist <b>Modern Adv=
+enture</b> has secured $4.8 million in Series A funding. The funds will be =
+used to expand travel offerings, improve customer experiences, and support =
+recruitment. Modern Adventure believes that experiences are crucial for bui=
+lding customer relationships and offers talent-hosted trips and private gro=
+up retreats worldwide. </p><p style=3D"padding:0px;text-align:left;word-bre=
+ak:break-word;"></p></li><li class=3D"listItem ultext"><p style=3D"padding:=
+0px;text-align:left;word-break:break-word;"><a class=3D"link" href=3D"https=
+://link.mail.beehiiv.com/ss/c/Z3mahYt1PxkUduO4bwYfxbVacXfGF9IyPlnXDEk6NgUkB=
+vggpMDpPN-BDkWcPhQ9n8ZyLkvGzxCHxZyQnNvkV19JlMP2hRuSAv0M5k-vwHKjnNpq4TlPvgD8=
+NKdH8FWd9REiuFb67PKtaROTIUIYRfoetQ12LbpK248AIw8ZD6gQpPwZdiTB6SxcK6AeAfriBdX=
+mmVeLLnqvd34iP_5JhRXf-AEBpGbx7JmaYBH-dA5m48Gkxhn0uXG3k6RKarD-OO6cI3JhTEXvHK=
+dEBzT3t2A-eklOXOMP-FT3478BggauOqvnZJMm6xuOK1NcKiReIVoEHRmhgGDeBGkuHj9jDg/3z=
+8/2sLUFZeNSX6yT7qogIEKEQ/h10/EG3ETdwNA-VY1dBOnk3iJi_XcskTYVwBdt7f42RWZ5E" t=
+arget=3D"_blank" rel=3D"noopener noreferrer nofollow">Keeping Guests Eco-In=
+formed.</a> Based in Copenhagen, <b>BeCause</b> is joining forces with <b>e=
+asyJet</b>=C2=A0<b>holidays</b> to improve the way sustainability informati=
+on about hotels is presented. Their tech connects certifying organizations =
+with travel companies, making sure that accurate and reliable sustainabilit=
+y data is provided to travelers. Through this partnership, easyJet holidays=
+ will automate and simplify the process of presenting sustainability inform=
+ation, replacing the need for manual updates. This guarantees that users wi=
+ll always have the latest information about eco-certified accommodations. <=
+/p></li></ul></div></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"p=
+adding:0px 15px;text-align:left;word-break:break-word;"><p> We&#39;ve been =
+making some changes behind the scenes at FutureTravel: we&#39;re now using =
+a new platform to send our weekly newsletters. While I truly enjoy experime=
+nting with new tools, it can take a bit of time to make sure everything is =
+working smoothly. If you notice anything unusual, please reply to this e-ma=
+il and let me know.<br><br>See you next week, </p></td></tr><tr><td class=
+=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:left;word-break=
+:break-word;"><p> Ana </p></td></tr></table></td></tr><tr><td class=3D"b" a=
+lign=3D"center" valign=3D"top" bgcolor=3D"#ffffff" style=3D"padding:3px;bor=
+der-bottom-left-radius:10px;border-bottom-right-radius:10px;"><table role=
+=3D"none" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" a=
+lign=3D"center"><tr><td align=3D"center" valign=3D"top" bgcolor=3D"#ffffff"=
+ style=3D"padding:12px"><table role=3D"none" width=3D"100%" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0" align=3D"center"><tr><td><span style=3D"p=
+adding-left:1px;"></span></td><td align=3D"center" valign=3D"middle" width=
+=3D"75" style=3D"width:75px;"><a href=3D"https://link.mail.beehiiv.com/ss/c=
+/Z3mahYt1PxkUduO4bwYfxWqZKWODAGVL1qUT5p7-VjCppyPSR0IZVgpQ7j7rf4QWPDEHywh6l-=
+aT863jiBlHT24CDU4Rli87Cl6fHzMaGIRSufRsuD4CoHwIzVZOPvD-T4qg82lw0LxkZR7x1Ziyc=
+fJ8Ps9tVrYbvC5mIQE8ffDNEDd2K3d44OF-MpFh1XLXFqIgMkAdfbKLgjJyWmh2Hg/3z8/2sLUF=
+ZeNSX6yT7qogIEKEQ/h11/i8xHBUc7pVL35QNUMXaUTpDdIEn1RDolJR0rkyhrD-E" style=3D=
+"text-decoration:none;"><img width=3D"22" alt=3D"fb" border=3D"0" style=3D"=
+display:block;max-width:22px;" src=3D"https://media.beehiiv.com/cdn-cgi/ima=
+ge/fit=3Dscale-down,format=3Dauto,onerror=3Dredirect,quality=3D80/static_as=
+sets/facebook_dark.png"/></a></td><td align=3D"center" valign=3D"middle" wi=
+dth=3D"75" style=3D"width:75px;"><a href=3D"https://link.mail.beehiiv.com/s=
+s/c/7STc_4ymlPEmh6HUwLMetncxPU6Ye7S_rsmssgtTzr9Tmjoo1R1_wvuWzLrrXxnrYNzB2j6=
+dBqMIW4SnqS52xnSYDmHPHy2obn9rl8cCvZuM806aHC6cNDFRXqsPYY8rQtTWOPI6LsIl4UK1NX=
+9xeSs484j7Al4NN-bvnXBOH-VdUL34U-C-9oLqKFYMEKpT6leRgd36htNIt3Jvk7eb8A/3z8/2s=
+LUFZeNSX6yT7qogIEKEQ/h12/Rv6O4y05TJNTBYYxCA7cNKvdn1alQYl_VV77XALXD7E" style=
+=3D"text-decoration:none;"><img width=3D"22" alt=3D"tw" border=3D"0" style=
+=3D"display:block;max-width:22px;" src=3D"https://media.beehiiv.com/cdn-cgi=
+/image/fit=3Dscale-down,format=3Dauto,onerror=3Dredirect,quality=3D80/stati=
+c_assets/twitter_dark.png"/></a></td><td align=3D"center" valign=3D"middle"=
+ width=3D"75" style=3D"width:75px;"><a href=3D"https://link.mail.beehiiv.co=
+m/ss/c/Z3mahYt1PxkUduO4bwYfxU4fYClzTeqgROe5Xrf0GoSGg9h5jBVIFwJ5D-KzH0zMziye=
+f0pA-I8w5ntiRViYAjA9iM3qoo_qaWaLvBmueL98MIOAJ2yVMHVbzyMu2oJo_1G3npZcJe0gxDp=
+uqKJO4gajePqu68_ngbZ8s7UBhkzJAovubYohqUa3euvV3LGvvqi_uejfiJIbLvGVQzOssw/3z8=
+/2sLUFZeNSX6yT7qogIEKEQ/h13/xZPhqczv4OxWlaxnIXno6hMz2jGjkmsgroqW2ZHyGLQ" st=
+yle=3D"text-decoration:none;"><img width=3D"22" alt=3D"ig" border=3D"0" sty=
+le=3D"display:block;max-width:22px;" src=3D"https://media.beehiiv.com/cdn-c=
+gi/image/fit=3Dscale-down,format=3Dauto,onerror=3Dredirect,quality=3D80/sta=
+tic_assets/instagram_dark.png"/></a></td><td align=3D"center" valign=3D"mid=
+dle" width=3D"75" style=3D"width:75px;"><a href=3D"https://link.mail.beehii=
+v.com/ss/c/Z3mahYt1PxkUduO4bwYfxTk27O3mrqFAaSoJywGS72bdtgUaptRRifWP1JM9gxWb=
+zOJ4WaLz06xybjUIaQW1pZcmMdSK8HyYOuMh2DHXvwTVlI5sB-TImANYydszO5H6EjeoWc9mpJC=
+gfGtzGJVrV6-MRxstxPgoJqrCzqNjeuAC3YNLMAq3-5vnhy-jgRoV9VTDSGO5jgU8P-AB1ZNRJd=
+zEWqUm9PeDQFbB6VRZ0OM/3z8/2sLUFZeNSX6yT7qogIEKEQ/h14/vgBxMIEpFIDesH9dUliITX=
+fMy9gUlRHuaNQ4PB8753Y" style=3D"text-decoration:none;"><img width=3D"22" al=
+t=3D"in" border=3D"0" style=3D"display:block;max-width:22px;" src=3D"https:=
+//media.beehiiv.com/cdn-cgi/image/fit=3Dscale-down,format=3Dauto,onerror=3D=
+redirect,quality=3D80/static_assets/linkedin_dark.png"/></a></td><td><span =
+style=3D"padding-left:1px;"></span></td></tr></table></td></tr><tr><td clas=
+s=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:left;word-brea=
+k:break-word;"><p></p></td></tr><tr><td class=3D"dd" align=3D"left" valign=
+=3D"top" style=3D"padding:0px 15px;text-align:left;"><h6><span style=3D"fon=
+t-size:14px;"><b>Thank you for reading until the end.</b></span></h6></td><=
+/tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-alig=
+n:left;word-break:break-word;"><p><span style=3D"font-size:12px;">The conte=
+nt of this newsletter is curated and published by </span><span style=3D"tex=
+t-decoration:underline;"><span style=3D"font-size:12px;"><b><a class=3D"lin=
+k" href=3D"https://link.mail.beehiiv.com/ss/c/aDMgW0yHb-jJvXPvLdIuQ6S1O9r3y=
+Z6qKf65dTfsbJl7H5vd1vJyjZE1wVOWs16kBMqfWeJK0MWZKlg6ILn7fZu6Pnh7RtRbwCqkv00U=
+0zuZoUHfu-V8LrqEFCWO8qcL5p-a4uuUIXpOzyaGCn1JLId-0ZKgR2vKSE_9hr3j1mU/3z8/2sL=
+UFZeNSX6yT7qogIEKEQ/h15/TcCCp8ao1PL44v55Xj28GlsJzKiCkeiWa48AtqdOcas" target=
+=3D"_blank" rel=3D"noopener noreferrer nofollow">Ana Metz</a></b></span></s=
+pan><span style=3D"font-size:12px;">, an innovation expert, passionate abou=
+t technology and excited about the future of travel.</span></p></td></tr><t=
+r><td class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:left=
+;word-break:break-word;"><p><span style=3D"font-size:12px;">Looking for a s=
+pace to promote your business or service for more than 21k subscribers? </s=
+pan><span style=3D"text-decoration:underline;"><span style=3D"font-size:12p=
+x;"><b><a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/aDMgW0y=
+Hb-jJvXPvLdIuQ6S1O9r3yZ6qKf65dTfsbJl7H5vd1vJyjZE1wVOWs16kBMqfWeJK0MWZKlg6IL=
+n7fZu6Pnh7RtRbwCqkv00U0zvgqcelJKQGDfP0kaAZKTdRnICN2OEqgcJm-VpByWJF829n_Um0A=
+CA-YSDmRRppVtc/3z8/2sLUFZeNSX6yT7qogIEKEQ/h16/JrDaYWMx4zXHP8AydDqFacx3FwmCe=
+AhQ_Vu5dAv_4ZQ" target=3D"_blank" rel=3D"noopener noreferrer nofollow">Let=
+=E2=80=99s talk.</a></b></span></span></p></td></tr><tr><td align=3D"center=
+" valign=3D"top" style=3D"font-size:0px;line-height:0px;padding:20px 0px;" =
+class=3D"dd"><table class=3D"j" role=3D"none" width=3D"61%%" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" align=3D"center"><tr><td> &nbsp; </td></=
+tr></table></td></tr><tr><td width=3D"100%"><table role=3D"none" width=3D"1=
+00%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td width=3D"50%"=
+ style=3D"vertical-align:top;" class=3D"mob-stack"><table role=3D"none" wid=
+th=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td=
+ class=3D"dd" align=3D"left" style=3D"padding:0px 15px;text-align:left;word=
+-break:break-word;"><p><span style=3D"color:rgb(51, 51, 51);font-family:Rob=
+oto, Helvetica Neue, Helvetica, Arial, sans-serif;font-size:14px;"><b>Futur=
+eTravel is a weekly newsletter about the future of travel, featuring the mo=
+st exciting news about innovation, trends and startups in the industry.</b>=
+</span></p></td></tr><tr><td align=3D"left" valign=3D"top" style=3D"padding=
+-bottom:12px;padding-left:15px;padding-right:15px;padding-top:12px;text-ali=
+gn:left;width:100%;word-break:break-word;" class=3D"dd"><table role=3D"none=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"left"><tr><td c=
+lass=3D"v" align=3D"center" valign=3D"middle" height=3D"42" style=3D"height=
+:42px;"><a href=3D"https://link.mail.beehiiv.com/ss/c/aDMgW0yHb-jJvXPvLdIuQ=
+xfBHjdsNgsL5Izp-_J2PO-HoqMWD9k_Ej57grC-1nDVKnE951017NgTZGrx75dhX9T27aayaaVj=
+b2BDCaA5ifbFWyzNsMNIm6peIZhYlevXnHMKki0nj-xjHQZ07OsJal96VskHWJtn1HyJ1aGhqWm=
+oE8pVq7VJiUjCPdThhCkd0Vl9MFjYUk9PY2xEm6dKkFo00WiJt06bibYoIRAzb7ZIaDkfbC4egr=
+W64RGIOFG2KhUKDnOIPG0HaEF6k-otsr93hWjO8qPVnDti8m-JsynXZhxeS-JMR6AFHtPC7r4Kb=
+Lhhs33IEW_iZji_9or2bsZ8PZwf0ZkB9_YyIOzhLd_dq1i-smgl7UiovzQ86wRh3OAc3uOS-srP=
+HrU_RiwD5CtlyVk_NvvwhdWIk2yQDILthLoNw8h8VcSo_Xsyi7owE-jPx9ldojGYAGDwPmkApl1=
+9vim72MQxHDaO0Yz8hS67eUkemzG48JIpnjWOYcY_jcYp6pIcoBgwseNDCwFLZbSXFngh4-Q6Gi=
+c7tSPy4JA/3z8/2sLUFZeNSX6yT7qogIEKEQ/h17/Nnw62Nvtu_LVyDDzfrsQID8P8TlGw_kQjf=
+iodlnMMHk" target=3D"_blank" rel=3D"noopener noreferrer nofollow" style=3D"=
+color:#000000;font-size:16px;padding:0px 14px;text-decoration:none;"> Subsc=
+ribe </a></td></tr></table></td></tr></tbody></table></td><td width=3D"50%"=
+ style=3D"vertical-align:top;" class=3D"mob-stack"><table role=3D"none" wid=
+th=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td=
+ align=3D"center" valign=3D"top" style=3D"padding: 19px 15px 19px; " class=
+=3D"dd"><table role=3D"none" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" style=3D"margin:0 auto 0 auto;"><tr><td align=3D"center" valign=3D"top" =
+style=3D"width:157px;"><img src=3D"https://media.beehiiv.com/cdn-cgi/image/=
+fit=3Dscale-down,format=3Dauto,onerror=3Dredirect,quality=3D80/uploads/asse=
+t/file/a3358dd5-1456-41b2-9531-b93cb427d360/FT_airplane_thumb_transparent.p=
+ng" alt=3D"" height=3D"auto" width=3D"157" style=3D"display:block;width:100=
+%;" border=3D"0"/></td></tr></table></td></tr></tbody></table></td></tr></t=
+able></td></tr><tr><td class=3D"dd" align=3D"left" style=3D"padding:0px 15p=
+x;text-align:left;word-break:break-word;"><p></p></td></tr><tr><td height=
+=3D"10" style=3D"line-height:1px;font-size:1px;height:10px;"> &nbsp; </td><=
+/tr><tr><td class=3D"w" align=3D"center" valign=3D"top" style=3D"padding:13=
+px;"><table role=3D"none" width=3D"100%" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0" align=3D"center"><tr><td align=3D"center" valign=3D"top"><p =
+style=3D"font-family:'Roboto',-apple-system,BlinkMacSystemFont,Tahoma,sans-=
+serif;color:#979797!important;"> Update your email preferences or unsubscri=
+be <a class=3D"link" href=3D"https://link.mail.beehiiv.com/ss/c/aDMgW0yHb-j=
+JvXPvLdIuQxfBHjdsNgsL5Izp-_J2PO-HoqMWD9k_Ej57grC-1nDVkHisy8SHkOJsVoXIlvzFfZ=
+PTQBJJo6K1nutiYB1OtfsV1MQwcLC5pbq7YIPSWsMSxGxeDYtLxF7ldbLTi9cOKguQS2A74Gzil=
+ODE_RHQZMaqaYyUju2t0Bo1YVD98BeWv3JgL1AT0AMs3j88xyzsDRutD4vNdpxFMG-S2dozAx8h=
+kNADoDbwE6SIpSkk6vlIHDoy3s6ghiL_waV8UR3WEwNpXwtbfiGmGHHq2DT-7JC4MQ67Bvocgzk=
+5r86EsMowOlWzzyy49kFwNVnQ5dPmhsaXXfEBlAKFn5M62IiBu30nIPWEWo4lNseAUGkT4SeXQt=
+6hABMre59CQkz7frx4oWCmp_IxA9dQbv4N-s-kyRQputQeNRoxcuJkrIaNyj_ihOiAMmB02MNck=
+9wu180uMQbzyc00-5jvose0MvWf70KcEBJ19sHCpBGwGkiNMQRoSmVO-TJ5fWdy0IwUcFe15Q/3=
+z8/2sLUFZeNSX6yT7qogIEKEQ/h18/IqgXj9KAU8mPAbd4QLGrL-C-CJFxUrNkLoBwZJf6qLQ" =
+style=3D"text-decoration:underline;text-decoration-color:#979797!important;=
+color:#979797!important;"> here</a></p><p class=3D"copyright" style=3D"font=
+-family:'Roboto',-apple-system,BlinkMacSystemFont,Tahoma,sans-serif;color:#=
+979797!important;"> &copy; FutureTravel </p><p style=3D"font-family:'Roboto=
+',-apple-system,BlinkMacSystemFont,Tahoma,sans-serif;color:#979797!importan=
+t;"> Carrer de la Riera de Sant Miquel 3 3-1<br>Barcelona, Barcelona 08006,=
+ Spain </p></td></tr><tr style=3D"display: table-row !important;"><td align=
+=3D"center" valign=3D"top" style=3D"padding-top:20px;" style=3D"display:tab=
+le-cell !important;"><table role=3D"none" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0" align=3D"center" style=3D"display:table !important;"><tr st=
+yle=3D"display:table-row !important;"><td class=3D"u" align=3D"center" vali=
+gn=3D"middle" height=3D"32" style=3D"height:32px;display:table-cell !import=
+ant; max-height: 32px !important;margin:0px !important;"><a style=3D"line-h=
+eight:32px !important;text-decoration:none;display:block !important;" href=
+=3D"https://link.mail.beehiiv.com/ss/c/Z3mahYt1PxkUduO4bwYfxfYahZ7um2DoBjqj=
+ZsN5E57QAvOSB8g8lTJXUSUylAv38nmUMXGZN86Zq86xmcZsNvRSb3sEn4Nl_cTBNezUGXMIrWH=
+jIjHjBOz1HTuYAo0U5vreTqw8qbR0E0LvrXgrbATVqdb6DCGvCGsoE9NMD2g/3z8/2sLUFZeNSX=
+6yT7qogIEKEQ/h19/_ZzfIyMGVu-z9SeOnxYAJvzki3k9vzJAj5Mlo9ajaDo"><img src=3D"h=
+ttps://media.beehiiv.com/output-onlinepngtools.png" width=3D"16" alt=3D"bee=
+hiiv logo" style=3D"display:inline-block !important;max-width:16px !importa=
+nt; vertical-align:-3px !important;width: 16px !important;" border=3D"0"/><=
+span style=3D"padding-left:11px !important;display: inline-block !important=
+;">Powered by beehiiv</span></a></td></tr></table></td></tr></table></td></=
+tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr>=
+</table></div></body></html>
+--34f6f2404ac531f7e293190200a9030724e8420c2e321f2f9e2addf2b938--

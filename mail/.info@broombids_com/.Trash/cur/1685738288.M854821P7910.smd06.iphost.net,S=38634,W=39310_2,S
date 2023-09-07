@@ -1,0 +1,676 @@
+Return-Path: <Kishore.itservices@outlook.com>
+Delivered-To: info@broombids.com
+Received: from smd06.iphost.net
+	by smd06.iphost.net with LMTP
+	id aNxbMjBTemTmHgAAT4N6Cg
+	(envelope-from <Kishore.itservices@outlook.com>)
+	for <info@broombids.com>; Fri, 02 Jun 2023 23:38:08 +0300
+Return-path: <Kishore.itservices@outlook.com>
+Envelope-to: info@broombids.com
+Delivery-date: Fri, 02 Jun 2023 23:38:08 +0300
+Received: from mail-bmxind01olkn2097.outbound.protection.outlook.com ([40.92.103.97]:29826 helo=IND01-BMX-obe.outbound.protection.outlook.com)
+	by smd06.iphost.net with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <Kishore.itservices@outlook.com>)
+	id 1q5BXF-00021s-0w
+	for info@broombids.com;
+	Fri, 02 Jun 2023 23:38:08 +0300
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=UcONVgR0H8yBAyhOM1E3XD68jBaorIwN4+ZvdzBfrtXR97M2g3RXZyhDP1R6AsIVDFsAClTcfc44SwWhe5ZpigVQBBzA2R0Uj6F3xlgz/HDPIwhPh7RrNrwvUQIC6buKImR5cEh5QtG+e+dFmc8f4DKZ3HOjFntWhWHMbXZaLY21s7SAaJP/t7FUH9lPFgAsAEe6WnMit2kPHQmRsE5+O/4tOyoLVIr2uH2KM7db1QiZ/lQi/Tr+kCmYCpiSCJsVcSwidZpR5jjETOY/67O4zxp5/quq7gN1vOx3hHB4kd1kueybZy+E13BmyiDqqRCCAwmnrENouAoI4JtSAb7eWw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=LIHTbjGWY04OixeN4t8GYd8CczRFjmlAJ3+1WdbMPOw=;
+ b=HOvx8R1+Xb9W8+w6Nx+J+b/aNK2W00Hn9TGKYX0fvHgir/5fhGDr+GkpPSmgfW/LZ+kw7a2SRi2a5MV04lLFPjFJAt49k6Y55maAszNmfcFXm2HuXhleTUCUYEz8KmD6H6gyMNhK7XuPaWNEZQp6Kxlu32+2q6QxtKADIH+TPqe4MZAxiEm8CD8D2APiydA0kcAQ2jpSrtTPDjl0lDiOmAVguXXkeSIRZ13yKxuW4lNRDhTDeZIa1O6yzakdAdB2Ta8tVqE1PXVkJci0VAq+tB4c0++hDM7Rh+8c4YVQTJY7rb2k1eYkLudGNgG9ueE49rzrC4GloSrVw3BaPwUN3A==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=LIHTbjGWY04OixeN4t8GYd8CczRFjmlAJ3+1WdbMPOw=;
+ b=kn44Zv0uBvgRk/Cf4XJfyKRuVWoyLMcWP7aUSW50ddX3PrCzl7+4hnVLjxGQpx+S1DJOTlcovuCaq5lV/ZFvyqtQYjoOB3Nk55wNPbpvmKk5JsTLqiIJpj49vxsmW1fQqcbHZlNafaJ8dOp7ROv7zqdZdNWFFSbPzNEdeKF7BwNSNqCzH1lnCDLvpAZG8sQ3YQRVdX5B2vfQDheQGH8s7XUDUS3Nkloluiltu9qdKG5XpPFg2WgldTz9LjgKgy/KsTVUjuMO3+e0iakjiObrwtKHc2ObYHgZxd5YMbFodAaiBM2SuR1YSW4YiM/Kc1juiYPq63oCWbD6RMFFvM/aFg==
+Received: from PN0P287MB0632.INDP287.PROD.OUTLOOK.COM (2603:1096:c01:160::6)
+ by PN0P287MB0726.INDP287.PROD.OUTLOOK.COM (2603:1096:c01:10b::7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6455.27; Fri, 2 Jun
+ 2023 20:36:58 +0000
+Received: from PN0P287MB0632.INDP287.PROD.OUTLOOK.COM
+ ([fe80::4133:8866:d6a0:5b33]) by PN0P287MB0632.INDP287.PROD.OUTLOOK.COM
+ ([fe80::4133:8866:d6a0:5b33%6]) with mapi id 15.20.6455.027; Fri, 2 Jun 2023
+ 20:36:58 +0000
+From: Kishore Biyani <Kishore.itservices@outlook.com>
+To: Kishore Biyani <Kishore.itservices@outlook.com>
+Subject: Re: Custom App Cost
+Thread-Topic: Custom App Cost
+Thread-Index: AQHZlJ9kTsWghNWCYE6lSR4OCztK6692FZFegAHlEww=
+Date: Fri, 2 Jun 2023 20:36:58 +0000
+Message-ID:
+ <PN0P287MB06326299E6ABCECB9B5713E5804EA@PN0P287MB0632.INDP287.PROD.OUTLOOK.COM>
+References:
+ <MA1PR01MB3676856A3F7E451C727792C680FC9@MA1PR01MB3676.INDPRD01.PROD.OUTLOOK.COM>
+ <PN2P287MB0625010BB8F0C377935B412380869@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625A61E05ECF001A64AC66980869@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB062561C3228F093DB1517AF980869@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625150FA81CFCDFA799AD7280869@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625031FC1CC80502EB940A680849@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB06259C094E5B9308F28C2E6680849@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625DDE6045BDA79209F1E8D80849@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625881072827E28A4984C0980849@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <MAZP287MB063857D548C544914825380780959@MAZP287MB0638.INDP287.PROD.OUTLOOK.COM>
+ <MAZP287MB0638B2232D520A614160A8E480959@MAZP287MB0638.INDP287.PROD.OUTLOOK.COM>
+ <MAZP287MB06386070332B5B4C562F8EA880959@MAZP287MB0638.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625C125E6D797A82848CE74809B9@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB06254C6AD4B1EF0D158B3BF8809B9@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB06250F33F9C2D16FF182AED780989@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625C230C97D7FF673C38F6380989@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB06252C10D11AFBA81189133180629@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625FF3B198ED2999FD9390780629@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625A36394A2DB6B53B7611980629@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB062552E81E11E0ED08D629E480609@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB06259FD516D760D3A20917C8806B9@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB06254E76032CC515EF717168806B9@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB062575B77562CEDCADB30652806B9@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625E9B316671E2355A60802806E9@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB06250E70EFA2FF2E0A4D97AA806E9@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625D0443A236C1AB274B24D806F9@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625AEDD9379FC63070DBDE2806F9@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB06252595CB4E7E65B3501F61806D9@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625C24A5E76941AC4797067806D9@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB06257BF33C3D155B71AEC0D3806D9@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625EC4A69160F156DBB07B680729@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB062568F4DA8513C6A70BD4DC80719@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB06250D65F9A3D794BDF94C2A80779@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625FEACCB4AD8B62F2FD0D280779@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB062572E517DCD3EA75CB855180759@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625F9D56DACEA0B0C640EAE80759@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB062543A35A24D4049C32D0D1807E9@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB06259A237F512F97CCA42C80807E9@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625E61A88273E194FB3A610807F9@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625D9717895D813FE73F0AE807F9@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625B62E667418A271AFDA7D807C9@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625BFA06DA7377A6175103F807C9@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625DF3A90E59CE7C8F3FA0D80409@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB06258416BD1A4B93E549750180419@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625ACE663ACBBD38A5D354980469@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB062558CBD0C3E010F70A46ED80469@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625C26716FF852C0D932AB4804A9@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625A06A2803AAE6CC4C17A7804A9@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625C4F6053AD0C392BDE2F1804A9@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB062593081EA24EDA79E0D6FE80489@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB06255D31423225414A45203C80499@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+ <PN2P287MB0625EE409747E7C58898E5C980499@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+In-Reply-To:
+ <PN2P287MB0625EE409747E7C58898E5C980499@PN2P287MB0625.INDP287.PROD.OUTLOOK.COM>
+Accept-Language: en-GB, en-US
+Content-Language: en-GB
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-tmn: [h2QvXzZkClE6VoLUw8G/Hnst6CAZSwJj]
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: PN0P287MB0632:EE_|PN0P287MB0726:EE_
+x-ms-office365-filtering-correlation-id: 089849cc-b823-4d96-428b-08db63a91cb1
+x-ms-exchange-slblob-mailprops:
+ ZRuQdVKRmYsoz2lPSb1kVNo6DevoxGmAvmsErd4et/rv8UyhEA2jmGOx9WuFnajErZaUw8QkF46pcWfZ3u5MMXs3dmM0U6Pl8VbOVuSoGow9EzK0TjPTTzLXLlWgkwl0OckweCDBPomtwSqwV+KWQ45llHkXJoutVI1e3zOi2fTdkRzc7iEoJ7icgSfBhysvC3Ud4CVC2Gd7tSwkLcP7qltZHAzn40AVIqLnfaiVBN5+Y5dHjyT6dSHmsw0fADcjc5Iw1zrF503qRw4N6WURSYgQS97bfYjNPr5tP5K+4uPyd1N+1lxQYSy0Khb2kLbkHPz1LQTf9EmGvvyiGx2HEt1kORV9BcyE13N1hAdXIR4QfnLL8hOMf0/9paSi+Hz/b65B4nGiXFmBgjefbxh3R9tHvZXZyyNexqFzZdiXghxVrnzr0yh3aLptRP68vdDVCwvRbe9Y6Vg86nv6+5JAw0w9E3kI4UKp0MBYTWTeWALaSGxM2p2T8oKAnHvWKPQoUV9KXXS2uPbp+A1vzY35Hq/bM/aBfuydOBgnHnOaTvpOUrIJNhRKBwvd35SH2txNq+X4ECKS2XeiNT8j9QItCTHyoS1efSmOTXombKN5hB2DyY44/moPFa7+T7XdmqQK3R35W5qErArA6Rfq+9GtRKWDnhjavMKGZjOmum7JosKMSq9r3sS++uQodd66k01M5hKYWSpCebnzsupEkmn7R5TQ1pdJZxlz
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ FrnG0cvLNohvf50LG9VQts7Y2NDg2Mn6CGDwBcbYjKEM06jnPbGocP15hVU1FZHjTgnqHYfB0RO3k0Xr1hfpoBbWOJR+tblCI712CpVL7kW5C7jV2Lv6nrjcreHm8QUzKZs/WXMhBw3IT/wuGR8zNaQD2hDYC856xAF3A1SmM35zAUp6hK9iPajzLgSBE/aSaaB3aKXurqTCQGoAX4DRPX1D6LrmQU5fIwbpL7bSYDGWtMM5SEE1G80qbevFVjtCyd2iDVQeN4w3snzg+7//kdzhk3gMYfHpq7urTpt+BL/iu6BpOIpgJjRU9cj6opK3AV7nMI7iTinrGE+rERtg+f7FAFdNnIjjbfcrxhoykLpYqLIwdduXAOnru8So7g+uFaZrRVgx2/GioyJ0GqphbU4HiZ5uLeXc9QnCjsGfbSJ9l0H8DKvWLUh8MNTUPtYk9adw4Y1EQb5jwFf4Wuq/mnx7Jz5xduLZO60LloEZ36PmNzax1o7cM9qPjGfaGJ/oZ5jJLNoKEGnhHkWY87dCi3cl4ph9b2BUm42Ir9s0sQ0/qteURQbmKnRWJKlHrH1Fm6ndnEtnbWdlwXraNhWGd4ihamR6D4B9mIaCGKWxxSHIjoE859aEHXgMl2WOlOqOshE6mZIDk0PcFZ4e70pdrQ==
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?Windows-1252?Q?ed3dRdz+WrDmmLuIH9K2AG9ve6y2oApjWQrioKqoUjuV+OyWRboLRyg2?=
+ =?Windows-1252?Q?/9cLmposdxiNThVmnis9HiI5Q84JBjkp2vnucZ3EiOoZv44nWVDXDoBS?=
+ =?Windows-1252?Q?5U15CvL9PrX0sh1sZS+euaZcdIbxun/KO0akY1XJal7m7E61k1jeKOvT?=
+ =?Windows-1252?Q?Q2WW0EOoo+s/2hFs7Uf9Hi5s2bBk/MhscDBsBazogLBOMam/NRiINF/7?=
+ =?Windows-1252?Q?9JWDfcpZuICu3aBJytcmKpS03KGlrbol9gbMpmQ+DMQbrgfcgK7QKmBD?=
+ =?Windows-1252?Q?DWZ2Bt0p2mnk2ufoPbekzsWJtUk/2LKF/xxb8pmgYOdV/ovE8ht6HhvG?=
+ =?Windows-1252?Q?1J33It9YaWzxV2YC8xeyM8uQQLKDLXUHtoYS19JtjRZBzy/2hrUy6H8Y?=
+ =?Windows-1252?Q?6Bb8YG8xDr6moMyBdzXNzdqTqMaHUJcC60t5SUZDx9ig2qK7UjwRbfpW?=
+ =?Windows-1252?Q?HnFuQMxlI1jQakddw6+Hx9UpTVSWcyxGtS729Acjnw+lYtlG2a8pi3ac?=
+ =?Windows-1252?Q?ojPO0/P4aBu0uL0sYus8rFugzeFZPR8MGBrp/HSghQbxQuv/qAKCkiQ1?=
+ =?Windows-1252?Q?ALwv+gmQ/bI59BMQtGrP1QTUrAdvCUrtYSP11NrtvF6Br6kF6V5iWiBD?=
+ =?Windows-1252?Q?hMEllCnwxZMGUe2DCG6GuuEPdAcYhZpHvzrcVLS4IM41FWXlElmWJOOZ?=
+ =?Windows-1252?Q?4XntmfWcR8t4iC73l1pukkhiN37DBlIm56oCI137Rtl6Q5XM5syQZoDW?=
+ =?Windows-1252?Q?bGvgmE9EtA59JucssZPnQyl5aMLHgFSBT1PUIzCYnozv2YmT7D5GHIq1?=
+ =?Windows-1252?Q?+e68o8Gnv8pD6iLEoA5yLY1vwPI7v4tm3eYZ9SIs6hViVm+y1HCKvMD2?=
+ =?Windows-1252?Q?Tu54AMz6Kauwu5YAuoYGNOg6rfros+0S9Qnsyhr7vTXb/lyUS+LeyPPy?=
+ =?Windows-1252?Q?IQGSY2cnnS30KYoZq4nasPTrHK0uRfGCG2IF/fxIAhdsqdR4s+G3Po5f?=
+ =?Windows-1252?Q?dhqOzXp4jmymSF4/srkZJ6NoyvJF82+I1G5pckDjQBlJuAa1wSp6Te0x?=
+ =?Windows-1252?Q?9BwMg8H5skUYpjD8/llsg29gjc34MA9hufycSlrGgreXE8DvDO2X0dF/?=
+ =?Windows-1252?Q?zBnHh6oL4SCkyah+gwXbrmHc7mGmGdC6vkHMRNBS2aMwVgoBmXm4L6JT?=
+ =?Windows-1252?Q?w/ao2FEQfKJbn5oImAan44kEW1QFNu5N0ZNAwRDETFio6CVLPwOuJEnG?=
+ =?Windows-1252?Q?asS9F431VKlW/eMR8SaDWShM+uEV4G/QaQShmjW8fiktCOoU6CL2DKfp?=
+ =?Windows-1252?Q?9EcHZlRugFeScbNFYnoO9Q42xxw=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_PN0P287MB06326299E6ABCECB9B5713E5804EAPN0P287MB0632INDP_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: PN0P287MB0632.INDP287.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 089849cc-b823-4d96-428b-08db63a91cb1
+X-MS-Exchange-CrossTenant-originalarrivaltime: 02 Jun 2023 20:36:58.4550
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PN0P287MB0726
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "smd06.iphost.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi, Hope you are doing well. Just wanted to check, have you
+    checked my previous e-mail? Do let me know if you would like to discuss Mobile
+    Apps. 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [kishore.itservices[at]outlook.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--_000_PN0P287MB06326299E6ABCECB9B5713E5804EAPN0P287MB0632INDP_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+
+Hope you are doing well.
+
+Just wanted to check, have you checked my previous e-mail? Do let me know i=
+f you would like to discuss Mobile Apps.
+
+You have any examples or a reference in your mind; please share your App=92=
+s idea, requirement with us (which will remain confidential) so that we can=
+ suggest you a cost efficient solution.
+
+I am waiting for your requirements.
+
+Thanks!
+
+________________________________
+
+From: Kishore Biyani
+
+Sent: Monday, April 24, 2023 8:57 AM
+
+Subject: Affordable App Services
+
+
+
+Hi,
+
+Curious if you've considered an awesome app for your business?
+
+We're a top-notch mobile app development company, skilled in all the trade =
+secrets. Whether you want to upgrade your existing app or create a new one =
+from scratch, we've got you covered. We provide services such as,
+
+  *   Food Delivery App (because who doesn't love food delivered right to t=
+heir doorstep?)
+  *   Real Estate App (find your dream home with a few swipes)
+  *   Restaurant App (making reservations a piece of cake)
+  *   Bar & Club App (get ready to party like a rockstar)
+  *   Hotels App (book a fancy getaway with just a tap)
+  *   Radio Stations App (tune in to your favorite beats anytime, anywhere)
+  *   Coffee & Caf=E9 Shop App (never miss your daily dose of caffeine)
+  *   Shipping App (convenient shipping solutions at your fingertips)
+  *   Lifestyle App (all things lifestyle, tailored just for you)
+  *   Health App (stay fit and healthy with our cutting-edge features)
+  *   Shopping App (retail therapy made easy)
+
+
+
+So, what's your fancy? Let us know if any of these services catch your eye.=
+ Share your requirements, and we'll be back in a jiffy with pricing and all=
+ the details.
+
+
+
+Thanks a bunch!
+
+--_000_PN0P287MB06326299E6ABCECB9B5713E5804EAPN0P287MB0632INDP_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0);" class=3D"elementToProof">
+<span class=3D"x_x_ContentPasted0" style=3D"font-size: 12pt; font-family: &=
+quot;Times New Roman&quot;, &quot;serif&quot;; color: rgb(38, 40, 42);">Hi,=
+</span><span style=3D"font-size: 12pt; font-family: &quot;Times New Roman&q=
+uot;, &quot;serif&quot;; color: rgb(0, 0, 0);">&nbsp;</span><br>
+</div>
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<p class=3D"x_x_MsoNormal x_elementToProof" style=3D"margin-top: 0px; margi=
+n-bottom: 0px;margin-top:0px; margin-bottom:0px; margin:0cm 0cm 10pt; font-=
+size:11pt; font-family:Calibri,&quot;sans-serif&quot;; margin-bottom:.0001p=
+t">
+<span style=3D"font-size:12.0pt; font-family:&quot;Times New Roman&quot;,&q=
+uot;serif&quot;"><br>
+</span></p>
+<p class=3D"x_x_MsoNormal" style=3D"margin: 0cm 0cm 12pt; font-size: 11pt; =
+font-family: Calibri, &quot;sans-serif&quot;; background: white;">
+<span class=3D"x_x_ContentPasted0" style=3D"font-size:12.0pt; font-family:&=
+quot;Times New Roman&quot;,&quot;serif&quot;">Hope you are doing well.&nbsp=
+;</span></p>
+<p class=3D"x_x_MsoNormal" style=3D"margin: 0cm 0cm 12pt; font-size: 11pt; =
+font-family: Calibri, &quot;sans-serif&quot;; background: white;">
+<span class=3D"x_x_ContentPasted0" style=3D"font-size:12.0pt; font-family:&=
+quot;Times New Roman&quot;,&quot;serif&quot;">Just wanted to check, have yo=
+u checked my previous e-mail? Do let me know if you would like to&nbsp;<b c=
+lass=3D"x_x_ContentPasted0">discuss Mobile Apps</b>.&nbsp;</span></p>
+<p class=3D"x_x_MsoNormal" style=3D"margin: 0cm 0cm 12pt; font-size: 11pt; =
+font-family: Calibri, &quot;sans-serif&quot;; background: white;">
+<span class=3D"x_x_ContentPasted0" style=3D"font-size: 12pt; font-family: &=
+quot;Times New Roman&quot;, &quot;serif&quot;; background: yellow;">You hav=
+e&nbsp;<b class=3D"x_x_ContentPasted0">any examples or a reference in your =
+mind; please share your App=92s idea, requirement with us (which
+ will remain confidential) so that we can suggest you a cost efficient solu=
+tion.</b></span><b><span style=3D"font-size:12.0pt; font-family:&quot;Times=
+ New Roman&quot;,&quot;serif&quot;">&nbsp;</span></b></p>
+<p class=3D"x_x_MsoNormal" style=3D"margin: 0cm 0cm 12pt; font-size: 11pt; =
+font-family: Calibri, &quot;sans-serif&quot;; background: white;">
+<span class=3D"x_x_ContentPasted0" style=3D"font-size:12.0pt; font-family:&=
+quot;Times New Roman&quot;,&quot;serif&quot;">I am waiting for your require=
+ments.<br class=3D"x_x_ContentPasted0">
+<br class=3D"x_x_ContentPasted0">
+Thanks!&nbsp;</span></p>
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div class=3D"x_x_x_x_x_x_x_x_elementToProof" style=3D"font-family: Calibri=
+, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+<p class=3D"x_x_x_x_x_x_x_x_MsoNormal x_x_elementToProof" style=3D"margin: =
+0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri, &quot;sans-serif&q=
+uot;; background: white;">
+<b><span class=3D"x_x_x_x_x_x_x_x_ContentPasted0" style=3D"font-size: 12pt;=
+ font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; color: rgb(34=
+, 34, 34);"></span></b></p>
+</div>
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div class=3D"x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_MsoNormal" align=3D"cente=
+r" style=3D"margin:0cm 0cm 10pt; font-size:11pt; font-family:Calibri,&quot;=
+sans-serif&quot;; margin-bottom:.0001pt; text-align:center">
+<span style=3D"font-size: 12pt; font-family: &quot;Times New Roman&quot;, &=
+quot;serif&quot;; color: black;">
+<hr size=3D"2" width=3D"12" align=3D"center" style=3D"width:9.3pt">
+</span></div>
+<p class=3D"x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_MsoNormal" style=3D"margin-=
+top: 0px; margin-bottom: 0px;margin-top:0px; margin-bottom:0px; margin-top:=
+0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; =
+margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margi=
+n-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bot=
+tom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0=
+px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; m=
+argin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin=
+-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:=
+0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin:0cm 0cm 1=
+0pt; font-size:11pt; font-family:Calibri,&quot;sans-serif&quot;; margin-bot=
+tom:.0001pt">
+<b><span style=3D"font-size: 12pt; font-family: &quot;Times New Roman&quot;=
+, &quot;serif&quot;; color: black;">From:</span></b><span style=3D"font-siz=
+e: 12pt; font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; color=
+: black;">&nbsp;Kishore Biyani&nbsp;</span></p>
+<p class=3D"x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_MsoNormal" style=3D"margin-=
+top: 0px; margin-bottom: 0px;margin-top:0px; margin-bottom:0px; margin-top:=
+0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; =
+margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margi=
+n-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bot=
+tom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0=
+px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; m=
+argin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin=
+-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:=
+0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin:0cm 0cm 1=
+0pt; font-size:11pt; font-family:Calibri,&quot;sans-serif&quot;; margin-bot=
+tom:.0001pt">
+<b><span style=3D"font-size: 12pt; font-family: &quot;Times New Roman&quot;=
+, &quot;serif&quot;; color: black;">Sent:</span></b><span style=3D"font-siz=
+e: 12pt; font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; color=
+: black;">&nbsp;Monday, April 24, 2023 8:57 AM&nbsp;</span></p>
+<p class=3D"x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_MsoNormal" style=3D"margin-=
+top: 0px; margin-bottom: 0px;margin-top:0px; margin-bottom:0px; margin-top:=
+0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; =
+margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margi=
+n-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bot=
+tom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0=
+px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; m=
+argin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin=
+-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:=
+0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin:0cm 0cm 1=
+0pt; font-size:11pt; font-family:Calibri,&quot;sans-serif&quot;; margin-bot=
+tom:.0001pt">
+<b><span style=3D"font-size: 12pt; font-family: &quot;Times New Roman&quot;=
+, &quot;serif&quot;; color: black;">Subject:</span></b><span style=3D"font-=
+size: 12pt; font-family: &quot;Times New Roman&quot;, &quot;serif&quot;; co=
+lor: black;">&nbsp;Affordable App Services&nbsp;</span></p>
+<p class=3D"x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_MsoNormal" style=3D"margin-=
+top: 0px; margin-bottom: 0px;margin-top:0px; margin-bottom:0px; margin-top:=
+0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; =
+margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margi=
+n-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bot=
+tom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0=
+px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; m=
+argin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin=
+-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:=
+0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin:0cm 0cm 1=
+0pt; font-size:11pt; font-family:Calibri,&quot;sans-serif&quot;; margin-bot=
+tom:.0001pt">
+<span style=3D"font-size: 12pt; font-family: &quot;Times New Roman&quot;, &=
+quot;serif&quot;; color: black;">&nbsp;&nbsp;</span></p>
+<p class=3D"x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_MsoNormal x_x_elementToProo=
+f" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 11pt; font-family: Calibri=
+, &quot;sans-serif&quot;; background: white;">
+<span style=3D"font-size: 12pt; font-family: &quot;Times New Roman&quot;, &=
+quot;serif&quot;; border: 1pt none windowtext; padding: 0cm; background: wh=
+ite; color: rgb(34, 34, 34);"></span></p>
+<p class=3D"x_x_MsoNormal" style=3D"margin-top: 0px; margin-bottom: 0px;mar=
+gin-top:0px; margin-bottom:0px; margin:0cm 0cm 10pt; font-size:11pt; font-f=
+amily:Calibri,&quot;sans-serif&quot;">
+<span style=3D"font-size:12.0pt; font-family:&quot;Times New Roman&quot;,&q=
+uot;serif&quot;">Hi, &nbsp;</span></p>
+<p class=3D"x_x_MsoNormal" style=3D"margin-top: 0px; margin-bottom: 0px;mar=
+gin-top:0px; margin-bottom:0px; margin:0cm 0cm 10pt; font-size:11pt; font-f=
+amily:Calibri,&quot;sans-serif&quot;">
+<span style=3D"font-size:12.0pt; font-family:&quot;Times New Roman&quot;,&q=
+uot;serif&quot;">Curious if you've considered an awesome app for your busin=
+ess?&nbsp;</span></p>
+<p class=3D"x_x_MsoNormal" style=3D"margin-top: 0px; margin-bottom: 0px;mar=
+gin-top:0px; margin-bottom:0px; margin:0cm 0cm 10pt; font-size:11pt; font-f=
+amily:Calibri,&quot;sans-serif&quot;">
+<b><span style=3D"font-size:12.0pt; font-family:&quot;Times New Roman&quot;=
+,&quot;serif&quot;">We're a top-notch mobile app development company, skill=
+ed in all the trade secrets. Whether you want to upgrade your existing app =
+or create a new one from scratch, we've got you covered.
+ We provide services such as, &nbsp;</span></b></p>
+<ul style=3D"margin-bottom:0cm">
+<li><span style=3D"font-size:12.0pt; font-family:&quot;Times New Roman&quot=
+;,&quot;serif&quot;">Food Delivery App (because who doesn't love food deliv=
+ered right to their doorstep?)&nbsp;</span></li><li><span style=3D"font-siz=
+e:12.0pt; font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Real E=
+state App (find your dream home with a few swipes)&nbsp;</span></li><li><sp=
+an style=3D"font-size:12.0pt; font-family:&quot;Times New Roman&quot;,&quot=
+;serif&quot;">Restaurant App (making reservations a piece of cake)&nbsp;</s=
+pan></li><li><span style=3D"font-size:12.0pt; font-family:&quot;Times New R=
+oman&quot;,&quot;serif&quot;">Bar &amp; Club App (get ready to party like a=
+ rockstar)&nbsp;</span></li><li><span style=3D"font-size:12.0pt; font-famil=
+y:&quot;Times New Roman&quot;,&quot;serif&quot;">Hotels App (book a fancy g=
+etaway with just a tap)&nbsp;</span></li><li><span style=3D"font-size:12.0p=
+t; font-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Radio Station=
+s App (tune in to your favorite beats anytime, anywhere)&nbsp;</span></li><=
+li><span style=3D"font-size:12.0pt; font-family:&quot;Times New Roman&quot;=
+,&quot;serif&quot;">Coffee &amp; Caf=E9 Shop App (never miss your daily dos=
+e of caffeine)&nbsp;</span></li><li><span style=3D"font-size:12.0pt; font-f=
+amily:&quot;Times New Roman&quot;,&quot;serif&quot;">Shipping App (convenie=
+nt shipping solutions at your fingertips)&nbsp;</span></li><li><span style=
+=3D"font-size:12.0pt; font-family:&quot;Times New Roman&quot;,&quot;serif&q=
+uot;">Lifestyle App (all things lifestyle, tailored just for you)&nbsp;</sp=
+an></li><li><span style=3D"font-size:12.0pt; font-family:&quot;Times New Ro=
+man&quot;,&quot;serif&quot;">Health App (stay fit and healthy with our cutt=
+ing-edge features)&nbsp;</span></li><li><span style=3D"font-size:12.0pt; fo=
+nt-family:&quot;Times New Roman&quot;,&quot;serif&quot;">Shopping App (reta=
+il therapy made easy)&nbsp;</span></li></ul>
+<p class=3D"x_x_MsoListParagraphCxSpLast" style=3D"margin-top: 0px; margin-=
+bottom: 0px;margin-top:0px; margin-bottom:0px; margin:0cm 0cm 10pt 36pt; fo=
+nt-size:11pt; font-family:Calibri,&quot;sans-serif&quot;; margin-bottom:.00=
+01pt">
+<span style=3D"font-size:12.0pt; font-family:&quot;Times New Roman&quot;,&q=
+uot;serif&quot;">&nbsp;</span></p>
+<p class=3D"x_x_MsoNormal" style=3D"margin-top: 0px; margin-bottom: 0px;mar=
+gin-top:0px; margin-bottom:0px; margin:0cm 0cm 10pt; font-size:11pt; font-f=
+amily:Calibri,&quot;sans-serif&quot;; margin-bottom:.0001pt">
+<b><span style=3D"font-size:12.0pt; font-family:&quot;Times New Roman&quot;=
+,&quot;serif&quot;">So, what's your fancy? Let us know if any of these serv=
+ices catch your eye. Share your requirements, and we'll be back in a jiffy =
+with pricing and all the details.&nbsp;</span></b></p>
+<p class=3D"x_x_MsoNormal" style=3D"margin-top: 0px; margin-bottom: 0px;mar=
+gin-top:0px; margin-bottom:0px; margin:0cm 0cm 10pt; font-size:11pt; font-f=
+amily:Calibri,&quot;sans-serif&quot;; margin-bottom:.0001pt">
+<b><span style=3D"font-size:12.0pt; font-family:&quot;Times New Roman&quot;=
+,&quot;serif&quot;">&nbsp;</span></b></p>
+<p class=3D"x_x_MsoNormal" style=3D"margin-top: 0px; margin-bottom: 0px;mar=
+gin-top:0px; margin-bottom:0px; margin:0cm 0cm 10pt; font-size:11pt; font-f=
+amily:Calibri,&quot;sans-serif&quot;; margin-bottom:.0001pt">
+<span style=3D"font-size:12.0pt; font-family:&quot;Times New Roman&quot;,&q=
+uot;serif&quot;">Thanks a bunch!&nbsp;</span></p>
+<p class=3D"x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_MsoNormal x_x_elementToProo=
+f" style=3D"margin-top: 0px; margin-bottom: 0px;margin-top:0px; margin-bott=
+om:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0p=
+x; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; ma=
+rgin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-=
+top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0=
+px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; m=
+argin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin=
+-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bott=
+om:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0p=
+x; margin:0cm 0cm 10pt; font-size:11pt; font-family:Calibri,&quot;sans-seri=
+f&quot;; margin-bottom:.0001pt">
+<span style=3D"font-size: 12pt; font-family: &quot;Times New Roman&quot;, &=
+quot;serif&quot;; border: 1pt none windowtext; padding: 0cm; background: wh=
+ite; color: black;"></span></p>
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div class=3D"x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x=
+_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_elementToProof">
+<span style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">
+<p class=3D"x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_xmsonospacing x_x_x_x_x_x_x=
+_x_x_x_x_x_x_x_x_x_x_x_elementToProof" style=3D"margin-top: 0px; margin-bot=
+tom: 0px;margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0=
+px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; m=
+argin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin=
+-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:=
+0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; =
+margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margi=
+n-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bot=
+tom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0=
+px; margin-top:0px; margin-bottom:0px; margin:0cm 0cm 0.0001pt; font-size:1=
+1pt; font-family:Calibri,&quot;sans-serif&quot;">
+<span style=3D"font-size: 12pt; font-family: &quot;Times New Roman&quot;, &=
+quot;serif&quot;; color: rgb(34, 34, 34);"></span></p>
+<p class=3D"x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_MsoNormal x_x=
+_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_elementToProof" style=3D"margin-top: 0px; =
+margin-bottom: 0px;margin-top:0px; margin-bottom:0px; margin-top:0px; margi=
+n-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bot=
+tom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0=
+px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; m=
+argin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin=
+-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:=
+0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; =
+margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margi=
+n-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bot=
+tom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0=
+px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; m=
+argin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; font-s=
+ize:11pt; margin:0cm 0cm 0.0001pt; font-family:Calibri,&quot;sans-serif&quo=
+t;">
+<span style=3D"font-size:12.0pt; font-family:&quot;Times New Roman&quot;,&q=
+uot;serif&quot;"></span></p>
+<p class=3D"x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_xmson=
+ospacing x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_elementToProof" =
+style=3D"margin-top: 0px; margin-bottom: 0px;margin-top:0px; margin-bottom:=
+0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; =
+margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margi=
+n-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top=
+:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px;=
+ margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; marg=
+in-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bo=
+ttom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:=
+0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; =
+margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margi=
+n-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top=
+:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px;=
+ margin-bottom:0px; font-size:11pt; font-family:Calibri,&quot;sans-serif&qu=
+ot;; margin:0cm 0cm 0.0001pt">
+<span lang=3D"EN-IN" style=3D"font-size: 8pt; color: red;"></span></p>
+<div class=3D"x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x=
+_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_MsoNormal x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_=
+x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_elementToProof" style=3D"font-size: 11pt; fon=
+t-family: Calibri, Arial, Helvetica, sans-serif; margin: 0px 0in 0.00013333=
+3px; background: white;">
+<span style=3D"font-size: 12pt; font-family: Arial, &quot;sans-serif&quot;;=
+ color: black;">
+<p class=3D"x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_M=
+soNoSpacing x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_eleme=
+ntToProof" style=3D"margin-top: 0px; margin-bottom: 0px;margin-top:0px; mar=
+gin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-b=
+ottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom=
+:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px;=
+ margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; marg=
+in-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-to=
+p:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px=
+; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; mar=
+gin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-b=
+ottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom=
+:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px;=
+ margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; marg=
+in-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-to=
+p:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px=
+; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; mar=
+gin-bottom:0px; margin:0in 0in 0.0001pt; font-size:11pt; font-family:Calibr=
+i,&quot;sans-serif&quot;">
+<b><u><span style=3D"font-size:12.0pt; font-family:&quot;Segoe UI&quot;,&qu=
+ot;sans-serif&quot;"></span></u></b></p>
+</span></div>
+<p class=3D"x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x=
+_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_MsoNoSpacing x_x_x_x_x_x_x_x_x_x_x=
+_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_el=
+ementToProof" style=3D"margin-top: 0px; margin-bottom: 0px;margin-top:0px; =
+margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margi=
+n-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bot=
+tom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0=
+px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; m=
+argin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin=
+-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:=
+0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; =
+margin-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margi=
+n-bottom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bot=
+tom:0px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0=
+px; margin-top:0px; margin-bottom:0px; margin-top:0px; margin-bottom:0px; m=
+argin-top:0px; margin-bottom:0px; font-size:11pt; font-family:Calibri,&quot=
+;sans-serif&quot;; margin:0cm 0cm 0.0001pt">
+<b><span style=3D"font-size:12.0pt"></span></b></p>
+</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_PN0P287MB06326299E6ABCECB9B5713E5804EAPN0P287MB0632INDP_--

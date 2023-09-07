@@ -1,0 +1,254 @@
+Return-Path: <>
+Delivered-To: noreply@broombids.com
+Received: from smd06.iphost.net
+	by smd06.iphost.net with LMTP
+	id YKpiKQpA9mTHYwAAT4N6Cg
+	(envelope-from <>)
+	for <noreply@broombids.com>; Mon, 04 Sep 2023 23:37:30 +0300
+Return-path: <>
+Envelope-to: noreply@broombids.com
+Delivery-date: Mon, 04 Sep 2023 23:37:30 +0300
+Received: from mailnull by smd06.iphost.net with local (Exim 4.96)
+	id 1qdGKA-0007BE-1o
+	for noreply@broombids.com;
+	Mon, 04 Sep 2023 23:37:30 +0300
+X-Failed-Recipients: test@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@smd06.iphost.net>
+To: noreply@broombids.com
+References: <f417496bcca926347a1576aae43dda28@admin.broombids.com>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1693859850-eximdsn-478159259
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qdGKA-0007BE-1o@smd06.iphost.net>
+Date: Mon, 04 Sep 2023 23:37:30 +0300
+
+--1693859850-eximdsn-478159259
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  test@gmail.com
+    host gmail-smtp-in.l.google.com [108.177.127.26]
+    SMTP error from remote mail server after RCPT TO:<test@gmail.com>:
+    550-5.1.1 The email account that you tried to reach does not exist. Please try
+    550-5.1.1 double-checking the recipient's email address for typos or
+    550-5.1.1 unnecessary spaces. Learn more at
+    550 5.1.1  https://support.google.com/mail/?p=NoSuchUser z17-20020a170906075100b0099d96589552si6631888ejb.168 - gsmtp
+
+--1693859850-eximdsn-478159259
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; smd06.iphost.net
+
+Action: failed
+Final-Recipient: rfc822;test@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does not exist. Please try
+ 550-5.1.1 double-checking the recipient's email address for typos or
+ 550-5.1.1 unnecessary spaces. Learn more at
+ 550 5.1.1  https://support.google.com/mail/?p=NoSuchUser z17-20020a170906075100b0099d96589552si6631888ejb.168 - gsmtp
+
+--1693859850-eximdsn-478159259
+Content-type: message/rfc822
+
+Return-path: <noreply@broombids.com>
+Received: from [93.174.123.76] (port=37574 helo=admin.broombids.com)
+	by smd06.iphost.net with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <noreply@broombids.com>)
+	id 1qdGKA-0007Aj-1D
+	for test@gmail.com;
+	Mon, 04 Sep 2023 23:37:29 +0300
+Date: Tue, 5 Sep 2023 02:07:29 +0530
+To: test@gmail.com
+From: Welcome to Broombids <noreply@broombids.com>
+Reply-to: Welcome to Broombids <noreply@broombids.com>
+Subject: Welcome to Broombids
+Message-ID: <f417496bcca926347a1576aae43dda28@admin.broombids.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_f417496bcca926347a1576aae43dda28"
+
+
+--b1_f417496bcca926347a1576aae43dda28
+Content-Type: text/plain; charset = "iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+Account
+	                    Creation Succesfull 
+	            
+	        
+	        
+	            
+	                Hey broom.v.Ste745,
+	                    Your account has been successfully created. Now you can
+Connect, Share and Interact with Family,
+	                    Friends and other Identities.
+	            
+	        
+	      
+	        
+	            Thanks, Broombids
+	        
+	        
+	            
+	                
+	                      Let's go  
+	                
+	            
+	        
+	    
+	        
+	            
+	                Broombids&apos;s mission is to Unite identities, Unify Cultures
+and Empower the World.
+	            
+	        
+	        
+	            
+	                
+	                    About
+	                    Privacy
+	                    Cookies
+	                    Terms
+	                    Rules
+	                    Help
+	                
+	            
+	        
+	        
+	            Copyrights @ Broombids Pvt Ltd
+
+
+--b1_f417496bcca926347a1576aae43dda28
+Content-Type: text/html; charset = "iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+
+	<!doctype html>
+	<html><head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <style>
+	        /* latin */
+	        @font-face {
+	            font-family: 'Roboto';
+	            font-style: normal;
+	            font-weight: 400;
+	            src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+	            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	        }
+
+	        body {
+	            font-family: Helvetica, Arial, sans-serif;
+	        }
+
+	        table tr {
+	            display: block;
+	        }
+
+	        table tr td {
+	            display: block;
+	            text-align: left;
+	            color: #3c4043;
+	            padding: 10px 20px;
+	        }
+
+	        a {
+	            color: #4083ff;
+	            cursor: pointer;
+	            text-decoration: none;
+	            font-size: 12px;
+	            font-family: Helvetica, Arial, sans-serif;
+	            word-wrap: normal;
+	        }
+
+	        p {
+	            margin: 0;
+	            font-family: Helvetica, Arial, sans-serif;
+	            word-wrap: normal;
+	        }
+
+	        .letsGoBtn {
+	            font-family: 'Roboto',Arial,Helvetica,sans-serif;
+	            background-color: #2cc1d6;
+	            border: 5px solid #2cc1d6;
+	            font-size: 20px;
+	            font-weight: 500;
+	            border-radius: 5px;
+	            color: #ffffff !important;
+	            line-height: 32px;
+	            text-align: center;
+	            text-decoration: none;
+	            word-wrap: normal;
+	        }
+	    </style>
+	</head><body style="text-align: center;padding: 5vw;background-color: #f5f5f5;">
+	    <table cellpadding="0" cellspacing="0" style="margin: 0 auto;width: auto;height: auto;background-color: #ffffff;text-align: center; padding: 30px;border: 1px solid #ccc;">
+	        <tr>
+	            <td style="text-align: center;">
+	                <img src="http://broombids.com/images/maillogo.png" alt="broombids Logo" class="logo" style="width: 350px;">
+	            </td>
+	        </tr>
+	        <tr>
+	            <td>
+	                <h1 style="text-align:center;color: #2cc1d6; margin: 0; margin-bottom: 24px; font-family: Helvetica,Arial,sans-serif; font-size: 24px; font-weight: bold; line-height: 32px; margin-top: 20px; padding: 0; word-wrap: normal;">Account
+	                    Creation Succesfull </h1>
+	            </td>
+	        </tr>
+	        <tr>
+	            <td>
+	                <p style="font-size: 16px;text-align: center;color: #3c4043;">Hey <span style="color:#2cc1d6;">broom.v.Ste745</span>,
+	                    Your account has been successfully created. Now you can Connect, Share and Interact with Family,
+	                    Friends and other Identities.</p>
+	            </td>
+	        </tr>
+	      
+	        <tr>
+	            <td style="margin-top: 50px;">Thanks, Broombids</td>
+	        </tr>
+	        <tr>
+	            <td>
+	                <a href="http://broombids.com/" class="letsGoBtn">
+	                    &nbsp; Let's go &nbsp;
+	                </a>
+	            </td>
+	        </tr>
+	    </table><table cellpadding="0" cellspacing="0" style="margin: 0 auto;width: auto;height: 95px;background-color: #f4f4f4;text-align: center; padding: 10px;">
+	        <tr style="display: block;">
+	            <td style="display: block;">
+	                <p>Broombids&apos;s mission is to Unite identities, Unify Cultures and Empower the World.</p>
+	            </td>
+	        </tr>
+	        <tr style="display: block;">
+	            <td style="display: block;">
+	                <p style="margin: 0;">
+	                    <a href="#">About</a>
+	                    <a href="#">Privacy</a>
+	                    <a href="#">Cookies</a>
+	                    <a href="#">Terms</a>
+	                    <a href="#">Rules</a>
+	                    <a href="#">Help</a>
+	                </p>
+	            </td>
+	        </tr>
+	        <tr style="display: block;">
+	            <td style="display: block; font-size: 12px;">Copyrights @ Broombids Pvt Ltd</td>
+	        </tr>
+	    </table></body></html>
+
+
+
+--b1_f417496bcca926347a1576aae43dda28--
+
+
+
+--1693859850-eximdsn-478159259--

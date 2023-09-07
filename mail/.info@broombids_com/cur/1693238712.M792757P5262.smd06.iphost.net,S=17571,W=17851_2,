@@ -1,0 +1,280 @@
+Return-Path: <claimdepteu@gmail.com>
+Delivered-To: info@broombids.com
+Received: from smd06.iphost.net
+	by smd06.iphost.net with LMTP
+	id cAKlLrjF7GSOFAAAT4N6Cg
+	(envelope-from <claimdepteu@gmail.com>)
+	for <info@broombids.com>; Mon, 28 Aug 2023 19:05:12 +0300
+Return-path: <claimdepteu@gmail.com>
+Envelope-to: info@broombids.com
+Delivery-date: Mon, 28 Aug 2023 19:05:12 +0300
+Received: from mail-lj1-f181.google.com ([209.85.208.181]:59830)
+	by smd06.iphost.net with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <claimdepteu@gmail.com>)
+	id 1qaejm-0008Ik-07
+	for info@broombids.com;
+	Mon, 28 Aug 2023 19:05:12 +0300
+Received: by mail-lj1-f181.google.com with SMTP id 38308e7fff4ca-2bcd7a207f7so49985541fa.3
+        for <info@broombids.com>; Mon, 28 Aug 2023 09:04:49 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1693238668; x=1693843468;
+        h=to:subject:message-id:date:from:reply-to:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=MrVJJYco+rVjxU9/vdZTlNzTD/orp+OFVNobf9kRmgE=;
+        b=mbh4LgZUgI/SJlX/AiQVNTWBZqVfu+BGQvupzgjP0+vigboDO70jCVOiOUDqr2TK9E
+         f2jFwBpFKcaMMZ4ZEao9t6l9f5IthIXUePIKEmN7Khibn22FQR/DvWkf18hznpiAZxDC
+         YiPh0SZw464jdpHR/NwgwDzOYlOk8JUt/WOjC0kz6nPufDq7AVuSNkYxgGrtHBWYATam
+         APU18Ign0cxfvlI+5iD4c8CD/f14Z4MZX0TKg+MBE6gKzD/DfPYKHinjK53fRT2ow9bz
+         hmnvAv8vB8V+jvouRV9LqvPmDxwGgWGj7wys/DKSlSK+/kN4CrFeYu3s0/peY1X1JAZn
+         v4bA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1693238668; x=1693843468;
+        h=to:subject:message-id:date:from:reply-to:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=MrVJJYco+rVjxU9/vdZTlNzTD/orp+OFVNobf9kRmgE=;
+        b=JyVt2w3VjsxVB+RKyp1jAHgYCKgRXoufq3t76DohugfljERaVPwynjUnqe4WVdcMP0
+         3XQuIGkCXuO+TSseUVTTYyTHEKCJA8hAAaID8odkhW+T2Ptgt2TdfbKHbO7oVpUUHNmk
+         TIx6jg4Q8jKOrFX90pIdlAwbDm2BdDkpQAFD2wHZJxc7cyvrffe2R1VnCDrl2RthEhaX
+         A4Kf0vsIhoeDww8tjtTg02FtvPZdn0xk7JE0N0uEpzetcM8zqTrsln5wVzX4UGrZfhPF
+         Cnv+jUFq/bzQJa8sj4ipydDI6eS2avOGwnS5+fGfz3xmZNb9QQUOQ41KQvWFvKuI/D4f
+         myOw==
+X-Gm-Message-State: AOJu0Yxs6vjcSjBJQ0ru8LkIZpxXRgtL5FYKhDMoWP/SlDSDDkKgHRrB
+	ZEbU9vnk/2VK8+VXpKlkqw+S227mN+cTrsP1MmE=
+X-Google-Smtp-Source: AGHT+IHRW23t/EUqumjtv0EBj1btI55AqR17SfJ/ixXqq4AAMZjL3LW3smCjQ/lN5ZPhxFQVUAbPOGZWa0UOVpdNqYo=
+X-Received: by 2002:a05:651c:31a:b0:2bd:16e6:f07c with SMTP id
+ a26-20020a05651c031a00b002bd16e6f07cmr358076ljp.17.1693238667955; Mon, 28 Aug
+ 2023 09:04:27 -0700 (PDT)
+MIME-Version: 1.0
+Reply-To: thambamth@gmail.com
+From: Themba Mthembu <markcharamba@gmail.com>
+Date: Mon, 28 Aug 2023 18:04:13 +0200
+Message-ID: <CACgfW2=wwPhdmJhQXy_pD+BGs3GamdMny2c7K9zVn6EEeO28Wg@mail.gmail.com>
+To: undisclosed-recipients:;
+Content-Type: multipart/alternative; boundary="00000000000052d61f0603fdd932"
+Bcc: info@broombids.com
+X-Spam-Status: Yes, score=29.1
+X-Spam-Score: 291
+X-Spam-Bar: +++++++++++++++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "smd06.iphost.net",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Ref::: -------- Inquiry I am contacting you after making official
+    enquiries at the foreign trade office of the Chambers of Commerce here in
+    Johannesburg, South Africa. I havent disclosed the nature of my intention
+    to anyone [...] 
+ Content analysis details:   (29.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.0 MILLION_USD            BODY: Talks about millions of dollars
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [markcharamba[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  0.0 LOTS_OF_MONEY          Huge... sums of money
+  2.5 KAM_NIGERIAN           Nigerian Scam and Variants
+  0.0 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+  2.6 UNDISC_FREEM           Undisclosed recipients + freemail reply-to
+  6.0 KAM_INVEST             Investment Scams
+  2.4 MONEY_FREEMAIL_REPTO   Lots of money from someone using free
+                             email?
+  1.0 FREEMAIL_REPLYTO       Reply-To/From or Reply-To/body contain
+                             different freemails
+  6.0 KAM_BENEFICIARYLOW     Beneficiary scams (Lower Confidence)
+  0.0 T_MONEY_PERCENT        X% of a lot of money for you
+  0.0 T_FILL_THIS_FORM_SHORT Fill in a short form with personal
+                             information
+  0.0 MONEY_FRAUD_8          Lots of money and very many fraud phrases
+  0.0 MONEY_FORM_SHORT       Lots of money if you fill out a short form
+  3.0 ADVANCE_FEE_5_NEW_MONEY Advance Fee fraud and lots of money
+  2.8 UNDISC_MONEY           Undisclosed recipients + money/fraud signs
+  0.0 FORM_FRAUD_5           Fill a form and many fraud phrases
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Ref: Inquiry
+
+--00000000000052d61f0603fdd932
+Content-Type: text/plain; charset="UTF-8"
+
+Ref::: -------- Inquiry
+
+I am contacting you after making official enquiries at the foreign trade
+office of the Chambers of Commerce here in Johannesburg, South Africa. I
+havent disclosed the nature of my intention to anyone due to the sensitive
+and confidential nature of the project involved which is my need for
+assistance in profiling some investment funds and transfer of said funds to
+your country.
+
+I must plead for your confidence and confidentiality and if it so happens
+that you are unable to assist in this project I would crave your indulgence
+and ask that you do not divulge this to any other third party and ignore
+this email. I am constrained to issue more details about this mutually
+beneficial financial project until I get your positive response by email.
+
+The fund in question $40,000,000.00 (Forty Million USD) accrued from an
+over-inflated contract executed by foreign contractors through our
+connections and the over invoiced amount is waiting to be remitted from a
+commercial bank here in South Africa. By virtue of my position as a senior
+civil servant I cannot acquire this money in my name due to the fact that I
+am bound by the Civil Service Code of Ethics which bars me from operating
+bank accounts outside of our shores. On the other hand it is not safe to
+keep the funds here due to security reasons; hence my need to source for an
+overseas silent partner to facilitate the transfer of these funds for our
+mutual benefit.
+
+My proposal is that after you receive the funds, it would be shared as
+follows: 30% to you as commission for your cooperation and assistance in
+facilitating the transfer, while the remaining 65% belongs to me. You will
+be free to take out your commission immediately after the money is credited
+to your account in your country. Since our objective is to invest the money
+in a foreign country, it would be appreciated if you could also help us
+with advice and direction on investing into profitable ventures in your
+country.
+
+What we need to do is give you an approval from the ministry and you will
+email the approval to the paying bank to facilitate the processing and
+transfer of the contract funds into any of your nominated bank accounts. If
+you are interested and capable, I request you forward your personal details
+to my private email address *mthembub@africamail.com
+<mthembub@africamail.com>* to enable me to contact you for further
+discussion. I would also request that you send me your most confidential
+phone number for further communication too.
+
+
+Respectfully,
+Mr. Themba Mthembu
+*Email: **mthembub@africamail.com*
+
+--00000000000052d61f0603fdd932
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div style=3D"border:0px;font-variant-numeric:inherit;font=
+-variant-east-asian:inherit;font-variant-alternates:inherit;font-stretch:in=
+herit;font-size:15px;line-height:inherit;font-family:Arial;font-kerning:inh=
+erit;font-feature-settings:inherit;margin:0px;padding:0px;vertical-align:ba=
+seline;color:rgb(0,0,0)">Ref::: -------- Inquiry<br aria-hidden=3D"true"></=
+div><div style=3D"border:0px;font-variant-numeric:inherit;font-variant-east=
+-asian:inherit;font-variant-alternates:inherit;font-stretch:inherit;font-si=
+ze:15px;line-height:inherit;font-family:Arial;font-kerning:inherit;font-fea=
+ture-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:=
+rgb(0,0,0)"><font color=3D"#222222"></font>=C2=A0</div><div align=3D"justif=
+y" style=3D"border:0px;font-variant-numeric:inherit;font-variant-east-asian=
+:inherit;font-variant-alternates:inherit;font-stretch:inherit;font-size:15p=
+x;line-height:inherit;font-family:Arial;font-kerning:inherit;font-feature-s=
+ettings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(0,=
+0,0)"><font color=3D"#0d0d0d">I am contacting you after making official enq=
+uiries at the foreign trade office of the Chambers of Commerce here in Joha=
+nnesburg, South Africa. I havent disclosed the nature of my intention to an=
+yone due to the sensitive and confidential nature of the project involved w=
+hich is my need for assistance in profiling some investment funds and trans=
+fer of said funds to your country.</font></div><div style=3D"border:0px;fon=
+t-variant-numeric:inherit;font-variant-east-asian:inherit;font-variant-alte=
+rnates:inherit;font-stretch:inherit;font-size:15px;line-height:inherit;font=
+-family:Arial;font-kerning:inherit;font-feature-settings:inherit;margin:0px=
+;padding:0px;vertical-align:baseline;color:rgb(0,0,0)"><font color=3D"#2222=
+22"></font>=C2=A0</div><div align=3D"justify" style=3D"border:0px;font-vari=
+ant-numeric:inherit;font-variant-east-asian:inherit;font-variant-alternates=
+:inherit;font-stretch:inherit;font-size:15px;line-height:inherit;font-famil=
+y:Arial;font-kerning:inherit;font-feature-settings:inherit;margin:0px;paddi=
+ng:0px;vertical-align:baseline;color:rgb(0,0,0)"><font color=3D"#0d0d0d">I =
+must plead for your confidence and confidentiality and if it so happens tha=
+t you are unable to assist in this project I would crave your indulgence an=
+d ask that you do not divulge this to any other third party and ignore this=
+ email. I am constrained to issue more details about this mutually benefici=
+al financial project until I get your positive response by email.</font></d=
+iv><div style=3D"border:0px;font-variant-numeric:inherit;font-variant-east-=
+asian:inherit;font-variant-alternates:inherit;font-stretch:inherit;font-siz=
+e:15px;line-height:inherit;font-family:Arial;font-kerning:inherit;font-feat=
+ure-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:r=
+gb(0,0,0)"><font color=3D"#222222"></font>=C2=A0</div><div align=3D"justify=
+" style=3D"border:0px;font-variant-numeric:inherit;font-variant-east-asian:=
+inherit;font-variant-alternates:inherit;font-stretch:inherit;font-size:15px=
+;line-height:inherit;font-family:Arial;font-kerning:inherit;font-feature-se=
+ttings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(0,0=
+,0)"><font color=3D"#0d0d0d">The fund in question $40,000,000.00 (Forty Mil=
+lion USD) accrued from an over-inflated contract executed by foreign contra=
+ctors through our connections and the over invoiced amount is waiting to be=
+ remitted from a commercial bank here in South Africa. By virtue of my posi=
+tion as a senior civil servant I cannot acquire this money in my name due t=
+o the fact that I am bound by the Civil Service Code of Ethics which bars m=
+e from operating bank accounts outside of our shores. On the other hand it =
+is not safe to keep the funds here due to security reasons; hence my need t=
+o source for an overseas silent partner to facilitate the transfer of these=
+ funds for our mutual benefit.</font></div><div style=3D"border:0px;font-va=
+riant-numeric:inherit;font-variant-east-asian:inherit;font-variant-alternat=
+es:inherit;font-stretch:inherit;font-size:15px;line-height:inherit;font-fam=
+ily:Arial;font-kerning:inherit;font-feature-settings:inherit;margin:0px;pad=
+ding:0px;vertical-align:baseline;color:rgb(0,0,0)"><font color=3D"#222222">=
+</font>=C2=A0</div><div align=3D"justify" style=3D"border:0px;font-variant-=
+numeric:inherit;font-variant-east-asian:inherit;font-variant-alternates:inh=
+erit;font-stretch:inherit;font-size:15px;line-height:inherit;font-family:Ar=
+ial;font-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0=
+px;vertical-align:baseline;color:rgb(0,0,0)"><font color=3D"#0d0d0d">My pro=
+posal is that after you receive the funds, it would be shared as follows: 3=
+0% to you as commission for your cooperation and assistance in facilitating=
+ the transfer, while the remaining 65% belongs to me. You will be free to t=
+ake out your commission immediately after the money is credited to your acc=
+ount in your country. Since our objective is to invest the money in a forei=
+gn country, it would be appreciated if you could also help us with advice a=
+nd direction on investing into profitable ventures in your country.</font><=
+/div><div style=3D"border:0px;font-variant-numeric:inherit;font-variant-eas=
+t-asian:inherit;font-variant-alternates:inherit;font-stretch:inherit;font-s=
+ize:15px;line-height:inherit;font-family:Arial;font-kerning:inherit;font-fe=
+ature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color=
+:rgb(0,0,0)"><font color=3D"#222222"></font>=C2=A0</div><div align=3D"justi=
+fy" style=3D"border:0px;font-variant-numeric:inherit;font-variant-east-asia=
+n:inherit;font-variant-alternates:inherit;font-stretch:inherit;font-size:15=
+px;line-height:inherit;font-family:Arial;font-kerning:inherit;font-feature-=
+settings:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(0=
+,0,0)"><font color=3D"#0d0d0d">What we need to do is give you an approval f=
+rom the ministry and you will email the approval to the paying bank to faci=
+litate the processing and transfer of the contract funds into any of your n=
+ominated bank accounts. If you are interested and capable, I request you fo=
+rward your personal details to my private email address=C2=A0</font><font c=
+olor=3D"#548dd4"><u><a href=3D"mailto:mthembub@africamail.com" style=3D"bor=
+der:0px;font:inherit;margin:0px;padding:0px;vertical-align:baseline">mthemb=
+ub@africamail.com</a></u></font><font color=3D"#548dd4">=C2=A0</font><font =
+color=3D"#0d0d0d">to enable me to contact you for further discussion. I wou=
+ld also request that you send me your most confidential phone number for fu=
+rther communication too.</font></div><p style=3D"font-size:15px;font-family=
+:Arial;color:rgb(36,36,36)"></p><div style=3D"border:0px;font-variant-numer=
+ic:inherit;font-variant-east-asian:inherit;font-variant-alternates:inherit;=
+font-stretch:inherit;font-size:15px;line-height:inherit;font-family:Arial;f=
+ont-kerning:inherit;font-feature-settings:inherit;margin:0px;padding:0px;ve=
+rtical-align:baseline;color:rgb(0,0,0)"><font color=3D"#222222"></font>=C2=
+=A0</div><div style=3D"border:0px;font-variant-numeric:inherit;font-variant=
+-east-asian:inherit;font-variant-alternates:inherit;font-stretch:inherit;fo=
+nt-size:15px;line-height:inherit;font-family:Arial;font-kerning:inherit;fon=
+t-feature-settings:inherit;margin:0px;padding:0px;vertical-align:baseline;c=
+olor:rgb(0,0,0)"><font color=3D"#0d0d0d">Respectfully,</font></div><div sty=
+le=3D"border:0px;font-variant-numeric:inherit;font-variant-east-asian:inher=
+it;font-variant-alternates:inherit;font-stretch:inherit;font-size:15px;line=
+-height:inherit;font-family:Arial;font-kerning:inherit;font-feature-setting=
+s:inherit;margin:0px;padding:0px;vertical-align:baseline;color:rgb(0,0,0)">=
+<font color=3D"#0d0d0d">Mr. Themba Mthembu</font></div><div style=3D"border=
+:0px;font-variant-numeric:inherit;font-variant-east-asian:inherit;font-vari=
+ant-alternates:inherit;font-stretch:inherit;font-size:15px;line-height:inhe=
+rit;font-family:Arial;font-kerning:inherit;font-feature-settings:inherit;ma=
+rgin:0px;padding:0px;vertical-align:baseline;color:rgb(0,0,0)"><font color=
+=3D"#222222" size=3D"2"><b>Email:=C2=A0</b></font><font color=3D"#548dd4"><=
+u><a id=3D"gmail-x_gmail-x_gmail-x_gmail-x_gmail-x_m_4402192339426100662gma=
+il-x_gmail-x_gmail-x_gmail-x_gmail-x_gmail-x_gmail-x_gmail-x_gmail-x_gmail-=
+x_gmail-x_gmail-x_m_7722512534438605689gmail-x_gmail-x_gmail-LPlnkx_x_gmail=
+-x_gmail-x_gmail-x_gmail-x_m_-1097940407493344899gmail-x_gmail-x_gmail-x_gm=
+ail-x_gmail-x_gmail-x_gmail-LPlnk328879" style=3D"border:0px;font:inherit;m=
+argin:0px;padding:0px;vertical-align:baseline;color:rgb(34,34,34)">mthembub=
+@africamail.com</a></u></font></div></div>
+
+--00000000000052d61f0603fdd932--

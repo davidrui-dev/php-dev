@@ -1,0 +1,93 @@
+Return-Path: <broombids@gmail.com>
+Delivered-To: info@broombids.com
+Received: from smd06.iphost.net
+	by smd06.iphost.net with LMTP
+	id CIo3GA4ypWRGGwAAT4N6Cg
+	(envelope-from <broombids@gmail.com>)
+	for <info@broombids.com>; Wed, 05 Jul 2023 12:04:14 +0300
+Return-path: <broombids@gmail.com>
+Envelope-to: info@broombids.com
+Delivery-date: Wed, 05 Jul 2023 12:04:14 +0300
+Received: from mail-ed1-f45.google.com ([209.85.208.45]:59681)
+	by smd06.iphost.net with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <broombids@gmail.com>)
+	id 1qGyQo-0003bA-0z
+	for info@broombids.com;
+	Wed, 05 Jul 2023 12:04:14 +0300
+Received: by mail-ed1-f45.google.com with SMTP id 4fb4d7f45d1cf-51de841a727so6914729a12.3
+        for <info@broombids.com>; Wed, 05 Jul 2023 02:03:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1688547811; x=1691139811;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=HkyVF2VpFNP2lpGLdy7v1uWwJalXvwaoyyO+GYU07sY=;
+        b=bfiZS+QMMdHWnyygjeSlbvGIwp04rnEppC2k767a2m7CqdlxHQNRtR4usmLeBw7Oh9
+         MJsoUHHkxdViunfO+uGsCBXDBcAm0r1JDa2T0kSM/Cojq3yROCDbfQiSQzYIkIf+T7lP
+         EVFVm2Xsz9dyUEen81tcCikAw+jP1KV29LgOrmfVa2Ns8hqcnAc0WhmDwGtMAyuQ76Jz
+         KjpLXe7xF9L5Wz1mF+Nn75gDBxPe7ReDrcVpBtMMiCP0LwqEiFGbz3qk931PmnvNxwba
+         YnyMCNrjaDzgsSazK9KPha2brlx892czbn5hBqH3qWvi/xZLss2zxTbRWZzJpvCQF46C
+         4rvg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1688547811; x=1691139811;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=HkyVF2VpFNP2lpGLdy7v1uWwJalXvwaoyyO+GYU07sY=;
+        b=i45F6ZoFeLC/12pHAZKNtiRxdfi+veARgmMoslgHsC/ifr0JNNiuXQ2cLV2n9pdcVB
+         837ImjaPwtEU4H0iVZMXStlO4pQyOR+GIx4YVJQ4S1f6JAAdoTLqPDbO+9Locz70AOYP
+         5pmOqH2/Omr18GMaWPu6u4YsrgUxlRja3Dvod11x9Gdz6MJTPgODKkGzoUuCzCr/+DHD
+         6+y/WpoSj6un0IJTfqujGQx7pRWLP7yZBAdL2Jg2CHVlalAu+XtuCQhr+oFTR+mBzhuJ
+         5w+Rz6hqGNu6h+mywxweipPirK+hlX+s8drPY3veGza2Q85Ek7WpZ99sxLHC04C5c2+l
+         y48A==
+X-Gm-Message-State: ABy/qLYK+Wji+sZ7tFsf7beJLzURFj5PjL1SuL2/E3pybTDO8nVc8nhG
+	An5Abdov+fyRbDXueLc5YP4oJnzVWWpl0Y/mfO6UCTn1
+X-Google-Smtp-Source: APBJJlF1G9VsLGoOUmKDCxps9LZRPVQRUmI8Vtgm8k4JOSRlHYeAoO7S8AM/zfqn8bJLNcd8eGf/VGZwWFJ4xc7EzL4=
+X-Received: by 2002:a05:6402:1654:b0:51d:a4b1:d430 with SMTP id
+ s20-20020a056402165400b0051da4b1d430mr10986675edx.3.1688547810736; Wed, 05
+ Jul 2023 02:03:30 -0700 (PDT)
+MIME-Version: 1.0
+From: broom bids <broombids@gmail.com>
+Date: Wed, 5 Jul 2023 12:03:18 +0300
+Message-ID: <CAKvJNb1WM9Z3RuhYjJ+agkuwrFnBQRbg1eGpiS3=kvgzHjvhVw@mail.gmail.com>
+Subject: test
+To: info@broombids.com
+Content-Type: multipart/alternative; boundary="00000000000072027e05ffb9ac02"
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "smd06.iphost.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  test test test test 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [broombids[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--00000000000072027e05ffb9ac02
+Content-Type: text/plain; charset="UTF-8"
+
+test test
+
+--00000000000072027e05ffb9ac02
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">test test=C2=A0</div>
+
+--00000000000072027e05ffb9ac02--

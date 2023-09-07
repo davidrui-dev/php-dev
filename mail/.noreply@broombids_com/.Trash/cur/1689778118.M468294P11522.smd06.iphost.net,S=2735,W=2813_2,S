@@ -1,0 +1,78 @@
+Return-Path: <>
+Delivered-To: noreply@broombids.com
+Received: from smd06.iphost.net
+	by smd06.iphost.net with LMTP
+	id cJ0YG8b3t2QCLQAAT4N6Cg
+	(envelope-from <>)
+	for <noreply@broombids.com>; Wed, 19 Jul 2023 17:48:38 +0300
+Return-path: <>
+Envelope-to: noreply@broombids.com
+Delivery-date: Wed, 19 Jul 2023 17:48:38 +0300
+Received: from mailnull by smd06.iphost.net with local (Exim 4.96)
+	id 1qM8Tm-0004OF-12
+	for noreply@broombids.com;
+	Wed, 19 Jul 2023 17:48:38 +0300
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@smd06.iphost.net>
+To: noreply@broombids.com
+References: <63a04d1850f2fe1f23f529f8cb65cf96@broombids.com>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1689778118-eximdsn-443591718
+MIME-Version: 1.0
+Subject: Warning: message 1qLeVg-0005PK-1u delayed 24 hours
+Message-Id: <E1qM8Tm-0004OF-12@smd06.iphost.net>
+Date: Wed, 19 Jul 2023 17:48:38 +0300
+
+--1689778118-eximdsn-443591718
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+A message that you sent has not yet been delivered to one or more of its
+recipients after more than 24 hours on the queue on smd06.iphost.net.
+
+The message identifier is:     1qLeVg-0005PK-1u
+The date of the message is:    Tue, 18 Jul 2023 12:18:35 +0530
+The subject of the message is: Welcome to Broombids
+
+The address to which the message has not yet been delivered is:
+
+  test@test.com
+
+No action is required on your part. Delivery attempts will continue for
+some time, and this warning may be repeated at intervals if the message
+remains undelivered. Eventually the mail delivery software will give up,
+and when that happens, the message will be returned to you.
+
+--1689778118-eximdsn-443591718
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; smd06.iphost.net
+
+Action: delayed
+Final-Recipient: rfc822;test@test.com
+Status: 4.0.0
+
+--1689778118-eximdsn-443591718
+Content-type: text/rfc822-headers
+
+Return-path: <noreply@broombids.com>
+Received: from [93.174.123.76] (port=64954 helo=broombids.com)
+	by smd06.iphost.net with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96)
+	(envelope-from <noreply@broombids.com>)
+	id 1qLeVg-0005PK-1u
+	for test@test.com;
+	Tue, 18 Jul 2023 09:48:35 +0300
+Date: Tue, 18 Jul 2023 12:18:35 +0530
+To: test@test.com
+From: Welcome to Broombids <noreply@broombids.com>
+Reply-to: Welcome to Broombids <noreply@broombids.com>
+Subject: Welcome to Broombids
+Message-ID: <63a04d1850f2fe1f23f529f8cb65cf96@broombids.com>
+X-Priority: 3
+X-Mailer: PHPMailer 5.1 (phpmailer.sourceforge.net)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_63a04d1850f2fe1f23f529f8cb65cf96"
+
+
+--1689778118-eximdsn-443591718--

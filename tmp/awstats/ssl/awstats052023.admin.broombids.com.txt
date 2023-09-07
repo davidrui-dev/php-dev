@@ -1,0 +1,874 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202305 will be lost/reset.
+# Last config file used to build this data file was /home3/broombi/tmp/awstats/ssl/awstats.admin.broombids.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2020                
+POS_TIME 2692                
+POS_VISITOR 13175               
+POS_DAY 16531               
+POS_DOMAIN 3434                
+POS_LOGIN 3824                
+POS_ROBOT 3979                
+POS_WORMS 4770                
+POS_EMAILSENDER 4901                
+POS_EMAILRECEIVER 5044                
+POS_SESSION 17253               
+POS_SIDER 17461               
+POS_FILETYPES 5179                
+POS_DOWNLOADS 5625                
+POS_OS 6620                
+POS_BROWSER 7245                
+POS_SCREENSIZE 10114               
+POS_UNKNOWNREFERER 10188               
+POS_UNKNOWNREFERERBROWSER 11424               
+POS_ORIGIN 12001               
+POS_SEREFERRALS 12142               
+POS_PAGEREFS 12286               
+POS_SEARCHWORDS 12469               
+POS_KEYWORDS 12621               
+POS_MISC 2356                
+POS_ERRORS 12680               
+POS_CLUSTER 3680                
+POS_SIDER_404 12777               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230601071345 1 0 11067842613354
+FirstTime 20230506081511
+LastTime 20230531091530
+LastUpdate 20230601143201 1 0 0 0 0
+TotalVisits 99                  
+TotalUnique 45                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 108                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 5 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 5 64013 1 9 7993050
+1 3 4 85109 0 0 0
+2 2 85 213641 1 2 48744
+3 19 22 103359 0 0 0
+4 0 0 0 0 2 661
+5 1 2 58208 0 0 0
+6 5 14 134705 0 3 993
+7 109 1293 5256722 0 2 661
+8 390 2113 36313192 3 6 661
+9 245 2663 118274803 1 9 7993050
+10 327 5289 31495616 2 9 7992720
+11 143 497 15240076 6 12 843937
+12 127 545 4604321 4 20 15410248
+13 33 62 405052 1 2 322
+14 55 222 17611190 1 4 993
+15 188 270 8525921 22 27 8957
+16 9 39 16084415 0 8 528026
+17 18 37 8226966 0 0 0
+18 26 157 1009858 2 4 7104496
+19 26 28 84931 0 2 22626
+20 143 657 26201295 0 2 661
+21 64 192 5519460 0 0 0
+22 166 300 11865650 0 0 0
+23 2 10 5553 0 2 661
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+gr 1755 13857 253658556
+us 231 351 34575726
+in 62 215 18731647
+be 42 46 266728
+fr 9 11 51998
+rw 4 4 1328
+ca 1 1 5704
+gb 0 1 43040
+cy 0 15 4965
+at 0 3 993
+ru 0 1 331
+zz 0 1 43040
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 17
+Googlebot/ 48 47334859 20230526120013 0
+Googlebot\-Image/ 14 594696 20230530163907 0
+(firefox/)([0-9]\.|[0-1][0]\.) 8 2936 20230521151054 0
+facebookexternalhit/ 2 662 20230506141044 0
+Screaming[\x20]Frog[\x20]SEO[\x20]Spider/ 2 662 20230513081909 0
+link 2 649 20230521151050 0
+bot[\s_+:,\.\;\/\\-] 2 661 20230521151051 0
+Konqueror/ 2 761 20230521151051 0
+Wget/ 2 651 20230521151051 0
+crawl 1 333 20230521151050 0
+bingbot/ 1 330 20230521151051 0
+CFNetwork 1 334 20230521151051 0
+Yahoo![\x20]Slurp[\x20]China 1 327 20230521151050 0
+no_user_agent 1 5704 20230514020825 0
+Jigsaw/ 1 338 20230521151050 0
+DoCoMo/ 1 325 20230521151051 0
+java 1 329 20230521151051 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 21
+tmp 23 7676 0 0
+svg 23 358579 0 0
+old 21 7114 0 0
+php 7 2321 0 0
+backup 22 7352 0 0
+dist 22 7453 0 0
+xml 48 15627 0 0
+save 23 7784 0 0
+jpg 11828 121511170 0 0
+js 40 77034596 0 0
+woff 10 470768 0 0
+1 21 7108 0 0
+txt 23 7672 0 0
+html 44 245272 0 0
+bak 21 7008 0 0
+jpeg 18 82029 0 0
+woff2 12 693264 0 0
+map 1 327 0 0
+png 446 12716231 0 0
+css 24 18433332 0 0
+Unknown 1829 75761373 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 25
+/data/config.php.txt 1 0 325
+/phpsso_server/caches/configs/system.php.txt 1 0 334
+/common/config/main-local.php.txt 1 0 431
+/caches/configs/system.php.txt 1 0 327
+/wp-config.php.txt 1 0 338
+/config/config.php.txt 1 0 327
+/app/etc/env.php.txt 1 0 324
+/config.inc.php.txt 1 0 339
+/config/config_ucenter.php.txt 1 0 327
+/installation/configuration.php.txt 1 0 333
+/typo3conf/localconf.php.txt 1 0 330
+/conn.php.txt 1 0 333
+/environments/prod/common/config/main-local.php.txt 1 0 333
+/zb_users/c_option.php.txt 1 0 329
+/e/class/config.php.txt 1 0 322
+/e/config/config.php.txt 1 0 322
+/site/default/settings.php.txt 1 0 325
+/Application/Common/Conf/config.php.txt 1 0 436
+/config/config_global.php.txt 1 0 327
+/data/bbscache/config.php.txt 1 0 325
+/data/common.inc.php.txt 1 0 325
+/textpattern/config.php.txt 1 0 332
+/include/config.inc.php.txt 1 0 328
+/environments/dev/common/config/main-local.php.txt 1 0 333
+/system/config/default.php.txt 1 0 327
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 40
+macosx11 1 1
+macosx15 34 10
+android 24 18
+linux 54 18
+macosx10 5 4
+blackberry 1 1
+win2003 1 1
+androidpie 2 2
+macosx8 1 1
+androideclair 1 1
+macosx6 3 3
+androidkitkat 3 3
+androidhoneycomb 1 0
+linuxdebian 1 1
+win7 11 9
+androidmarshmallow 1 0
+bsdnetbsd 2 2
+macosx13 3 2
+android10 19 4
+linuxubuntu 13 12
+macosx14 2 0
+win8 3 2
+win98 1 1
+win8.1 3 3
+ios_iphone 21 10
+unix 1 0
+win10 14218 1943
+winlong 4 3
+Unknown 31 18
+androidcupcake 1 1
+symbian 5 4
+androidnougat 6 3
+macosx 5 5
+winphone 2 2
+winxp 1 1
+bsdopenbsd 2 2
+ios_ipad 10 5
+j2me 1 0
+androidoreo 7 7
+palmos 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 142
+safari3.0 1 1
+blackberry 1 1
+chrome98.0.4758.141 1 0
+safari14.0.3 1 1
+chrome90.0.4430.93 2 1
+safari15.1 1 1
+chrome112.0.5615.121 19 2
+chrome98.0.4758.87 1 1
+chrome15.0.874.120 1 0
+android 4 2
+safari15.4 2 2
+chrome106.0.5249.126 1 0
+chrome6.0.464.0 2 2
+chrome91.0.4472.77 1 1
+safari1.3.1 1 1
+firefox102.0 1 0
+chrome98.0.4758.80 1 1
+chrome60.0.3112.107 1 1
+chrome62.0.3178.0 1 0
+chrome90.0.4430.212 1 1
+opera20.0.1387.91 1 1
+chrome100.0.4896.127 7 5
+chrome91.0.4472.101 1 0
+chrome83.0.4103.97 1 1
+chrome95.0.846.563 1 1
+mot\- 1 1
+firefox30.0 1 1
+opera20.0.1396.73172 1 0
+chrome111.0.0.0 11 1
+chrome103.0.5058.0 1 0
+chrome45.0.2454.93 1 1
+msie9.0 1 1
+opera9.20 1 1
+chrome104.0.0.0 1 0
+chrome101.0.4951.64 3 2
+opera9.25 1 0
+chrome103.0.9999.0 1 0
+chrome101.0.4951.41 13 13
+nokia 3 2
+opera98.0.0.0 3 0
+chrome98.0.4758.109 2 1
+safari10.0 2 1
+chrome109.0.0.0 9 0
+chrome100.0.4896.88 2 2
+opera85.0.4341.75 1 1
+chrome91.0.4472.88 1 1
+chrome51.0.2704.81 2 2
+chrome101.0.4951.61 7 7
+chrome100.0.4896.79 1 1
+safari 12 7
+opera36.0.2130.46 1 1
+chrome56.0.2924.87 1 0
+mozilla 21 12
+chrome87.0.4280.88 1 1
+firefox36.0 2 2
+chrome13.0.782.41 1 1
+chrome98.0.4758.102 2 0
+opera11.52 1 1
+chrome5.0.310.0 1 1
+chrome100.0.4896.75 1 1
+chrome99.0.4844.51 1 1
+Unknown 8 5
+chrome108.0.0.0 15 3
+galeon 1 1
+chrome94.0.4606.113 1 0
+edge12 2 2
+chrome4.0.237.0 1 1
+chrome96.0.4664.45 1 0
+samsung 1 0
+wget 1 0
+sonyericsson 1 1
+chrome36.0.1985.125 1 1
+chrome99.0.4844.74 2 2
+iphone 11 2
+chrome100.0.4896.133 1 0
+chrome101.0.4951.54 3 3
+netscape7.1 1 1
+opera97.0.0.0 1 0
+chrome55.0.2876.0 1 0
+opera7.51 1 1
+msie5.01 1 1
+chrome112.0.0.0 259 50
+chrome99.100.4896.127 2 2
+chrome19.0.1061.1 1 1
+chrome99.0.4844.88 1 1
+chrome61.0.3163.128 1 1
+chrome113.0.0.0 13870 1808
+opera8.01 1 0
+chrome100.0.4896.60 1 0
+chrome94.0.4606.71 2 2
+msie7.0 2 2
+opera19.0.1326.56 1 1
+safari5.0.2 2 2
+chrome110.0.5481.177 4 0
+chrome84.0.4147.105 1 0
+chrome92.0.4512.0 2 0
+safari2.0.1 1 1
+chrome60.0.3112.91 1 1
+chrome98.0.4758.101 2 2
+opera96.0.0.0 1 0
+chrome17.0.939.0 1 1
+chrome25.0.1364.160 1 1
+chrome76.0.3809.100 2 2
+safari15.5 2 1
+chrome52.0.2743.98 1 0
+chrome39.0.2171.95 2 2
+opera9.64 1 1
+safari3.1.1 1 1
+chrome99.0.4844.82 1 1
+firefox15.0 1 1
+chrome36.0.1985.135 1 1
+safari7.2.0.0 1 1
+firefox29.0 1 1
+iceape 1 1
+chrome59.0.3071.125 1 1
+opera12.16 1 1
+chrome44.0.2403.130 1 1
+firefox14.0.1 1 1
+chrome25.0.1349.2 1 1
+firefox16.0 4 4
+chrome97.0.4692.99 1 1
+chrome88.0.4324.41 1 1
+firefox40.0 1 1
+chrome79.0.3945.79 1 0
+safari16.3 2 0
+chrome89.0.4389.114 58 58
+chrome101.0.4951.67 1 1
+chrome51.0.2704.79 1 1
+chrome95.0.4638.50 1 1
+safari16.4.1 2 0
+webcopier 1 1
+chrome104.0.5112.101 1 0
+opera11.01 1 0
+chrome11.0.696.65 1 1
+safari13.1.1 1 1
+firefox49.0 1 1
+firefox58.0 8 8
+chrome102.0.5005.49 2 2
+firefox55.0 1 1
+msie11.0 8 8
+chrome79.0.3945.136 1 1
+chrome94.0.4590.2 5 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 15
+Mozilla/5.0_(compatible;_Domains_Project/1.3.7;__https://domainsproject.org) 20230509193332
+Mozilla/5.0_(MeeGo;_NokiaN950-00/00)_AppleWebKit/534.13_(KHTML,_like_Gecko)_NokiaBrowser/8.5.0_Mobile_Safari/534.13 20230521151051
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20230511225705
+Download_Demon/3.5.0.11 20230521151050
+Python/3.8_aiohttp/3.8.1 20230509133358
+MOT-V9mm/00.62_UP.Browser/6.2.3.4.c.1.123_(GUI)_MMP/2.0 20230521151052
+Google_Pixel 20230510094237
+wget 20230506142500
+WebCopier_v4.6 20230521151051
+SonyEricssonK750i/R1CA_Browser/SEMC-Browser/4.2_Profile/MIDP-2.0_Configuration/CLDC-1.1 20230521151050
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20230529154739
+WhatsApp/2.2314.6_W 20230506083237
+Mozilla/5.0_(compatible;_Dataprovider.com) 20230527190032
+Samsung_Phone 20230510094236
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20230530102950
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+Python/3.8_aiohttp/3.8.1 20230509133358
+NetSurf/1.2_(NetBSD;_amd64) 20230521151051
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20230511225705
+Download_Demon/3.5.0.11 20230521151050
+iPad_Mini 20230510094236
+Google_Pixel 20230510094237
+WhatsApp/2.2314.6_W 20230506083237
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 265 298
+From1 0 0
+From2 0 0
+From3 1 1
+From4 1838 14207
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://www.broombids.com:2083 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 17 5270
+302 13 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 2
+/robots.txt 16 -
+/CarGallary/featured_54c5%20aircross%20suv.jpg 1 https://broombids.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 108
+94.71.70.140 925 11325 71899586 20230523144911
+85.72.216.117 734 2143 155387883 20230531091530
+3.144.137.238 153 176 59167 20230521151052
+85.73.180.33 85 219 8760185 20230524120506
+183.87.184.88 50 177 8955704 20230506083237
+152.58.35.189 23 25 167140 20230529142032
+157.90.140.164 19 19 16948 20230510145427
+57.128.86.149 19 19 16948 20230522032329
+57.128.86.60 19 19 16948 20230515192027
+49.36.109.252 10 31 9236073 20230530202903
+152.58.35.209 9 12 548458 20230529114039
+152.58.35.155 8 26 8466109 20230527144247
+152.58.34.118 6 10 704343 20230528082436
+94.65.204.146 6 18 8072602 20230511174812
+94.71.4.22 4 4 31140 20230524063939
+197.243.119.34 4 4 1328 20230512165051
+68.183.18.118 2 2 5704 20230509193332
+51.254.49.98 1 1 5704 20230529184025
+49.13.10.147 1 1 5704 20230514222740
+51.255.62.4 1 1 5704 20230529153349
+51.254.49.106 1 1 5704 20230529191254
+3.133.59.141 1 1 331 20230522004240
+94.71.70.147 1 49 8080429 20230507204743
+87.236.176.146 1 1 5704 20230530102944
+167.248.133.36 1 2 58208 20230526124237
+54.163.76.76 0 1 331 
+107.178.207.81 0 1 331 
+94.70.133.153 0 16 5296 
+3.12.73.160 0 1 43040 
+49.44.80.135 0 1 43040 
+94.66.221.114 0 1 43040 
+5.203.179.57 0 1 43040 
+94.231.194.198 0 1 331 
+87.236.176.73 0 1 52504 
+87.236.176.200 0 1 52504 
+23.128.248.11 0 1 43040 
+85.72.43.57 0 1 43040 
+154.27.77.194 0 1 43040 
+152.58.36.247 0 1 43040 
+87.236.176.46 1 1 5704 20230529015509
+163.153.215.68 1 9 8015016 20230507204751
+167.94.138.35 1 2 58208 20230529154738
+85.75.83.164 0 1 43040 
+205.169.39.153 0 1 331 
+62.1.91.117 0 3 993 
+66.249.93.51 0 1 43040 
+24.54.160.88 0 1 43040 
+193.92.197.34 0 4 485422 
+65.154.226.170 1 9 8015016 20230517164137
+18.163.120.153 0 1 331 
+162.55.209.199 0 1 331 
+87.236.176.94 1 1 5704 20230525003909
+34.81.16.175 0 1 331 
+37.6.166.230 0 1 43040 
+167.94.138.125 1 2 58208 20230526061322
+66.249.81.124 0 2 662 
+80.106.87.93 0 12 216855 
+37.6.164.137 0 4 442382 
+94.71.169.106 0 6 1986 
+65.154.226.166 0 1 331 
+5.54.149.166 0 2 662 
+163.116.179.7 1 1 5704 20230509133358
+79.129.235.8 0 7 2317 
+54.212.189.70 1 1 5704 20230509133401
+167.248.133.185 1 2 58208 20230529135015
+66.249.88.1 0 1 331 
+198.235.24.193 1 1 5704 20230511225705
+195.74.229.72 0 3 993 
+163.116.179.72 0 2 662 
+51.254.49.96 1 1 5704 20230529184024
+94.70.57.227 0 2 662 
+152.58.35.165 0 1 0 
+51.255.62.1 1 1 5704 20230529153349
+65.154.226.168 1 9 8015016 20230517164938
+94.64.122.176 0 1 43040 
+66.249.81.126 0 2 662 
+18.219.5.161 0 1 331 
+5.55.169.126 0 4 1324 
+87.236.176.182 1 1 5704 20230524055445
+195.97.88.210 0 2 662 
+49.12.68.134 1 1 5704 20230515022820
+167.99.85.30 0 1 331 
+37.6.166.25 0 1 0 
+188.165.87.108 1 1 5704 20230529172410
+52.32.199.22 1 1 5704 20230509133401
+94.71.38.62 0 1 331 
+35.221.60.203 0 1 331 
+188.165.87.110 1 1 5704 20230529172410
+149.56.150.53 0 1 43040 
+3.145.131.233 0 1 43040 
+195.97.88.211 0 1 331 
+154.57.7.193 0 17 5627 
+37.187.215.249 1 1 5704 20230529174246
+87.236.176.102 0 1 52504 
+125.19.5.130 0 4 485422 
+188.117.195.76 0 3 993 
+84.254.55.172 0 1 331 
+87.236.176.196 0 1 52504 
+51.81.245.219 0 1 43040 
+94.66.221.124 0 5 1655 
+188.4.200.64 0 15 4965 
+94.66.137.74 0 2 662 
+46.103.70.161 0 15 4965 
+209.38.251.44 1 1 5704 20230516152159
+195.97.61.194 0 1 331 
+3.145.16.49 0 1 331 
+24.220.112.134 0 1 331 
+178.128.57.35 0 1 331 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20230506 50 183 8957690 1
+20230507 2 27 16085184 2
+20230508 0 20 6620 0
+20230509 5 44 35725 4
+20230510 19 55 28864 1
+20230511 7 28 8081285 2
+20230512 110 600 9739924 4
+20230513 292 6241 20682639 4
+20230514 15 20 86969 3
+20230515 24 44 46021 3
+20230516 33 50 160973 6
+20230517 15 53 16169648 5
+20230518 32 51 112963 2
+20230519 87 1589 8218067 2
+20230520 17 127 506174 2
+20230521 153 180 102207 1
+20230522 333 2455 31935127 4
+20230523 15 216 642603 4
+20230524 164 479 21939213 5
+20230525 236 524 15800455 5
+20230526 239 571 17139307 6
+20230527 56 107 25486431 6
+20230528 12 166 988107 3
+20230529 170 529 100268621 18
+20230530 10 127 3006206 3
+20230531 8 20 1157033 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+15mn-30mn 11
+30mn-1h 11
+1h+ 3
+30s-2mn 7
+2mn-5mn 2
+0s-30s 62
+5mn-15mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 232
+/Pages/VehicleList 357 62607541 7 11
+/Pages/EditVehicleDetails 287 3287845 2 1
+/Master/UpdateFutureImage 122 1496 0 1
+/Master/UpdateVehicle 120 840 0 0
+/Dashboard 117 2103235 21 6
+/Master/GetVtypeCompany 62 89528 0 0
+/Master/LoginUser 61 394 4 1
+/Pages/ManageVehicle 55 621715 0 0
+/home 51 290904 2 7
+/Master/GetCarName 50 18365 0 0
+/Master/AddCarDetails 44 308 0 0
+/ 44 245272 36 30
+/Master/addVehicleName 43 23518 0 0
+/Pages/CustomerList 41 283819 5 5
+/Master/UnBlockUser 41 287 0 5
+/Pages/VehicleName 36 4045707 1 0
+/Pages/VenderUserList 34 151429 4 7
+/Pages/VehicleType 29 375376 2 2
+/Master/DeleteCustomer 23 0 0 1
+/Master/BlockUser 21 147 0 0
+/Master/FaqAdd 20 140 0 0
+/Pages/AdminUserList 19 64334 0 1
+/Pages/Post 17 42425 0 0
+/Pages/CreateCustomer 17 27506 6 3
+/Pages/VehicleCompany 17 581961 1 0
+/Pages/addAdminUser 6 13356 0 1
+/config/config.php.bak 1 327 0 0
+/config.inc.php.1 1 337 0 0
+/data/bbscache/config.php.backup 1 325 0 0
+/phpsso_server/caches/configs/system.php.backup 1 334 0 0
+/Pages/AdminUserEdit 1 2098 0 1
+/config/config.php.save 1 327 0 0
+/site/default/settings.php.save 1 325 0 0
+//web/wp-includes/wlwmanifest.xml 3 972 0 0
+/e/config/config.php.save 1 322 0 0
+/Pages/CreateVender 10 101598 0 0
+/include/config.inc.php.tmp 1 328 0 0
+/installation/configuration.php.old 1 333 0 0
+/phpsso_server/caches/configs/system.php.tmp 1 334 0 0
+/installation/configuration.php.bak 1 333 0 0
+/textpattern/config.php.bak 1 332 0 0
+/site/default/settings.php.bak 1 325 0 0
+/e/config/config.php.tmp 1 322 0 0
+/site/default/settings.php.1 1 325 0 0
+/common/config/main-local.php.old 1 431 0 0
+/e/class/config.php.tmp 1 322 0 0
+/app/etc/env.php.backup 1 324 0 0
+/config/config_global.php.dist 1 327 0 0
+/Application/Common/Conf/config.php.save 1 436 0 0
+/assets/fonts/dripicons.woff 3 78012 0 0
+/data/common.inc.php.save 1 325 0 0
+/data/bbscache/config.php.dist 1 325 0 0
+/data/config.php.1 1 325 0 0
+/conn.php.bak 1 333 0 0
+/caches/configs/system.php.backup 1 327 0 0
+/system/config/default.php.1 1 327 0 0
+/config.inc.php.dist 1 340 0 0
+/e/class/config.php.backup 1 322 0 0
+/Master/GetCompay 6 83742 0 1
+/environments/prod/common/config/main-local.php.old 1 333 0 0
+/zb_users/c_option.php.dist 1 329 0 0
+/e/config/config.php.backup 1 322 0 0
+/config/config_ucenter.php.save 1 327 0 0
+/config/config_ucenter.php.1 1 327 0 0
+/environments/prod/common/config/main-local.php.save 1 333 0 0
+/environments/dev/common/config/main-local.php.save 1 333 0 0
+/e/class/config.php.1 1 322 0 0
+/installation/configuration.php.tmp 1 333 0 0
+/Application/Common/Conf/config.php.dist 1 436 0 0
+/Pages/VehicleTransmission 8 30160 0 0
+/config/config_global.php.save 1 327 0 0
+/data/config.php.bak 1 325 0 0
+/data/common.inc.php.bak 1 325 0 0
+/config/config_global.php.1 1 327 0 0
+/Master/EditFaqDetails 1 7 0 0
+/data/config.php.tmp 1 325 0 0
+/Master/GetFaqDetails 1 1216 0 0
+/xmlrpc.php 2 662 0 1
+/environments/dev/common/config/main-local.php.backup 1 333 0 0
+/environments/dev/common/config/main-local.php.1 1 333 0 0
+/zb_users/c_option.php.bak 1 329 0 0
+//2020/wp-includes/wlwmanifest.xml 3 975 0 0
+/typo3conf/localconf.php.backup 1 330 0 0
+/Pages/VenderDetails 6 48411 0 0
+/typo3conf/localconf.php.save 1 330 0 0
+/config/config.php.tmp 1 327 0 0
+/environments/prod/common/config/main-local.php.dist 1 333 0 0
+/Pages/VehicleDetails 2 5166 0 0
+/Master/AddCompanyToType 8 56 0 0
+/Master/StoreVenderId 6 0 1 0
+/wp-config.php.tmp 1 338 0 0
+/config/config_ucenter.php.old 1 327 0 0
+/installation/configuration.php.dist 1 333 0 0
+//test/wp-includes/wlwmanifest.xml 3 975 0 0
+/phpsso_server/caches/configs/system.php.dist 1 334 0 0
+/textpattern/config.php.backup 1 332 0 0
+/config/config.php.1 1 327 0 0
+/typo3conf/localconf.php.dist 1 330 0 0
+/data/common.inc.php.backup 1 325 0 0
+/data/bbscache/config.php.save 1 325 0 0
+/typo3conf/localconf.php.old 1 330 0 0
+/Master/AddLocation 2 963 0 0
+//2019/wp-includes/wlwmanifest.xml 3 975 0 0
+/textpattern/config.php.dist 1 332 0 0
+/common/config/main-local.php.save 1 431 0 0
+/site/default/settings.php.dist 1 325 0 0
+/environments/prod/common/config/main-local.php.1 1 333 0 0
+/system/config/default.php.backup 1 327 0 0
+/environments/prod/common/config/main-local.php.backup 1 333 0 0
+/Master/DeleteCar 1 0 0 0
+/CarGallary/Gallary_1599320281 4 1324 0 0
+/caches/configs/system.php.dist 1 327 0 0
+/Pages/Dashboard 7 23123 2 2
+/common/config/main-local.php.dist 1 431 0 0
+/textpattern/config.php.save 1 332 0 0
+/config/config_global.php.tmp 1 327 0 0
+/wp-config.php.bak 1 338 0 0
+/e/config/config.php.bak 1 322 0 0
+/common/config/main-local.php.backup 1 431 0 0
+/config/config_global.php.backup 1 327 0 0
+/config/config_ucenter.php.bak 1 327 0 0
+/Pages/CustomerEdit 5 7278 0 3
+/common/config/main-local.php.1 1 431 1 0
+/system/config/default.php.dist 1 327 0 0
+/include/config.inc.php.old 1 328 0 0
+/CarGallary/Gallary_1599320464 1 331 0 0
+/e/class/config.php.old 1 322 0 0
+/conn.php.save 1 334 0 0
+/config/config.php.dist 1 327 0 0
+/dashboard 3 25571 1 0
+/system/config/default.php.old 1 327 0 0
+/data/bbscache/config.php.bak 1 325 0 0
+/system/config/default.php.tmp 1 327 0 0
+/app/etc/env.php.tmp 1 324 0 0
+/typo3conf/localconf.php.bak 1 330 0 0
+//wp/wp-includes/wlwmanifest.xml 3 969 0 0
+/installation/configuration.php.1 1 333 0 0
+/zb_users/c_option.php.tmp 1 329 0 0
+//sito/wp-includes/wlwmanifest.xml 3 975 0 3
+/Master/EditCustomer 2 14 0 1
+/config.inc.php.tmp 1 339 0 0
+/app/etc/env.php.bak 1 324 0 0
+//news/wp-includes/wlwmanifest.xml 3 975 0 0
+/installation/configuration.php.backup 1 333 0 0
+//website/wp-includes/wlwmanifest.xml 3 984 0 0
+/caches/configs/system.php.old 1 327 0 0
+/conn.php.old 1 333 0 0
+/phpsso_server/caches/configs/system.php.save 1 334 0 0
+/Master/DeleteRecord 2 0 0 0
+/e/class/config.php.bak 1 322 0 0
+//xmlrpc.php 3 993 0 0
+/config/config.php.old 1 327 0 0
+/wp-config.php.1 1 336 0 0
+/config.inc.php.backup 1 342 0 0
+/include/config.inc.php.dist 1 328 0 0
+/data/common.inc.php.old 1 325 0 0
+/conn.php.1 1 331 0 0
+/e/config/config.php.dist 1 322 0 0
+/caches/configs/system.php.save 1 327 0 0
+/installation/configuration.php.save 1 333 0 0
+/caches/configs/system.php.1 1 327 0 0
+/caches/configs/system.php.bak 1 327 0 0
+/textpattern/config.php.1 1 332 0 0
+/config.inc.php.old 1 339 0 0
+/environments/dev/common/config/main-local.php.old 1 333 0 0
+/Master/UpdateGalleryImage 3 21 0 0
+/environments/dev/common/config/main-local.php.tmp 1 333 0 0
+/CarGallary/featured_37c5 1 331 1 1
+/assets/fonts/material-icons.woff2 6 230304 0 0
+/data/config.php.backup 1 325 0 0
+/environments/prod/common/config/main-local.php.tmp 1 333 0 0
+/Master/addVehicleFuel 1 503 0 0
+/common/config/main-local.php.bak 1 431 0 0
+/textpattern/config.php.tmp 1 332 0 0
+//wp1/wp-includes/wlwmanifest.xml 3 972 0 0
+/conn.php.backup 1 336 0 0
+/wp-login.php 2 666 1 0
+/data/bbscache/config.php.tmp 1 325 0 0
+/wp-config.php.backup 1 341 0 0
+/data/config.php.save 1 325 0 0
+//blog/wp-includes/wlwmanifest.xml 3 975 0 0
+//wp-includes/wlwmanifest.xml 3 996 0 0
+/Application/Common/Conf/config.php.1 1 436 0 0
+/Master/StoreCarId 2 0 0 0
+//wordpress/wp-includes/wlwmanifest.xml 3 990 0 0
+/site/default/settings.php.old 1 325 0 0
+/Application/Common/Conf/config.php.old 1 436 0 0
+/wp-config.php.dist 1 339 0 0
+/data/bbscache/config.php.1 1 325 0 0
+/e/class/config.php.save 1 322 0 0
+/Application/Common/Conf/config.php.tmp 1 436 0 0
+/Pages/Faq 11 676491 0 1
+/Master/VenderRegister 12 6247 0 1
+/config.inc.php.save 1 340 0 0
+/config/config_global.php.old 1 327 0 0
+/app/etc/env.php.1 1 324 0 0
+/textpattern/config.php.old 1 332 0 0
+/Pages/VehicleFuelType 8 35688 0 0
+/Master/AddCustomer 6 1854 0 0
+//site/wp-includes/wlwmanifest.xml 3 975 0 0
+//shop/wp-includes/wlwmanifest.xml 3 975 0 0
+/data/common.inc.php.tmp 1 325 0 0
+/data/config.php.dist 1 325 0 0
+/Pages/support 6 6336 0 0
+/config/config_ucenter.php.dist 1 327 0 0
+/zb_users/c_option.php.old 1 329 0 0
+/caches/configs/system.php.tmp 1 327 0 0
+/conn.php.tmp 1 333 0 0
+/e/config/config.php.1 1 322 0 0
+//cms/wp-includes/wlwmanifest.xml 3 972 0 0
+/assets/fonts/themify-icons.woff 7 392756 1 0
+/typo3conf/localconf.php.tmp 1 330 0 0
+/config/config_ucenter.php.backup 1 327 0 0
+/Pages/Location 13 70668 0 0
+/data/bbscache/config.php.old 1 325 0 0
+/assets/js/toastr.js.map 1 327 0 1
+/data/config.php.old 1 325 0 0
+/config/config_ucenter.php.tmp 1 327 0 0
+/include/config.inc.php.save 1 328 0 0
+/assets/fonts/font-awesome.woff2 6 462960 0 0
+/config.inc.php.bak 1 339 0 0
+/environments/dev/common/config/main-local.php.bak 1 333 0 0
+/conn.php.dist 1 334 0 0
+/phpsso_server/caches/configs/system.php.bak 1 334 0 0
+/e/class/config.php.dist 1 322 0 0
+/wp-config.php.save 1 339 0 0
+/config/config.php.backup 1 327 0 0
+//wp2/wp-includes/wlwmanifest.xml 3 972 0 0
+/system/config/default.php.bak 1 327 0 1
+/zb_users/c_option.php.backup 1 329 0 0
+/include/config.inc.php.1 1 328 0 0
+/zb_users/c_option.php.save 1 329 0 0
+END_SIDER

@@ -1,0 +1,153 @@
+Return-Path: <djeg9g@boaniger.com>
+Delivered-To: support@broombids.com
+Received: from smd06.iphost.net
+	by smd06.iphost.net with LMTP
+	id 2C0FMf/NlmT2VAAAT4N6Cg
+	(envelope-from <djeg9g@boaniger.com>)
+	for <support@broombids.com>; Sat, 24 Jun 2023 14:05:35 +0300
+Return-path: <djeg9g@boaniger.com>
+Envelope-to: support@broombids.com
+Delivery-date: Sat, 24 Jun 2023 14:05:35 +0300
+Received: from mail1.bemta37.messagelabs.com ([85.158.142.113]:9082)
+	by smd06.iphost.net with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <djeg9g@boaniger.com>)
+	id 1qD15F-0005xF-1M
+	for support@broombids.com;
+	Sat, 24 Jun 2023 14:05:35 +0300
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=boaniger.com;
+	s=selector3; t=1687604692; i=@boaniger.com;
+	bh=+xSwcH98m0p9ioeIHVibZlVFi96yP7QAtKseg1xx64M=;
+	h=From:Subject:To:Content-Type:Date:Message-ID:MIME-Version;
+	b=STwHyLh3gNf1AJIz68uum2mWhAboAzIpQ5xiPTGriMGwdOrAYWKGNVQ/lmgoroFJ9
+	 EWuxWOE4ZOrmuUJknDCoGjv8SUZKwBDUT06S4YDLHZkujLfgtkzYh60rB5UyeHlK3/
+	 RuGhy0QuzMo86N5pHoKgfKi2pp/mGAUue3+ayMxQ=
+X-Brightmail-Tracker: H4sIAAAAAAAAA+NgFnrHIsWRWlGSWpSXmKPExsUyy+mus+6Fs9N
+  SDN5etLCYtvYIm8W7lz0sFjuX32K2aF2cZvF04RoWi8XH7rBYPJl7h81i7sJlTBbfTzcwW8w6
+  t47Fgcujd/ImFo//u2eyeNx9c4rJY+uTj6we87+cZfS48OYau8e7L31AYvd7Fo+1n98xeuy6t
+  ZAxgCuKNTMvKb8igTVj/emLrAXz2Cs62s4wNTB+Ye1i5OIQEvjOKHHpwRQE5868TsYuRk4gZz
+  +jxOtJlSA2m4CmxI8nu1hBbGEBMYndX1exg9giAqoS578/ZgaxmQUkJA6+eAFmswDF/87dBjZ
+  HQoBXondJG1AvBwevgL/E9HMOEOMVJB70LQQbySsgKHFy5hOWCYw8s5BMmoUktYCRaRWjWXFq
+  UVlqka6FXlJRZnpGSW5iZo5eYpVuol5qqW5eflFJhq6hXmJ5sV5qcbFecWVuck6KXl5qySZGY
+  NCnFKf57GBc0/1P7xCjJAeTkihv2/FpKUJ8SfkplRmJxRnxRaU5qcWHGGU4OJQkeM1OA+UEi1
+  LTUyvSMnOAEQiTluDgURLhNTsBlOYtLkjMLc5Mh0idYtTlmH74yl5mIZa8/LxUKXFerZNARQI
+  gRRmleXAjYMngEqOslDAvIwMDgxBPQWpRbmYJqvwrRnEORiVh3ruHgabwZOaVwG16BXQEE9AR
+  6VqTQY4oSURISTUwGV/i+eK+KzCy6vD9mInn7FNmVBXlXOyMrLqrc3DfEuXcCE0JbkMF80msu
+  7+mXX57b5lO3M/Pi7MmmaTJezBkvp7939A899w/9sde05+W5n3r/xS1TFtqseu3MxsSl4vu5s
+  1v/Xvbct1t1VTtABvX3dedFrzMujnRu6Hou3viyT97nij3KhzYWOls7JU+cd0kTcmPAedeban
+  euV36eWjfa013Tpdmk2XrOhR/HzlksHNypreLBHf09WtxiV1z1GI/Sp49mbNjZueymlzm5hSW
+  7PcRD5W9f0zROenGtJiP/8ltD0sPrcchzt+t3pyffLEsjnPup9eS0beNDRaLRWyVzEs6u4k/f
+  VNgZ/79S4q8SizFGYmGWsxFxYkAf4QvAIEDAAA=
+X-Env-Sender: djeg9g@boaniger.com
+X-Msg-Ref: server-7.tower-725.messagelabs.com!1687604679!72870!11
+X-Originating-IP: [154.66.221.67]
+X-SYMC-ESS-Client-Auth: outbound-route-from=pass
+X-StarScan-Received:
+X-StarScan-Version: 9.105.4; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 17323 invoked from network); 24 Jun 2023 11:04:48 -0000
+Received: from unknown (HELO mail.boaniger.com) (154.66.221.67)
+  by server-7.tower-725.messagelabs.com with ECDHE-RSA-AES256-GCM-SHA384 encrypted SMTP; 24 Jun 2023 11:04:48 -0000
+Received: from winsrvne-exch4.boaniger.local (10.107.72.29) by
+ WINSRVNE-EXCH.boaniger.local (10.107.72.8) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.1.2375.34; Sat, 24 Jun 2023 12:06:08 +0100
+Received: from WINSRVNE-EXCH.boaniger.local (10.107.72.8) by
+ winsrvne-exch4.boaniger.local (10.107.72.29) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.1.2375.34; Sat, 24 Jun 2023 12:06:07 +0100
+Received: from boaniger.com (185.232.23.133) by WINSRVNE-EXCH.boaniger.local
+ (10.107.72.8) with Microsoft SMTP Server id 15.1.2375.34 via Frontend
+ Transport; Sat, 24 Jun 2023 12:06:00 +0100
+From: Boom Of Sales <djeg9g@boaniger.com>
+To: <support@brooksbros.bandcamp.com>
+Content-Type: text/plain
+Date: Sat, 24 Jun 2023 08:04:52 -0300
+X-Priority: 5
+Message-ID: <d020499b-8d72-459f-9d7c-fc186dc1c47b@WINSRVNE-EXCH.boaniger.local>
+MIME-Version: 1.0
+X-Spam-Status: Yes, score=7.1
+X-Spam-Score: 71
+X-Spam-Bar: +++++++
+X-Spam-Report: Spam detection software, running on the system "smd06.iphost.net",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Get the best email lists for your email marketing. 100% VALID
+    email lists of any country in the world. Talk to us in WhatsApp: +55 11 94220
+    7050 
+ Content analysis details:   (7.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.5 NA_DOLLARS             BODY: Talks about a million North American dollars
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: boaniger.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  0.8 KAM_ASCII_DIVIDERS     Spam that uses ascii formatting tricks
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.0 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+  3.0 BIGNUM_EMAILS_MANY     Lots of email addresses/leads, over and over
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Boom Of Sales
+
+Get the best email lists for your email marketing.
+
+100% VALID email lists of any country in the world.
+
+Talk to us in WhatsApp:
++55 11 94220 7050
+
+Or Skype:
+live:.cid.5e75655cdccb6b10
+-------------------------------------------
+
+Email lists from any country in the world:
+
+
+Each 100.000 emails = US$ 150
+
+Each 500.000 emails = US$ 350
+
+Each 1 million emails = US$ 500
+
+Each 5 million emails = US$ 750
+
+Each 10 million emails = US$ 1000
+
+Segmented email lists from any country:
+
+Each 10.000 emails = US$ 150
+Each 50.000 emails = US$ 350
+Each 100.000 emails = US$ 500
+Each 500.000 emails = US$ 750
+Each 1 million emails = US$ 1000
+--------------------------------------------
+
+We are waiting for you.
+
+Best regards,
+
+SUPER LIST
+The best email lists since 1998
+
+WhatsApp: 
++55 11 94220 7050
+
+Skype:
+live:.cid.5e75655cdccb6b10
+
+
+If you no longer wish to receive this email, just reply to this message with subject: "Unsubscribe"
