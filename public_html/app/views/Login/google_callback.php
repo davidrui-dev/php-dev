@@ -9,6 +9,7 @@ $client->addScope('email'); // Requested scope
 
 $authCode = $_GET['code'];
 
+
 try {
     $accessToken = $client->fetchAccessTokenWithAuthCode($authCode);
     $client->setAccessToken($accessToken);
