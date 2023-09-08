@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/public_html/vendor/facebook/graph-sdk" />
+      <path value="$PROJECT_DIR$/public_html/vendor/composer" />
+      <path value="$PROJECT_DIR$/public_html/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/public_html/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/public_html/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/public_html/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/public_html/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/public_html/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/public_html/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/public_html/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/public_html/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/public_html/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/public_html/vendor/google/apiclient-services" />
+      <path value="$PROJECT_DIR$/public_html/vendor/google/apiclient" />
+      <path value="$PROJECT_DIR$/public_html/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/public_html/vendor/google/auth" />
+      <path value="$PROJECT_DIR$/public_html/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/public_html/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/public_html/vendor/firebase/php-jwt" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings configuration_file_path="$PROJECT_DIR$/public_html/dompdf/lib/php-svg-lib/phpunit.xml" custom_loader_path="$PROJECT_DIR$/public_html/vendor/autoload.php" use_configuration_file="true" />
+    </phpunit_settings>
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>

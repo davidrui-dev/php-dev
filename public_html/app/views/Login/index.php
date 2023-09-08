@@ -88,9 +88,9 @@
                                         
                                     </form>
                                     <div class="col">        
-                                        <a href="#" class="twitter btn">Login with Facebook
+                                        <a href="<?=PROOT?>Login/social?provider=facebook" class="twitter btn">Login with Facebook
                                         </a>
-                                        <a href="#" class="google btn">Login with Google+
+                                        <a href="<?=PROOT?>Login/social?provider=google" class="google btn">Login with Google+
                                         </a>
                                       </div>
                                 </div>

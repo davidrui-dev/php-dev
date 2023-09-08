@@ -13,6 +13,16 @@ class Login extends Controller
         $this->view->render('Login/index');        
     }
 
+    public function socialAction()
+    {
+        $this->view->render('Login/social');
+    }
+
+    public function facebook_callbackAction()
+    {
+        $this->view->render('Login/facebook_callback');
+    }
+
     
 
 }

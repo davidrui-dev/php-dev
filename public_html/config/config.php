@@ -2,14 +2,17 @@
 		error_reporting(E_ALL);
 		ini_set('display_errors', 1);
 		define('DEBUG', true);
-	if($_SERVER['HTTP_HOST'] == 'localhost')
+//	if($_SERVER['HTTP_HOST'] == '127.0.0.1:8000')
+	if($_SERVER['HTTP_HOST'] == 'localhost:8000')
 	{
-		define('DB_NAME','broombids'); //database name
+		define('DB_NAME','broombi_cp_broombids'); //database name
+//		define('DB_NAME','broombids'); //database name
 		define('DB_USER','root'); //database user
-		define('DB_PASSWORD',''); //database Password
+		define('DB_PASSWORD','root'); //database Password
 		define('DB_HOST','127.0.0.1'); //database host,use IP address to avoid DNS lookup
 		define('FUTUREIMAGE', '../admin.broombids/'); 
-		define('PROOT','/broombids_new/'); // set this to '/' for a live server	
+		define('PROOT','/public_html/'); // set this to '/' for a live server
+//		define('PROOT','/broombids_new/'); // set this to '/' for a live server
 		define('MAIL_SEND_STATUS', 'true');
 	}
 	else 
@@ -66,6 +69,16 @@
 	define('MAIL_PASSWORD', 'Chand@1931'); 
 
 	define('SUPPORT_EMAIL', 'cadelineweb@gmail.com'); 
-	define('BROOMS_PERCENTAGE', '5'); 
+	define('BROOMS_PERCENTAGE', '5');
 
-	
+
+    # client id and client secret
+    define('CLIENT_ID','281805047666-5j8osug98k5hprj66c21svaman0fklb7.apps.googleusercontent.com');
+    define('CLIENT_SECRET','dNfQ5Glq94YJlscpaYWEEuuu');
+    define('REDIRECT_URI','http://localhost:8000/auth/callback/google');//example:http://localhost/social/login.php?google,http://example/login.php?google
+    define('APPROVAL_PROMPT','auto');
+    define('ACCESS_TYPE','offline');
+
+    #For facebook login
+    define('APP_ID','833619740663548');
+    define('APP_SECRET','d2da8d9b7eb03a5bf1fa784ebd8f5bab');
