@@ -17,17 +17,4 @@ class Login extends Controller
     {
         $this->view->render('Login/social');
     }
-
-    public function facebook_callbackAction()
-    {
-        $this->view->render('Login/facebook_callback');
-    }
-
-    public function google_callbackAction()
-    {
-        $this->view->render('Login/google_callback');
-    }
-
-    
-
 }
