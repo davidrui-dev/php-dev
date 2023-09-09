@@ -75,7 +75,8 @@
     # client id and client secret
     define('CLIENT_ID','281805047666-5j8osug98k5hprj66c21svaman0fklb7.apps.googleusercontent.com');
     define('CLIENT_SECRET','dNfQ5Glq94YJlscpaYWEEuuu');
-    define('REDIRECT_URI','http://localhost:8000/auth/callback/google');//example:http://localhost/social/login.php?google,http://example/login.php?google
+    define('REDIRECT_URI','http://localhost:8000/Login/google_callback');//example:http://localhost/social/login.php?google,http://example/login.php?google
+//    define('REDIRECT_URI','http://localhost:8000/auth/callback/google');//example:http://localhost/social/login.php?google,http://example/login.php?google
     define('APPROVAL_PROMPT','auto');
     define('ACCESS_TYPE','offline');
 

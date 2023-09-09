@@ -25,7 +25,7 @@ if ($provider === 'facebook') {
     $client = new Google_Client();
     $client->setClientId(CLIENT_ID);
     $client->setClientSecret(CLIENT_SECRET);
-    $client->setRedirectUri('http://localhost:8000/Login/facebook_callback.php');
+    $client->setRedirectUri(REDIRECT_URI);
     $client->addScope('email'); // Requested scope
 
     $authUrl = $client->createAuthUrl();

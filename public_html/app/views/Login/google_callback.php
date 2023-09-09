@@ -4,11 +4,12 @@ require 'vendor/autoload.php';
 $client = new Google_Client();
 $client->setClientId(CLIENT_ID);
 $client->setClientSecret(CLIENT_SECRET);
-$client->setRedirectUri('http://localhost:8000/Login/facebook_callback.php');
+$client->setRedirectUri(REDIRECT_URI);
 $client->addScope('email'); // Requested scope
 
 $authCode = $_GET['code'];
-
+var_dump($authCode);
+die();
 
 try {
     $accessToken = $client->fetchAccessTokenWithAuthCode($authCode);
