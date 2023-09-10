@@ -21,8 +21,21 @@ try {
     $emailcheck = $common->FindByEmail(trim($email));
     if($emailcheck)
     {
+        # update of db
+        $fields=[
+            "fname"        => $userData->getName(),
+            "email"        => $userData->getEmail(),
+            "utype"        => 'User',
+            "status"       => 1,
+            "provider"     => 'google',
+            "provider_id"  => $userData->getId(),
+            "access_token" => !empty($accessToken) ? $accessToken["access_token"] : null,
+            "time"         => date('Y-m-d H:i:s')
+        ];
+        $lastid = $common->CP_Update('users',$emailcheck->id,$fields);
         // Redirect to your app's home page.
-        header('Location:'.PROOT.'dashboard');
+        $_SESSION['master_id']=$emailcheck->id;
+        Router::Redirect('dashboard?success');
         exit();
     }else{
         # object of db
@@ -38,7 +51,8 @@ try {
         ];
         $lastid = $common->CP_Insert('users',$fields);
         // Redirect to your app's home page.
-        header('Location:'.PROOT.'dashboard');
+        $_SESSION['master_id']=$lastid;
+        Router::Redirect('dashboard?success');
         exit();
 
     }
