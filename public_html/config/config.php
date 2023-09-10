@@ -75,7 +75,7 @@
     # client id and client secret
     define('CLIENT_ID','1020097433241-7c2157dtb52rqgo6u9agmndd3t9p2247.apps.googleusercontent.com');
     define('CLIENT_SECRET','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');
-    define('REDIRECT_URI','https://broombids.com/public_html/auth/google_callback');// please change this url
+    define('REDIRECT_URI','https://broombids.com/auth/google_callback');// please change this url
     define('APPROVAL_PROMPT','auto');
     define('ACCESS_TYPE','offline');
 
