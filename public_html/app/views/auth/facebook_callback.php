@@ -1,25 +1,20 @@
 <?php
-require 'vendor/autoload.php';
+require_once 'vendor/facebook/graph-sdk/src/Facebook/autoload.php';
 
-$client = new Google_Client();
-$client->setClientId(CLIENT_ID);
-$client->setClientSecret(CLIENT_SECRET);
-$client->setRedirectUri(REDIRECT_URI);
-$client->addScope(['openid','email']); // Requested scope
+$fb = new Facebook\Facebook([
+    'app_id' => APP_ID,
+    'app_secret' => APP_SECRET,
+    'default_graph_version' => 'v13.0', // Use the latest version
+]);
 
-$authCode = $_GET['code'];
+$helper = $fb->getRedirectLoginHelper();
 
 try {
-    $accessToken = $client->fetchAccessTokenWithAuthCode($authCode);
-//    echo '<pre>';
-//    var_dump($accessToken);
-//    echo '</pre>';
-//    exit();
-    $client->setAccessToken($accessToken);
+    $accessToken = $helper->getAccessToken();
+    $response = $fb->get('/me?fields=id,name,email', $accessToken);
+    $userData = $response->getGraphUser();
 
-    $service = new Google_Service_Oauth2($client);
-    $userData = $service->userinfo->get();
-
+    // Save user data to the database.
     # Check if user exists in the database
     $common = new Common();
     $email = $userData->getEmail();
@@ -47,8 +42,12 @@ try {
         exit();
 
     }
-} catch (Exception $e) {
-    // Handle errors
-    echo 'Error: ' . $e->getMessage();
+    // $userData->getId(), $userData->getName(), $userData->getEmail()
+} catch (\Facebook\Exceptions\FacebookResponseException $e) {
+    // Handle Facebook API errors
+    echo 'Graph returned an error: ' . $e->getMessage();
+} catch (\Facebook\Exceptions\FacebookSDKException $e) {
+    // Handle SDK errors
+    echo 'Facebook SDK returned an error: ' . $e->getMessage();
 }
 ?>
