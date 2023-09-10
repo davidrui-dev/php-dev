@@ -2,8 +2,8 @@
 		error_reporting(E_ALL);
 		ini_set('display_errors', 1);
 		define('DEBUG', true);
-//	if($_SERVER['HTTP_HOST'] == '127.0.0.1:8000')
-	if($_SERVER['HTTP_HOST'] == 'localhost:8000')
+	if($_SERVER['HTTP_HOST'] == '127.0.0.1:8000')
+//	if($_SERVER['HTTP_HOST'] == 'localhost:8000')
 	{
 		define('DB_NAME','broombi_cp_broombids'); //database name
 //		define('DB_NAME','broombids'); //database name
@@ -11,8 +11,8 @@
 		define('DB_PASSWORD','root'); //database Password
 		define('DB_HOST','127.0.0.1'); //database host,use IP address to avoid DNS lookup
 		define('FUTUREIMAGE', '../admin.broombids/'); 
-		define('PROOT','/public_html/'); // set this to '/' for a live server
-//		define('PROOT','/broombids_new/'); // set this to '/' for a live server
+//		define('PROOT','/public_html/'); // set this to '/' for a live server
+		define('PROOT','/broombids_new/'); // set this to '/' for a live server
 		define('MAIL_SEND_STATUS', 'true');
 	}
 	else 
