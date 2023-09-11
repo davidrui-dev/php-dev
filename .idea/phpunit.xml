@@ -4,6 +4,9 @@
     <option name="directories">
       <list>
         <option value="$PROJECT_DIR$/public_html/dompdf/lib/php-svg-lib/tests" />
+        <option value="$PROJECT_DIR$/public_html/dompdf/lib/php-font-lib/tests" />
+        <option value="$PROJECT_DIR$/public_html/dompdf/lib/php-css-parser/tests" />
+        <option value="$PROJECT_DIR$/public_html/dompdf/tests" />
       </list>
     </option>
   </component>
