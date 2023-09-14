@@ -1,18 +1,23 @@
 <?php
-require_once 'vendor/facebook/graph-sdk/src/Facebook/autoload.php';
+require 'vendor/autoload.php'; // Include the Google PHP SDK
+use League\OAuth2\Client\Provider\Facebook;
 
-$fb = new Facebook\Facebook([
+$fb = new Facebook([
     'app_id' => APP_ID,
     'app_secret' => APP_SECRET,
-    'default_graph_version' => 'v13.0', // Use the latest version
+    'redirectUri'  => FACEBOOK_REDIRECT_URI,
+    'graphApiVersion' => 'v12.0', // Specify the desired API version
 ]);
 
-$helper = $fb->getRedirectLoginHelper();
-
 try {
-    $accessToken = $helper->getAccessToken();
-    $response = $fb->get('/me?fields=id,name,email', $accessToken);
-    $userData = $response->getGraphUser();
+
+    // After getting the access token
+    $token = $provider->getAccessToken('authorization_code', [
+        'code' => $_GET['code']
+    ]);
+
+    // Use the token to fetch user data
+    $userData = $provider->getResourceOwner($token);
 
     // Save user data to the database.
     # Check if user exists in the database
@@ -27,9 +32,9 @@ try {
             "email"        => $userData->getEmail(),
             "utype"        => 'User',
             "status"       => 1,
-            "provider"     => 'google',
+            "provider"     => 'facebook',
             "provider_id"  => $userData->getId(),
-            "access_token" => !empty($accessToken) ? $accessToken["access_token"] : null,
+            "access_token" => $token->getToken(),
             "time"         => date('Y-m-d H:i:s')
         ];
         $lastid = $common->CP_Update('users',$emailcheck->id,$fields);
@@ -44,9 +49,9 @@ try {
             "email"        => $userData->getEmail(),
             "utype"        => 'User',
             "status"       => 1,
-            "provider"     => 'google',
+            "provider"     => 'facebook',
             "provider_id"  => $userData->getId(),
-            "access_token" => !empty($accessToken) ? $accessToken["access_token"] : null,
+            "access_token" => $token->getToken(),
             "time"         => date('Y-m-d H:i:s')
         ];
         $lastid = $common->CP_Insert('users',$fields);
@@ -57,10 +62,7 @@ try {
 
     }
     // $userData->getId(), $userData->getName(), $userData->getEmail()
-} catch (\Facebook\Exceptions\FacebookResponseException $e) {
-    // Handle Facebook API errors
-    echo 'Graph returned an error: ' . $e->getMessage();
-} catch (\Facebook\Exceptions\FacebookSDKException $e) {
+}  catch (Exception $e) {
     // Handle SDK errors
     echo 'Facebook SDK returned an error: ' . $e->getMessage();
 }

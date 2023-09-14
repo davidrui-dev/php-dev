@@ -1,21 +1,21 @@
 <?php
 require 'vendor/autoload.php';
+use League\OAuth2\Client\Provider\Google;
 
-$client = new Google_Client();
-$client->setClientId(CLIENT_ID);
-$client->setClientSecret(CLIENT_SECRET);
-$client->setRedirectUri(REDIRECT_URI);
-$client->addScope(['openid','email']); // Requested scope
-
-$authCode = $_GET['code'];
+$provider = new Google([
+    'clientId'     => CLIENT_ID,
+    'clientSecret' => CLIENT_SECRET,
+    'redirectUri'  => REDIRECT_URI,
+]);
 
 try {
-    $accessToken = $client->fetchAccessTokenWithAuthCode($authCode);
+    // After getting the access token
+    $token = $provider->getAccessToken('authorization_code', [
+        'code' => $_GET['code']
+    ]);
 
-    $client->setAccessToken($accessToken);
-
-    $service = new Google_Service_Oauth2($client);
-    $userData = $service->userinfo->get();
+    // Use the token to fetch user data
+    $userData = $provider->getResourceOwner($token);
 
     # Check if user exists in the database
     $common = new Common();
@@ -31,7 +31,7 @@ try {
             "status"       => 1,
             "provider"     => 'google',
             "provider_id"  => $userData->getId(),
-            "access_token" => !empty($accessToken) ? $accessToken["access_token"] : null,
+            "access_token" => $token->getToken(),
             "time"         => date('Y-m-d H:i:s')
         ];
         $lastid = $common->CP_Update('users',$emailcheck->id,$fields);
@@ -48,7 +48,7 @@ try {
             "status"       => 1,
             "provider"     => 'google',
             "provider_id"  => $userData->getId(),
-            "access_token" => !empty($accessToken) ? $accessToken["access_token"] : null,
+            "access_token" => $token->getToken(),
             "time"         => date('Y-m-d H:i:s')
         ];
         $lastid = $common->CP_Insert('users',$fields);
@@ -62,4 +62,3 @@ try {
     // Handle errors
     echo 'Error: ' . $e->getMessage();
 }
-?>

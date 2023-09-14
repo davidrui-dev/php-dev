@@ -3,15 +3,15 @@
 		ini_set('display_errors', 1);
 		define('DEBUG', true);
 	if($_SERVER['HTTP_HOST'] == '127.0.0.1:8000')
-//	if($_SERVER['HTTP_HOST'] == 'localhost:8000')
+	// if($_SERVER['HTTP_HOST'] == 'localhost:8000')
 	{
 		define('DB_NAME','broombi_cp_broombids'); //database name
 //		define('DB_NAME','broombids'); //database name
 		define('DB_USER','root'); //database user
-		define('DB_PASSWORD','root'); //database Password
+		define('DB_PASSWORD','root123'); //database Password
 		define('DB_HOST','127.0.0.1'); //database host,use IP address to avoid DNS lookup
 		define('FUTUREIMAGE', '../admin.broombids/'); 
-//		define('PROOT','/public_html/'); // set this to '/' for a live server
+		// define('PROOT','/public_html/'); // set this to '/' for a live server
 		define('PROOT','/broombids_new/'); // set this to '/' for a live server
 		define('MAIL_SEND_STATUS', 'true');
 	}
@@ -73,12 +73,13 @@
 
 
     # client id and client secret
-    define('CLIENT_ID','1020097433241-7c2157dtb52rqgo6u9agmndd3t9p2247.apps.googleusercontent.com');
-    define('CLIENT_SECRET','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');
-    define('REDIRECT_URI','https://broombids.com/auth/google_callback');// please change this url
+    define('CLIENT_ID','281805047666-5j8osug98k5hprj66c21svaman0fklb7.apps.googleusercontent.com');
+    define('CLIENT_SECRET','dNfQ5Glq94YJlscpaYWEEuuu');
+    define('REDIRECT_URI','https://broombids.com/auth/google_callback');
     define('APPROVAL_PROMPT','auto');
     define('ACCESS_TYPE','offline');
 
     #For facebook login
-    define('APP_ID','1688693291595374');
-    define('APP_SECRET','bc595acd65556569945157573fe9e7d9');
+    define('APP_ID','833619740663548');
+    define('APP_SECRET','d2da8d9b7eb03a5bf1fa784ebd8f5bab');
+	define('FACEBOOK_REDIRECT_URI','https://broombids.com/auth/facebook_callback');
